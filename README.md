@@ -5,15 +5,12 @@
     <td>
       <h2>:man_mechanic:About Me</h2>
       <ul>
-      <li>🔭 I’m currently working senior mechanic bicycle.</li>
+        <li>🔭 I’m currently working as a senior bicycle mechanic.</li>
         <li>🌱 I’m currently learning React and Node.js.</li>
-        <li>👯 I’m looking to work indastry IT.</li>
-        <li>😄 My passion: 👨‍💻information technology, 🐛programming, 🔥🚴‍rider bike extrem and 🛠️mechanic.
-</li>
+        <li>👯 I’m looking to work in the IT industry.</li>
+        <li>😄 My passions: 👨‍💻 information technology, 🐛 programming, 🔥🚴‍ extreme bike riding, and 🛠️ mechanics.</li>
       </ul>
-    </td>
-    <td width="200px">
-    <h2>🏗️My projects</h2>
+      <h2>🏗️My projects</h2>
       <ul>
         <li><a href="https://github.com/dtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a></li>
         <li><a href="https://github.com/dtchorzewski/First-Team-Project">IceCream</a></li>
@@ -22,7 +19,7 @@
       </ul>
     </td>
     <td>
-      <img alt="Coder GIF"  width="250px"   src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif"/>
+      <img alt="Coder GIF" width="250px" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif"/>
     </td>
   </tr>
 </table>
