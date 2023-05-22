@@ -13,10 +13,10 @@
     <td>
     <h1>🏗️ My projects</h1>
       <ul>
-        <li>Filmoteka</li>
-        <li>Tasks</li>
-        <li>IceCream</li>
-        <li>WebStudio</li>
+        <li><a href="https://www.w3schools.com/">Filmoteka</a></li>
+        <li><a href="https://www.w3schools.com/">Tasks</a></li>
+        <li><a href="https://www.w3schools.com/">IceCream</a></li>
+        <li><a href="https://www.w3schools.com/">WebStudio</a></li>
       </ul>
     </td>
     <td >
