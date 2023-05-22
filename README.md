@@ -10,7 +10,7 @@
 
 <table>
   <tr>
-    <td style="width: 150%;">
+    <td style="width: 300px;">
       <h3>🏗️ My projects</h3>
       <ul>
         <li>Filmoteka</li>
