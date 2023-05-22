@@ -1,6 +1,6 @@
 <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
 
-### Hi👋
+# Hi👋 I'm Damian
 
 - 🔭 I’m currently working senior mechanic bicicle
 - 🌱 I’m currently learning React and Node.js
