@@ -6,16 +6,23 @@
 - 🌱 I’m currently learning React and Node.js.
 - 👯 I’m looking to work indastry IT.
 - 😄 My passion: 👨‍💻information technology, 🐛programming, 🔥🚴‍rider bike extrem and 🛠️mechanic.
----
 
-<img alt="Coder GIF" height=250 width=350 src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" />
-
-### 🏗️ My porojects
-- Filmoteka
-- Tasks
-- IceCream
-- WebStudio
-
+<table>
+  <tr>
+    <td>
+      <h3>🏗️ My projects</h3>
+      <ul>
+        <li>Filmoteka</li>
+        <li>Tasks</li>
+        <li>IceCream</li>
+        <li>WebStudio</li>
+      </ul>
+    </td>
+    <td>
+      <img alt="Coder GIF" height="250" width="350" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" />
+    </td>
+  </tr>
+</table>
 ---
 ### :hammer_and_wrench: Languages and Tools :
 
