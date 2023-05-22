@@ -6,24 +6,11 @@
 - 🌱 I’m currently learning React and Node.js.
 - 👯 I’m looking to work indastry IT.
 - 😄 My passion: 👨‍💻information technology, 🐛programming, 🔥🚴‍rider bike extrem and 🛠️mechanic.
-<style>
-  table {
-    width: 100%;
-  }
 
-  td {
-    width: 50%;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-</style> 
 
 <table>
   <tr>
-    <td>
+    <td width= "50%">
       <h3>🏗️ My projects</h3>
       <ul>
         <li>Filmoteka</li>
