@@ -14,9 +14,8 @@
 
 
 
-
+---
 ### :hammer_and_wrench: Languages and Tools :
-
 
 <div>
   <img src="https://github.com/EuJinnLucaShow/EuJinnLucaShow/blob/main/img/git-original.svg" title="Git" **alt="Git" width="40" height="40"/>
@@ -41,7 +40,3 @@
   <img src="https://github.com/EuJinnLucaShow/EuJinnLucaShow/blob/main/img/trello-plain.svg" title="Trello" alt="Trello" width="40" height="40"/>&nbsp;
   <img src="https://github.com/EuJinnLucaShow/EuJinnLucaShow/blob/main/img/brouslist.svg" title="Browserslist" alt="Browserslist" width="40" height="40"/>&nbsp;
 </div>
-
----
-  <div align="center">
-<p align="center">🔥 Streak Stats</p>
