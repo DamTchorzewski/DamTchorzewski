@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td>
-      <h2>:man_mechanic: About Me</h2>
+      <h2>:man_mechanic:About Me</h2>
       <ul>
       <li>🔭 I’m currently working senior mechanic bicycle.</li>
         <li>🌱 I’m currently learning React and Node.js.</li>
@@ -13,7 +13,7 @@
       </ul>
     </td>
     <td width="200px">
-    <h2>🏗️ My projects</h2>
+    <h2>🏗️My projects</h2>
       <ul>
         <li><a href="https://github.com/dtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a></li>
         <li><a href="https://github.com/dtchorzewski/First-Team-Project">IceCream</a></li>
