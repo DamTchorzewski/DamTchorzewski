@@ -27,7 +27,6 @@
   <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/terminal.png" title="Terminal" alt="Terminal" width="40" height="40"/>&nbsp;
   <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/parsel.avif" title="Parcel" alt="Parcel" width="50" height="40"/>&nbsp;
   <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/webpack.svg" title="Webpack" alt="Webpack" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/codewars-original.svg" title="Codewars" alt="Codewars" width="40" height="40"/>&nbsp;
   <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/codepen-plain.svg" title="CodePen" alt="CodePen" width="40" height="40"/>&nbsp;
   <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/slack-original.svg" title="Slack" alt="Slack" width="40" height="40"/>&nbsp;
   <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/trello-plain.svg" title="Trello" alt="Trello" width="40" height="40"/>&nbsp;
