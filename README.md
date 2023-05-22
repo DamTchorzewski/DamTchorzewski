@@ -7,10 +7,6 @@
 - 👯 I’m looking to work indastry IT.
 - 😄 My passion: information technology, programing, rider bike extrem and mechanic.
 
-
-
-
-
 ---
 ### :hammer_and_wrench: Languages and Tools :
 
