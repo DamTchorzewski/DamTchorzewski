@@ -11,7 +11,7 @@
 <table>
   <tr>
     <td>
-     ###🏗️ My projects
+    <h1>🏗️ My projects</h1>
       <ul>
         <li>Filmoteka</li>
         <li>Tasks</li>
