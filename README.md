@@ -12,7 +12,7 @@
 </li>
       </ul>
     </td>
-    <td>
+    <td width="200px">
     <h2>🏗️ My projects</h2>
       <ul>
         <li><a href="https://github.com/dtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a></li>
