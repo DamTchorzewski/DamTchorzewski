@@ -20,7 +20,7 @@
       </ul>
     </td>
     <td style="width: 50%;">
-      <img alt="Coder GIF"  src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" style="width: 20%; height: auto;"  />
+      <img alt="Coder GIF"  src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" style="width: 75%; height: auto;"  />
     </td>
   </tr>
 </table>
