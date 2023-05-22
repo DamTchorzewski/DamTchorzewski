@@ -1,15 +1,17 @@
 <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
 
-### :man_mechanic: About Me
-
-- 🔭 I’m currently working senior mechanic bicycle.
-- 🌱 I’m currently learning React and Node.js.
-- 👯 I’m looking to work indastry IT.
-- 😄 My passion: 👨‍💻information technology, 🐛programming, 🔥🚴‍rider bike extrem and 🛠️mechanic.
-
-
 <table>
   <tr>
+    <td>
+      <h1>:man_mechanic: About Me</h1>
+      <ul>
+      <li>🔭 I’m currently working senior mechanic bicycle.</li>
+        <li>🌱 I’m currently learning React and Node.js.</li>
+        <li>👯 I’m looking to work indastry IT.</li>
+        <li>😄 My passion: 👨‍💻information technology, 🐛programming, 🔥🚴‍rider bike extrem and 🛠️mechanic.
+</li>
+      </ul>
+    </td>
     <td>
     <h1>🏗️ My projects</h1>
       <ul>
@@ -19,7 +21,7 @@
         <li><a href="https://www.w3schools.com/">Tasks</a></li>
       </ul>
     </td>
-    <td >
+    <td>
       <img alt="Coder GIF" width="350px"   src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif"/>
     </td>
   </tr>
