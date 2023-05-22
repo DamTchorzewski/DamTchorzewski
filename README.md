@@ -5,8 +5,8 @@
 - 🔭 I’m currently working senior mechanic bicycle.
 - 🌱 I’m currently learning React and Node.js.
 - 👯 I’m looking to work indastry IT.
-- 😄 My passion: 👨‍💻information technology, 🌕
-programming, 🔥🚴‍ rider bike extrem and 🛠️mechanic.
+- 😄 My passion: 👨‍💻information technology and
+programming, 🔥🚴‍🛠️ rider bike extrem andmechanic.
 
 ---
 ### :hammer_and_wrench: Languages and Tools :
