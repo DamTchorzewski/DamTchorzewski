@@ -1,8 +1,8 @@
 <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
 
 
-- 🔭 I’m currently working senior mechanic bicicle
-- 🌱 I’m currently learning React and Node.js
+- 🔭 I’m currently working senior mechanic bicycle.
+- 🌱 I’m currently learning React and Node.js.
 - 👯 I’m looking to work indastry IT.
 - 😄 My passion: information technology, programing, rider bike extrem and mechanic.
 
