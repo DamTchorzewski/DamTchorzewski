@@ -1,4 +1,4 @@
-<img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/Baner.png">
+<img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
 
 ### Hi there 👋
 
