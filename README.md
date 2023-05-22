@@ -10,7 +10,7 @@
 
 <table>
   <tr>
-    <td width= "50%">
+    <td style="width: 50%;">
       <h3>🏗️ My projects</h3>
       <ul>
         <li>Filmoteka</li>
@@ -19,8 +19,8 @@
         <li>WebStudio</li>
       </ul>
     </td>
-    <td>
-      <img alt="Coder GIF" height="250" width="250" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" />
+    <td style="width: 50%;">
+      <img alt="Coder GIF"  src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" />
     </td>
   </tr>
 </table>
