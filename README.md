@@ -10,7 +10,7 @@
 
 <table>
   <tr>
-    <td style="width: 300px;">
+    <td>
      ###🏗️ My projects
       <ul>
         <li>Filmoteka</li>
@@ -20,7 +20,7 @@
       </ul>
     </td>
     <td >
-      <img alt="Coder GIF"  src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" style="width: 75%; height: auto;"  />
+      <img alt="Coder GIF" width="100px" hight="100px"  src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif"/>
     </td>
   </tr>
 </table>
