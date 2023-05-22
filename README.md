@@ -7,6 +7,7 @@
 - 👯 I’m looking to work indastry IT.
 - 😄 My passion: 👨‍💻information technology, 🐛programming, 🔥🚴‍rider bike extrem and 🛠️mechanic.
 
+<img alt="Coder GIF" height=250 width=350 src="https://magiccopy.xyz/assets/images/hadder.gif" />
 ---
 ### :hammer_and_wrench: Languages and Tools :
 
