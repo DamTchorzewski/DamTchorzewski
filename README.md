@@ -13,10 +13,10 @@
     <td>
     <h1>🏗️ My projects</h1>
       <ul>
-        <li><a href="https://www.w3schools.com/">Filmoteka</a></li>
+        <li><a href="https://github.com/dtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a></li>
+        <li><a href="https://github.com/dtchorzewski/First-Team-Project">IceCream</a></li>
+        <li><a href="https://github.com/dtchorzewski/goit-markup-hw-08">WebStudio</a></li>
         <li><a href="https://www.w3schools.com/">Tasks</a></li>
-        <li><a href="https://www.w3schools.com/">IceCream</a></li>
-        <li><a href="https://www.w3schools.com/">WebStudio</a></li>
       </ul>
     </td>
     <td >
