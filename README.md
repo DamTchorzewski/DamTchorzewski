@@ -19,7 +19,7 @@
         <li>WebStudio</li>
       </ul>
     </td>
-    <td style="width: 50%;">
+    <td >
       <img alt="Coder GIF"  src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" style="width: 75%; height: auto;"  />
     </td>
   </tr>
