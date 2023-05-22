@@ -6,6 +6,20 @@
 - 🌱 I’m currently learning React and Node.js.
 - 👯 I’m looking to work indastry IT.
 - 😄 My passion: 👨‍💻information technology, 🐛programming, 🔥🚴‍rider bike extrem and 🛠️mechanic.
+<style>
+  table {
+    width: 100%;
+  }
+
+  td {
+    width: 50%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+</style> 
 
 <table>
   <tr>
@@ -19,7 +33,7 @@
       </ul>
     </td>
     <td>
-      <img alt="Coder GIF" height="100%" width="100%" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" />
+      <img alt="Coder GIF" height="250" width="250" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" />
     </td>
   </tr>
 </table>
