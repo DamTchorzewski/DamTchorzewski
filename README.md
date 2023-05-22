@@ -1,4 +1,4 @@
-<img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/HeaderImg.jpng">
+<img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/Baner.png">
 ### Hi there 👋
 
 - 🔭 I’m currently working senior mechanic bicicle
