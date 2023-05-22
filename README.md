@@ -1,8 +1,6 @@
 <img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
 
-<table>
-  <tr>
-    <td>
+
       <h2>:man_mechanic:About Me</h2>
       <ul>
         <li>🔭 I’m currently working as a senior bicycle mechanic.</li>
@@ -17,12 +15,11 @@
         <li><a href="https://github.com/dtchorzewski/goit-markup-hw-08">WebStudio</a></li>
         <li><a href="https://www.w3schools.com/">Tasks</a></li>
       </ul>
-    </td>
-    <td>
+   
       <img alt="Coder GIF" width=200 src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif"/>
-    </td>
-  </tr>
-</table>
+   
+  
+
 
 
 ### :hammer_and_wrench: Languages and Tools :
