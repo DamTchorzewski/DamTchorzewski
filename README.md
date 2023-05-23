@@ -47,4 +47,5 @@
   <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/trello-plain.svg" title="Trello" alt="Trello" width="40" height="40"/>&nbsp;
   <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/brouslist.svg" title="Browserslist" alt="Browserslist" width="40" height="40"/>&nbsp;
   <img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/windows-icon.svg" title="Windows" alt="Windows" width="40" height="40"/>&nbsp;
+<img src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/bios.png" title="Bios" alt="Bios" width="40" height="40"/>&nbsp;
 </div>
