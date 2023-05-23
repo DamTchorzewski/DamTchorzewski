@@ -13,11 +13,14 @@
   
   
   - <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
-  - <a href="https://github.com/damtchorzewski/First-Team-Project">IceCream</a>
+  - <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
   - <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
-  - <a href="https://www.w3schools.com/">Tasks</a>
-      
-
+  - <a href="https://github.com/damtchorzewski/Tasks-JavaScript">Tasks JavaScript</a>
+  - <a href="https://github.com/damtchorzewski/Tasks-React">Tasks React</a>
+  - Templates: 
+    - <a href="https://github.com/damtchorzewski/React-Template">React-Template</a>
+    - <a href="https://github.com/damtchorzewski/Vite-Template">Vite-Template</a>   
+    - <a href="https://github.com/damtchorzewski/Parcel-Templates">Parcel-Templates</a>
    <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/> </div>
   
 
