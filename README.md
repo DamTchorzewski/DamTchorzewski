@@ -1,10 +1,10 @@
 <img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
 
- <div align="center">
+
  
 ### :man_mechanic:About Me
  
-</div>
+
 
  - 🔭 I’m currently working as a senior bicycle mechanic.
  - 🌱 I’m currently learning React and Node.js.
@@ -13,11 +13,11 @@
 ---
 
 
-<div align="center">
+
  
 ### 🏗️My projects
      
-  </div>
+  
   
   - <a href="https://github.com/dtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
   - <a href="https://github.com/dtchorzewski/First-Team-Project">IceCream</a>
