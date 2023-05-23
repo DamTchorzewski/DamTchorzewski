@@ -15,11 +15,11 @@
   - <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
   - <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
   - <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
-  - <a href="https://github.com/damtchorzewski/Tasks-JavaScript">Tasks JavaScript</a>
-  - <a href="https://github.com/damtchorzewski/Tasks-React">Tasks React</a>
-  - <a href="https://github.com/damtchorzewski/React-Template">React-Template</a>
-  - <a href="https://github.com/damtchorzewski/Vite-Template">Vite-Template</a>   
-  - <a href="https://github.com/damtchorzewski/Parcel-Template">Parcel-Template</a>
+  - <a href="https://github.com/damtchorzewski/Tasks-JavaScript">Tasks-JavaScript</a>
+  - <a href="https://github.com/damtchorzewski/Tasks-React">Tasks-React</a>
+  - <a href="https://github.com/damtchorzewski/Template-React">Template-React</a>
+  - <a href="https://github.com/damtchorzewski/Template-Vite">Template-Vite</a>   
+  - <a href="https://github.com/damtchorzewski/Template-Parcel">Template-Parcel</a>
   
    <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/> </div>
   
