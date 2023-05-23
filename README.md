@@ -10,7 +10,7 @@
  - 🌱 I’m currently learning React and Node.js.
  - 👯 I’m looking to work in the IT industry.
  - 😄 My passions: 👨‍💻 information technology, 🐛 programming, 🔥🚴‍ extreme bike riding, and 🛠️ mechanics.
-
+---
 
 
 <div align="center">
