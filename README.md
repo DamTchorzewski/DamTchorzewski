@@ -11,6 +11,8 @@
 
 </div>
 
+<div align="center">
+ 
 ### 🏗️My projects
      
   - <a href="https://github.com/dtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
@@ -18,7 +20,7 @@
   - <a href="https://github.com/dtchorzewski/goit-markup-hw-08">WebStudio</a>
   - <a href="https://www.w3schools.com/">Tasks</a>
       
- 
+ </div>
    <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif"/> </div>
   
 
