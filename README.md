@@ -12,9 +12,9 @@
      
   
   
-  - <a href="https://github.com/dtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
-  - <a href="https://github.com/dtchorzewski/First-Team-Project">IceCream</a>
-  - <a href="https://github.com/dtchorzewski/WebStudio">WebStudio</a>
+  - <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
+  - <a href="https://github.com/damtchorzewski/First-Team-Project">IceCream</a>
+  - <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
   - <a href="https://www.w3schools.com/">Tasks</a>
       
 
