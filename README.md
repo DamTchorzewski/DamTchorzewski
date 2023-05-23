@@ -1,6 +1,6 @@
 <img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
 
-<center>
+<div style="text-align: center;">
  
 ### :man_mechanic:About Me
 
@@ -9,7 +9,7 @@
  - 👯 I’m looking to work in the IT industry.
  - 😄 My passions: 👨‍💻 information technology, 🐛 programming, 🔥🚴‍ extreme bike riding, and 🛠️ mechanics.
 
-</center>
+</div>
 
 ### 🏗️My projects
      
