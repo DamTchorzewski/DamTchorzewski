@@ -6,8 +6,11 @@
 
 </div>
  -🔭 I’m currently working as a senior bicycle mechanic.
+ 
  -🌱 I’m currently learning React and Node.js.
+ 
  -👯 I’m looking to work in the IT industry.
+ 
  -😄 My passions: 👨‍💻 information technology, 🐛 programming, 🔥🚴‍ extreme bike riding, and 🛠️ mechanics.
 
 
