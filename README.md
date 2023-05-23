@@ -1,12 +1,12 @@
 <img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
-
+<center>
 ### :man_mechanic:About Me
 
  - 🔭 I’m currently working as a senior bicycle mechanic.
  - 🌱 I’m currently learning React and Node.js.
  - 👯 I’m looking to work in the IT industry.
  - 😄 My passions: 👨‍💻 information technology, 🐛 programming, 🔥🚴‍ extreme bike riding, and 🛠️ mechanics.
-      
+      </center>
 ### 🏗️My projects
      
   - <a href="https://github.com/dtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
