@@ -14,7 +14,7 @@
   - <a href="https://github.com/dtchorzewski/goit-markup-hw-08">WebStudio</a>
   - <a href="https://www.w3schools.com/">Tasks</a>
       
- <img alt="Coder GIF" width="100%" height="350px" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif"/>
+ <img alt="Coder GIF" width="80%" height="250px" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif"/>
    
   
 
