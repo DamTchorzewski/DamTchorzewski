@@ -5,10 +5,10 @@
 ### :man_mechanic:About Me
 
 </div>
- <p> 🔭 I’m currently working as a senior bicycle mechanic.</p>
- <p>🌱 I’m currently learning React and Node.js.</p>
- <p>👯 I’m looking to work in the IT industry.</p>
- <p> 😄 My passions: 👨‍💻 information technology, 🐛 programming, 🔥🚴‍ extreme bike riding, and 🛠️ mechanics.</p>
+ - 🔭 I’m currently working as a senior bicycle mechanic.
+ - 🌱 I’m currently learning React and Node.js.
+ - 👯 I’m looking to work in the IT industry.
+ - 😄 My passions: 👨‍💻 information technology, 🐛 programming, 🔥🚴‍ extreme bike riding, and 🛠️ mechanics.
 
 
 
