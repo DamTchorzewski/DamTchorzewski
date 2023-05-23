@@ -1,20 +1,20 @@
 <img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
 
 
-     ##:man_mechanic:About Me
-      <ul>
-        <li>🔭 I’m currently working as a senior bicycle mechanic.</li>
-        <li>🌱 I’m currently learning React and Node.js.</li>
-        <li>👯 I’m looking to work in the IT industry.</li>
-        <li>😄 My passions: 👨‍💻 information technology, 🐛 programming, 🔥🚴‍ extreme bike riding, and 🛠️ mechanics.</li>
-      </ul>
+     ###:man_mechanic:About Me
+      
+        - 🔭 I’m currently working as a senior bicycle mechanic.
+        - 🌱 I’m currently learning React and Node.js.
+        - 👯 I’m looking to work in the IT industry.
+        - 😄 My passions: 👨‍💻 information technology, 🐛 programming, 🔥🚴‍ extreme bike riding, and 🛠️ mechanics.
+      
       ##🏗️My projects
-      <ul>
-        <li><a href="https://github.com/dtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a></li>
-        <li><a href="https://github.com/dtchorzewski/First-Team-Project">IceCream</a></li>
-        <li><a href="https://github.com/dtchorzewski/goit-markup-hw-08">WebStudio</a></li>
-        <li><a href="https://www.w3schools.com/">Tasks</a></li>
-      </ul>
+     
+        - <a href="https://github.com/dtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
+        - <a href="https://github.com/dtchorzewski/First-Team-Project">IceCream</a>
+        - <a href="https://github.com/dtchorzewski/goit-markup-hw-08">WebStudio</a>
+        - <a href="https://www.w3schools.com/">Tasks</a>
+      
    
       <img alt="Coder GIF" width=200 src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif"/>
    
