@@ -1,11 +1,11 @@
 <img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
 
-<div >
+<div>
  
 ### :man_mechanic:About Me
 
  <ul align="center">
- <li align="center"> 🔭 I’m currently working as a senior bicycle mechanic.</li>
+ <li> 🔭 I’m currently working as a senior bicycle mechanic.</li>
  <li>🌱 I’m currently learning React and Node.js.</li>
  <li>👯 I’m looking to work in the IT industry.</li>
  <li> 😄 My passions: 👨‍💻 information technology, 🐛 programming, 🔥🚴‍ extreme bike riding, and 🛠️ mechanics.</li>
