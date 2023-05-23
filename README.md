@@ -1,6 +1,6 @@
 <img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Baner.png">
 
- <div align="center" margin-left="200px" margin-right="200px">
+ <div align="center" width="350px">
  
 ### :man_mechanic:About Me
 
