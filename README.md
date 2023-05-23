@@ -18,7 +18,7 @@
   - <a href="https://www.w3schools.com/">Tasks</a>
       
 
-   <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif"/> </div>
+   <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/> </div>
   
 
 
