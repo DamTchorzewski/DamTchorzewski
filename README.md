@@ -1,4 +1,4 @@
-<img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/Banerx.png">
+<img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/banerx.png">
 
 ## :man_mechanic:About Me
  
