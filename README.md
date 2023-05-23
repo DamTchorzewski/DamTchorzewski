@@ -2,7 +2,7 @@
 
 
  
-### :man_mechanic:About Me
+## :man_mechanic:About Me
  
 
 
@@ -15,7 +15,7 @@
 
 
  
-### 🏗️My projects
+## 🏗️My projects
      
   
   
