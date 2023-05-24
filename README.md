@@ -1,4 +1,4 @@
-<img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/baner2.png">
+<img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/baner.png">
 
 ## :man_mechanic:About Me
 
@@ -19,7 +19,6 @@
 - <a href="https://github.com/damtchorzewski/Template-Parcel">Template-Parcel</a>
 
    <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/> </div>
-
 
 ---
 
