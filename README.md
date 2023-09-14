@@ -47,4 +47,7 @@
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/office.png" title="Office" alt="Office" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/vite.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/mongodb.svg" title="MongoDB" alt="MongoDB" width="40" height="40"/>&nbsp;
+<img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/docker.svg" title="Docker" alt="Docker" width="40" height="40"/>&nbsp;
+<img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/jest.svg" title="Jest" alt="Jest" width="40" height="40"/>&nbsp;
+
 </div>
