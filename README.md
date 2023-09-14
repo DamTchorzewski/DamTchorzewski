@@ -15,7 +15,6 @@
 - <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
 - <a href="https://github.com/damtchorzewski/Movies">Movies</a>
 
-
    <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/> </div>
 
 ---
@@ -37,7 +36,7 @@
   <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp; 
   <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/nodejs-original.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/terminal.png" title="Terminal" alt="Terminal" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/parsel.avif" title="Parcel" alt="Parcel" width="50" height="40"/>&nbsp;
+  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/parcel.svg" title="Parcel" alt="Parcel" width="50" height="40"/>&nbsp;
   <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/webpack.svg" title="Webpack" alt="Webpack" width="40" height="40"/>&nbsp;
   <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/codepen-plain.svg" title="CodePen" alt="CodePen" width="40" height="40"/>&nbsp;
   <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/slack-original.svg" title="Slack" alt="Slack" width="40" height="40"/>&nbsp;
