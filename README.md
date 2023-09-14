@@ -2,10 +2,10 @@
 
 ## :man_mechanic:About Me
 
-- 🔭 I’m currently working as a senior bicycle mechanic.
-- 🌱 I’m currently learning React and Node.js.
-- 👯 I’m looking to work in the IT proffesion.
-- 😄 My passions: 👨‍💻 computer technology, 🐛 programming, 🔥🚴‍ extreme bike riding, 🛠️ mechanics.
+- 🔭 I’m currently looking for a job / internship as a Junior front-end developer
+- 🌱 I’m currently taking the final steps towards becoming a Full Stack Web Developer certification.
+- 👯 I’m looking for the development of my skills.
+- 😄 My passions: 👨‍💻 computer technology, 🐛 programming, 🛠️ mechanics, 🔥🚴‍ extreme bike riding.
 
 ## 🏗️My projects
 
