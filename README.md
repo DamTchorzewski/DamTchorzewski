@@ -14,6 +14,7 @@
 - <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
 - <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
 - <a href="https://github.com/damtchorzewski/Movies">Movies</a>
+- <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">Api</a>
 
    <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/> </div>
 
