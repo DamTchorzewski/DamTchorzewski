@@ -46,6 +46,5 @@
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/bios.png" title="Bios" alt="Bios" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/office.png" title="Office" alt="Office" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/vite.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
-</div>
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/mongodb.svg" title="MongoDB" alt="MongoDB" width="40" height="40"/>&nbsp;
 </div>
