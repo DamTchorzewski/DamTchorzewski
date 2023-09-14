@@ -52,4 +52,5 @@
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/redux.svg" title="Redux" alt="Redux" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/babel.svg" title="Babel" alt="Babel" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/express.svg" title="Express" alt="Express" width="40" height="40"/>&nbsp;
+<img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/insomnia.svg" title="Insomnia" alt="Insomnia" width="40" height="40"/>&nbsp;
 </div>
