@@ -49,5 +49,7 @@
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/mongodb.svg" title="MongoDB" alt="MongoDB" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/docker.svg" title="Docker" alt="Docker" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/jest.svg" title="Jest" alt="Jest" width="40" height="40"/>&nbsp;
-
+<img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/redux.svg" title="Redux" alt="Redux" width="40" height="40"/>&nbsp;
+<img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/babel.svg" title="Babel" alt="Babel" width="40" height="40"/>&nbsp;
+<img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/express.svg" title="Express" alt="Express" width="40" height="40"/>&nbsp;
 </div>
