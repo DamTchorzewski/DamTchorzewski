@@ -2,9 +2,8 @@
 
 ## :man_mechanic:About Me
 
-- 🔭 I’m currently looking for a job / internship as a front-end developer.
 - 🌱 I’m currently taking the final steps towards becoming a Full Stack Web Developer certification.
-- 👯 I’m looking for the development of my skills.
+- 👯 I'm looking for opportunities to develop my skills.
 - 😄 My passions: 👨‍💻 computer technology, 🐛 programming, 🛠️ mechanics, 🔥🚴‍ extreme bike riding.
 
 ## 🏗️My projects
