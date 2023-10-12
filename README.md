@@ -2,13 +2,14 @@
 
 ## :man_mechanic:About Me
 
-- 🌱 I’m currently taking the final steps towards becoming a Full Stack Web Developer certification.
-- 👯 I'm looking for opportunities to develop my skills.
+- 🏆 Recently, I successfully completed a one-year professional training "FullStack Web Developer" at GoIt University.
+- 👯 I'm actively looking for a job as a programmer.
+- 🌱 I'm currently improving my projects and creating new ones for my portfolio.
 - 😄 My passions: 👨‍💻 computer technology, 🐛 programming, 🛠️ mechanics, 🔥🚴‍ extreme bike riding.
 
 ## 🏗️My projects
 
-- <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">S7venSurvivors-Wallet</a>
+- <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">Wallet</a>
 - <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
 - <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
 - <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
