@@ -1,4 +1,4 @@
-<img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/baner.png">
+<img width="100%" src="https://github.com/dtchorzewski/dtchorzewski/blob/main/img/banerx.png">
 
 ## :man_mechanic:About Me
 
@@ -7,6 +7,7 @@
 - 😄 My passions: 👨‍💻 computer technology, 🐛 programming, 🛠️ mechanics, 🔥🚴‍ extreme bike riding.
 
 ## 🏗️My projects
+
 - <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">S7venSurvivors-Wallet</a>
 - <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
 - <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
