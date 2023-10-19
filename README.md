@@ -15,13 +15,13 @@
 
 ### <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
 
-[![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png)](https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/)
+[![Home Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png)](https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/)
 
 - <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
 
 ### <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
 
-[![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
+[![Web Studio](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
 
 - <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
 - <a href="https://github.com/damtchorzewski/Movies">Movies</a>
