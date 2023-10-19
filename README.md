@@ -9,6 +9,13 @@
 
 ## 🏗️My projects
 
+### <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">Wallet</a>
+
+<img width="100%" src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png">
+
+### <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
+
+<img width="100%" src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png">
 
 - <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
 - <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
