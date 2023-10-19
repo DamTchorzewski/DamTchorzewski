@@ -21,7 +21,7 @@
 
 ### <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
 
-[![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/Web-Studio/)
+[![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
 
 - <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
 - <a href="https://github.com/damtchorzewski/Movies">Movies</a>
