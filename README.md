@@ -18,7 +18,11 @@
 [![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png)](https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/)
 
 - <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
-- <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
+
+### <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
+
+[![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/Web-Studio/)
+
 - <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
 - <a href="https://github.com/damtchorzewski/Movies">Movies</a>
 - <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">Api</a>
