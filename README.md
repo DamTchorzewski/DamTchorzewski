@@ -11,7 +11,7 @@
 
 ### <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">Wallet</a>
 
-<img width="100%" src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png">
+[![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png)](https://damtchorzewski.github.io/S7venSurvivors-Wallet/)
 
 ### <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
 
