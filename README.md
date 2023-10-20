@@ -9,6 +9,7 @@
 
 ## 🏗️My projects
 <div align="center">
+
 ### <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">Wallet</a>
 
 [![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png)](https://damtchorzewski.github.io/S7venSurvivors-Wallet/)
@@ -37,6 +38,7 @@
 
 ### <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">Api</a>
 </div>
+
    <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/> </div>
 
 ---
