@@ -27,9 +27,14 @@
 [![Web Studio](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
 
 
-- <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
-- <a href="https://github.com/damtchorzewski/Movies">Movies</a>
-- <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">Api</a>
+### <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
+
+[![Phonebook](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png)](https://dt-goit-react-hw-08-phonebook.netlify.app/)
+
+### <a href="https://github.com/damtchorzewski/Movies">Movies</a>
+
+
+### <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">Api</a>
 
    <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/> </div>
 
