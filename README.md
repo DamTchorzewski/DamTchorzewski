@@ -40,7 +40,11 @@
 
 </div>
 
-   <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/> </div>
+  <div align="center">
+  <a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/">
+    <img alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/>
+  </a>
+</div>
 
 ---
 
