@@ -28,7 +28,7 @@
 [![Web Studio](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
 
 
-### <a href="https://github.com/damtchorzewski/Phonebook" style="color: grey;";>Phonebook</a>
+### <a href="https://github.com/damtchorzewski/Phonebook" style="color: grey;">Phonebook</a>
 
 [![Phonebook](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png)](https://dt-goit-react-hw-08-phonebook.netlify.app/)
 
