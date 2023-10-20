@@ -9,37 +9,49 @@
 
 ## 🏗️My projects
 
-### <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">Wallet</a>
+<div align="center">
+    <h3 style="color: gray;"><a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">Wallet</a></h3>
+    
+    [![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png)](https://damtchorzewski.github.io/S7venSurvivors-Wallet/)
+</div>
 
-[![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png)](https://damtchorzewski.github.io/S7venSurvivors-Wallet/)
+<div align="center">
+    <h3 style="color: gray;"><a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a></h3>
+    
+    [![Home Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png)](https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/)
+</div>
 
-### <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
+<div align="center">
+    <h3 style="color: gray;"><a href="https://github.com/damtchorzewski/IceCream">IceCream</a></h3>
+    
+    [![Ice Cream](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png)](https://damtchorzewski.github.io/IceCream/)
+</div>
 
-[![Home Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png)](https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/)
+<div align="center">
+    <h3 style="color: gray;"><a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a></h3>
+    
+    [![Web Studio](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
+</div>
 
-### <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
+<div align="center">
+    <h3 style="color: gray;"><a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a></h3>
+    
+    [![Phonebook](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png)](https://dt-goit-react-hw-08-phonebook.netlify.app/)
+</div>
 
-[![Ice Cream](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png)](https://damtchorzewski.github.io/IceCream/)
+<div align="center">
+    <h3 style="color: gray;"><a href="https://github.com/damtchorzewski/Movies">Movies</a></h3>
+    
+    [![Movies](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/movies.png)](https://damtchorzewski.github.io/goit-react-hw-05-movies/)
+</div>
 
-
-### <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
-
-[![Web Studio](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
-
-
-### <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
-
-[![Phonebook](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png)](https://dt-goit-react-hw-08-phonebook.netlify.app/)
-
-### <a href="https://github.com/damtchorzewski/Movies">Movies</a>
-
-[![Movies](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/movies.png)](https://damtchorzewski.github.io/goit-react-hw-05-movies/)
-
-### <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">Api</a>
-
-   <div align="center"> <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/> </div>
-
+<div align="center">
+    <h3 style="color: gray;"><a href="https://github.com/damtchorzewski/goit-node-hw-02-06">Api</a></h3>
+    
+    <img  alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/>
+</div>
 ---
+
 
 ### :hammer_and_wrench: Languages and Tools :
 
