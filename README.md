@@ -33,6 +33,7 @@
 
 ### <a href="https://github.com/damtchorzewski/Movies">Movies</a>
 
+[![Movies](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/movies.png)](https://damtchorzewski.github.io/goit-react-hw-05-movies/)
 
 ### <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">Api</a>
 
