@@ -28,7 +28,7 @@
 [![Web Studio](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
 
 
-### <a href="https://github.com/damtchorzewski/Phonebook" style="color: grey;">Phonebook</a>
+### <a href="https://github.com/damtchorzewski/Phonebook" style="color: grey !important;">Phonebook</a>
 
 [![Phonebook](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png)](https://dt-goit-react-hw-08-phonebook.netlify.app/)
 
@@ -78,3 +78,9 @@
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/express.svg" title="Express" alt="Express" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/insomnia.svg" title="Insomnia" alt="Insomnia" width="40" height="40"/>&nbsp;
 </div>
+
+<style>
+    a {
+        color: grey !important;
+    }
+</style>
