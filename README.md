@@ -9,43 +9,43 @@
 
 # 🏗️My projects
 
-## Wallet App<a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">(Files)</a>
+## Wallet <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">(Files)</a>
 
 [![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png)](https://damtchorzewski.github.io/S7venSurvivors-Wallet/)
 
 
 
-## <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
+## Filmoteka <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">(Files)</a>
 
 [![Home Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png)](https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/)
 
 
 
-## <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
+## IceCream <a href="https://github.com/damtchorzewski/IceCream">(Files)</a>
 
 [![Ice Cream](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png)](https://damtchorzewski.github.io/IceCream/)
 
 
 
-## <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
+## WebStudio <a href="https://github.com/damtchorzewski/WebStudio">(Files)</a>
 
 [![Web Studio](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
 
 
 
-## <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
+## Phonebook <a href="https://github.com/damtchorzewski/Phonebook">(Files)</a>
 
 [![Phonebook](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png)](https://dt-goit-react-hw-08-phonebook.netlify.app/)
 
 
 
-## <a href="https://github.com/damtchorzewski/Movies">Movies</a>
+## Movies <a href="https://github.com/damtchorzewski/Movies">(Files)</a>
 
 [![Movies](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/movies.png)](https://damtchorzewski.github.io/goit-react-hw-05-movies/)
 
 
 
-## <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">Api</a>
+## <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">(Files)</a>
 
 </div>
 
