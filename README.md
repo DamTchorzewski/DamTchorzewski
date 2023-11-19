@@ -10,31 +10,31 @@
 # 🏗️My projects
 <div align="center">
 
-### <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">Wallet</a>
+## <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">Wallet</a>
 
 [![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png)](https://damtchorzewski.github.io/S7venSurvivors-Wallet/)
 
 
 
-### <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
+## <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">Filmoteka</a>
 
 [![Home Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png)](https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/)
 
 
 
-### <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
+## <a href="https://github.com/damtchorzewski/IceCream">IceCream</a>
 
 [![Ice Cream](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png)](https://damtchorzewski.github.io/IceCream/)
 
 
 
-### <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
+## <a href="https://github.com/damtchorzewski/WebStudio">WebStudio</a>
 
 [![Web Studio](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
 
 
 
-### <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
+## <a href="https://github.com/damtchorzewski/Phonebook">Phonebook</a>
 
 [![Phonebook](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png)](https://dt-goit-react-hw-08-phonebook.netlify.app/)
 
