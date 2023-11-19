@@ -45,7 +45,7 @@
 
 
 
-## <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">(Files)</a>
+## API <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">(Files)</a>
 
 </div>
 
