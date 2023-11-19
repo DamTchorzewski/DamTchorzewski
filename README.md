@@ -8,7 +8,6 @@
 - 😄 My passions: 👨‍💻 computer technology, 🐛 programming, 🛠️ mechanics, 🔥🚴‍ extreme bike riding.
 
 # 🏗️My projects
-<div align="center">
 
 ## Wallet App<a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">(Files)</a>
 
