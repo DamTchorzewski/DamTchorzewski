@@ -35,8 +35,11 @@
             <td><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png" alt="IceCream" width="650"></a></td>
         </tr>
         <tr>
-            <td>WebStudio</td>
-            <td><a href="https://github.com/damtchorzewski/WebStudio"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png" alt="WebStudio" width="650"></a></td>
+            <td width="200"><h2>WebStudio</h2>
+            <a href="https://github.com/damtchorzewski/WebStudio"><p>See More</p>
+            <a href="https://damtchorzewski.github.io/WebStudio/"><p>Side</p>
+            </td>
+            <td><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png" alt="WebStudio" width="650"></a></td>
         </tr>
         <tr>
             <td>Phonebook</td>
