@@ -65,7 +65,7 @@
 
 </div>
 <div align="center">
-<img alt="Coder GIF" width="300px" height="150px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/>
+<img alt="Coder GIF" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/>
 </div>
 
 ---
