@@ -14,28 +14,28 @@
     </thead>
     <tbody>
         <tr>
-            <td width="200"><h2>Wallet</h2>
+            <td width="150"><h2>Wallet</h2>
             <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><p>See More</p>
             <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/"><p>Side</p>
             </td>
             <td><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet" width="650"></a></td>
         </tr>
         <tr>
-            <td width="200"><h2>Filmoteka</h2>
+            <td width="150"><h2>Filmoteka</h2>
             <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><p>See More</p>
             <a href="https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/"><p>Side</p>
             </td>
             <td><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka" width="650" cursor="none"></a></td>
         </tr>
         <tr>
-            <td width="200"><h2>IceCream</h2>
+            <td width="150"><h2>IceCream</h2>
             <a href="https://github.com/damtchorzewski/IceCream"><p>See More</p>
             <a href="https://damtchorzewski.github.io/IceCream/"><p>Side</p>
             </td>
             <td><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png" alt="IceCream" width="650"></a></td>
         </tr>
         <tr>
-            <td width="200"><h2>WebStudio</h2>
+            <td width="150"><h2>WebStudio</h2>
             <a href="https://github.com/damtchorzewski/WebStudio"><p>See More</p>
             <a href="https://damtchorzewski.github.io/WebStudio/"><p>Side</p>
             </td>
