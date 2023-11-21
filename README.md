@@ -25,7 +25,7 @@
             <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><p>See More</p>
             <a href="https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/"><p>Side</p>
             </td>
-            <td><a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka" width="650"></a></td>
+            <td><a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka" width="650" cursor="none"></a></td>
         </tr>
         <tr>
             <td>IceCream</td>
