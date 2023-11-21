@@ -19,7 +19,6 @@
             <li><a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">Files</li>
             <li>
             <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/">Side
-            
             </li> 
             </ul>
             </td>
