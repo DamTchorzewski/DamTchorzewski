@@ -18,14 +18,14 @@
             <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><p>See More</p>
             <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/"><p>Side</p>
             </td>
-            <td><a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet" width="650"></a></td>
+            <td><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet" width="650"></a></td>
         </tr>
         <tr>
             <td width="200"><h2>Filmoteka</h2>
             <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><p>See More</p>
             <a href="https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/"><p>Side</p>
             </td>
-            <td><a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka" width="650" cursor="none"></a></td>
+            <td><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka" width="650" cursor="none"></a></td>
         </tr>
         <tr>
             <td>IceCream</td>
