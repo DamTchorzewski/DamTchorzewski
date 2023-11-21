@@ -9,7 +9,7 @@
 
 # 🏗️My projects
 
-## Wallet <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">(Files)</a>
+## Wallet (<a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet">More</a>)
 
 [![Statistics Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png)](https://damtchorzewski.github.io/S7venSurvivors-Wallet/)
 
