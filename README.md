@@ -59,7 +59,6 @@
             <td width="150"><h2>API</h2>
             <a href="https://github.com/damtchorzewski/goit-node-hw-02-06"><p>See More</p>
             </td>
-            
         </tr>
     </tbody>
 </table>
