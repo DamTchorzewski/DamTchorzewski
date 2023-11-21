@@ -19,31 +19,31 @@
     <tbody>
         <tr>
             <td>Wallet</td>
-            <td><a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet" width="700"></a></td>
+            <td><a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet" width="650"></a></td>
         </tr>
         <tr>
             <td>Filmoteka</td>
-            <td><a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka" width="700"></a></td>
+            <td><a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka" width="650"></a></td>
         </tr>
         <tr>
             <td>IceCream</td>
-            <td><a href="https://github.com/damtchorzewski/IceCream"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png" alt="IceCream" width="700"></a></td>
+            <td><a href="https://github.com/damtchorzewski/IceCream"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png" alt="IceCream" width="650"></a></td>
         </tr>
         <tr>
             <td>WebStudio</td>
-            <td><a href="https://github.com/damtchorzewski/WebStudio"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png" alt="WebStudio" width="700"></a></td>
+            <td><a href="https://github.com/damtchorzewski/WebStudio"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png" alt="WebStudio" width="650"></a></td>
         </tr>
         <tr>
             <td>Phonebook</td>
-            <td><a href="https://github.com/damtchorzewski/Phonebook"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png" alt="Phonebook" width="700"></a></td>
+            <td><a href="https://github.com/damtchorzewski/Phonebook"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png" alt="Phonebook" width="650"></a></td>
         </tr>
         <tr>
             <td>Movies</td>
-            <td><a href="https://github.com/damtchorzewski/goit-react-hw-05-movies"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/movies.png" alt="Movies" width="700"></a></td>
+            <td><a href="https://github.com/damtchorzewski/goit-react-hw-05-movies"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/movies.png" alt="Movies" width="650"></a></td>
         </tr>
         <tr>
             <td>API</td>
-            <td><a href="https://github.com/damtchorzewski/goit-node-hw-02-06"><img src="https://placehold.it/100x100" alt="API" width="700"></a></td>
+            <td><a href="https://github.com/damtchorzewski/goit-node-hw-02-06"><img src="https://placehold.it/100x100" alt="API" width="650"></a></td>
         </tr>
     </tbody>
 </table>
