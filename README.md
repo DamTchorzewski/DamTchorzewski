@@ -59,13 +59,15 @@
             <td width="150"><h2>API</h2>
             <a href="https://github.com/damtchorzewski/goit-node-hw-02-06"><p>See More</p>
             </td>
-            <td align="center"><img alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/></td>
+            
         </tr>
     </tbody>
 </table>
 
 </div>
-
+<div align="center">
+<img alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/>
+</div>
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
