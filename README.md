@@ -14,7 +14,7 @@
     </thead>
     <tbody>
         <tr>
-            <td>Wallet</td>
+            <td><h2>Wallet</h2></td>
             <td><a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet" width="650"></a></td>
         </tr>
         <tr>
