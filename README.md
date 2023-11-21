@@ -15,37 +15,37 @@
 
 
 
-## Filmoteka <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">(Files)</a>
+## Filmoteka (<a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam">More</a>)
 
 [![Home Desk](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png)](https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/)
 
 
 
-## IceCream <a href="https://github.com/damtchorzewski/IceCream">(Files)</a>
+## IceCream (<a href="https://github.com/damtchorzewski/IceCream">More</a>)
 
 [![Ice Cream](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png)](https://damtchorzewski.github.io/IceCream/)
 
 
 
-## WebStudio <a href="https://github.com/damtchorzewski/WebStudio">(Files)</a>
+## WebStudio (<a href="https://github.com/damtchorzewski/WebStudio">More</a>)
 
 [![Web Studio](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png)](https://damtchorzewski.github.io/WebStudio/)
 
 
 
-## Phonebook <a href="https://github.com/damtchorzewski/Phonebook">(Files)</a>
+## Phonebook (<a href="https://github.com/damtchorzewski/Phonebook">More</a>)
 
 [![Phonebook](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png)](https://dt-goit-react-hw-08-phonebook.netlify.app/)
 
 
 
-## Movies <a href="https://github.com/damtchorzewski/Movies">(Files)</a>
+## Movies (<a href="https://github.com/damtchorzewski/Movies">More</a>)
 
 [![Movies](https://github.com/damtchorzewski/damtchorzewski/blob/main/img/movies.png)](https://damtchorzewski.github.io/goit-react-hw-05-movies/)
 
 
 
-## API <a href="https://github.com/damtchorzewski/goit-node-hw-02-06">(Files)</a>
+## API (<a href="https://github.com/damtchorzewski/goit-node-hw-02-06">More</a>)
 
 </div>
 
