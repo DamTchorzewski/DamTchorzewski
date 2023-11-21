@@ -11,10 +11,6 @@
 
 <table>
     <thead>
-        <tr>
-            <th>Project Name and More</th>
-            <th>Look at Application</th>
-        </tr>
     </thead>
     <tbody>
         <tr>
