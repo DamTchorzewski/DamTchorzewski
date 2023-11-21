@@ -14,7 +14,6 @@
         <tr>
             <th>Project</th>
             <th>More</th>
-            <th>Image</th>
         </tr>
     </thead>
     <tbody>
