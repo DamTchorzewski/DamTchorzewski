@@ -59,17 +59,11 @@
             <td width="150"><h2>API</h2>
             <a href="https://github.com/damtchorzewski/goit-node-hw-02-06"><p>See More</p>
             </td>
-            <td><img alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/></td>
+            <td align="center"><img alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/></td>
         </tr>
     </tbody>
 </table>
 
-</div>
-
-  <div align="center">
-  <a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/">
-    <img alt="Coder GIF" width="350px" height="200px" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/>
-  </a>
 </div>
 
 ---
