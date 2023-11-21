@@ -28,8 +28,11 @@
             <td><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka" width="650" cursor="none"></a></td>
         </tr>
         <tr>
-            <td>IceCream</td>
-            <td><a href="https://github.com/damtchorzewski/IceCream"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png" alt="IceCream" width="650"></a></td>
+            <td width="200"><h2>IceCream</h2>
+            <a href="https://github.com/damtchorzewski/IceCream"><p>See More</p>
+            <a href="https://damtchorzewski.github.io/IceCream/"><p>Side</p>
+            </td>
+            <td><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png" alt="IceCream" width="650"></a></td>
         </tr>
         <tr>
             <td>WebStudio</td>
