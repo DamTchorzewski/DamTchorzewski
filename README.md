@@ -18,7 +18,7 @@
             <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><p>See More</p>
             <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/"><p>Side</p>
             </td>
-            <td><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet" width="700"></td>
+            <td><a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet" width="700"></td>
         </tr>
         <tr>
             <td width="150"><h2>Filmoteka</h2>
