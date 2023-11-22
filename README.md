@@ -15,7 +15,7 @@
     <tbody>
         <tr>
             <td width="150"><h2>Wallet</h2>
-                <p>Role: TeamLead</p>
+                <p>My role: TeamLead</p>
             <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><p>See More</p>
             <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/"><p>Side</p>
             </td>
@@ -23,7 +23,7 @@
         </tr>
         <tr>
             <td width="150"><h2>Filmoteka</h2>
-            <p>Role: TeamLead</p>
+            <p>My role: TeamLead</p>
             <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><p>See More</p>
             <a href="https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/"><p>Side</p>
             </td>
@@ -31,7 +31,7 @@
         </tr>
         <tr>
             <td width="150"><h2>IceCream</h2>
-            <p>Role: Developer</p>
+            <p>My role: Developer</p>
             <a href="https://github.com/damtchorzewski/IceCream"><p>See More</p>
             <a href="https://damtchorzewski.github.io/IceCream/"><p>Side</p>
             </td>
@@ -39,7 +39,7 @@
         </tr>
         <tr>
             <td width="150"><h2>WebStudio</h2>
-            <p>Role: Creator</p>
+            <p>My role: Creator</p>
             <a href="https://github.com/damtchorzewski/WebStudio"><p>See More</p>
             <a href="https://damtchorzewski.github.io/WebStudio/"><p>Side</p>
             </td>
@@ -47,7 +47,7 @@
         </tr>
         <tr>
             <td width="150"><h2>Phonebook</h2>
-            <p>Role: Creator</p>
+            <p>My role: Creator</p>
              <a href="https://github.com/damtchorzewski/Phonebook"><p>See More</p>
             <a href="https://dt-goit-react-hw-08-phonebook.netlify.app/"><p>Side</p>
             </td>
@@ -55,7 +55,7 @@
         </tr>
         <tr>
             <td width="150"><h2>Movies</h2>
-            <p>Role: Creator</p>
+            <p>My role: Creator</p>
             <a href="https://github.com/damtchorzewski/goit-react-hw-05-movies"><p>See More</p>
             <a href="https://damtchorzewski.github.io/goit-react-hw-05-movies/"><p>Side</p>
             </td>
@@ -63,7 +63,7 @@
         </tr>
         <tr>
             <td width="150"><h2>API</h2>
-            <p>Role: Creator</p>
+            <p>My role: Creator</p>
             <a href="https://github.com/damtchorzewski/goit-node-hw-02-06"><p>See More</p>
             </td>
             <td align="center">
