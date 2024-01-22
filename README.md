@@ -20,7 +20,7 @@
             <a href="https://github.com/DamTchorzewski/wallet"><p>Server</p>
             <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/"><p>Page</p>
             </td>
-            <td align="center"><a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet"  height="375" ></td>
+            <td align="center"><a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet"  width="700" ></td>
         </tr>
         <tr>
             <td align="center" width="200"><h2>Filmoteka</h2>
@@ -28,7 +28,7 @@
             <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><p>See More</p>
             <a href="https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/"><p>Page</p>
             </td>
-            <td align="center"><a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka"  height="375" ></td>
+            <td align="center"><a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka"  width="700" ></td>
         </tr>
         <tr>
             <td align="center" width="200"><h2>IceCream</h2>
@@ -36,7 +36,7 @@
             <a href="https://github.com/damtchorzewski/IceCream"><p>See More</p>
             <a href="https://damtchorzewski.github.io/IceCream/"><p>Page</p>
             </td>
-            <td align="center"><a href="https://github.com/damtchorzewski/IceCream"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png" alt="IceCream"  height="375" ></td>
+            <td align="center"><a href="https://github.com/damtchorzewski/IceCream"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png" alt="IceCream"  width="700" ></td>
         </tr>
         <tr>
             <td align="center" width="200"><h2>WebStudio</h2>
@@ -44,7 +44,7 @@
             <a href="https://github.com/damtchorzewski/WebStudio"><p>See More</p>
             <a href="https://damtchorzewski.github.io/WebStudio/"><p>Page</p>
             </td>
-            <td align="center"><a href="https://github.com/damtchorzewski/WebStudio"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png" alt="WebStudio"  height="375" ></td>
+            <td align="center"><a href="https://github.com/damtchorzewski/WebStudio"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png" alt="WebStudio"  width="700" ></td>
         </tr>
         <tr>
             <td align="center" width="200"><h2>Phonebook</h2>
@@ -52,7 +52,7 @@
              <a href="https://github.com/damtchorzewski/Phonebook"><p>See More</p>
             <a href="https://dt-goit-react-hw-08-phonebook.netlify.app/"><p>Page</p>
             </td>
-            <td align="center"><a href="https://github.com/damtchorzewski/Phonebook"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png" alt="Phonebook"  height="375" ></td>
+            <td align="center"><a href="https://github.com/damtchorzewski/Phonebook"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png" alt="Phonebook"  width="700" ></td>
         </tr>
         <tr>
             <td align="center" width="200"><h2>Movies</h2>
@@ -60,7 +60,7 @@
             <a href="https://github.com/damtchorzewski/goit-react-hw-05-movies"><p>See More</p>
             <a href="https://damtchorzewski.github.io/goit-react-hw-05-movies/"><p>Page</p>
             </td>
-            <td align="center"><a href="https://github.com/damtchorzewski/goit-react-hw-05-movies"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/movies.png" alt="Movies"  height="375" ></td>
+            <td align="center"><a href="https://github.com/damtchorzewski/goit-react-hw-05-movies"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/movies.png" alt="Movies"  width="700" ></td>
         </tr>
         <tr>
             <td align="center" width="200"><h2>API</h2>
