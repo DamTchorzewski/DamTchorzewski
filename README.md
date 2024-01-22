@@ -14,11 +14,11 @@
     </thead>
     <tbody>
         <tr>
-            <td width="150"><h2>Wallet</h2>
+            <td align="center" width="200"><h2>Wallet</h2>
                 <p>My role: Team leader</p>
             <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><p>See More</p>
             <a href="https://github.com/DamTchorzewski/wallet"><p>Server</p>
-            <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/"><p>Side</p>
+            <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/"><p>Page</p>
             </td>
             <td align="center"><a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/statistics-desk.png" alt="Wallet"  height="375" ></td>
         </tr>
