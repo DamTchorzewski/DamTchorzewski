@@ -9,7 +9,7 @@
 
 # 🏗️My projects
 
-<table>
+<table align="center">
     <thead>
     </thead>
     <tbody>
