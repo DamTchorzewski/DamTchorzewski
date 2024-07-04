@@ -14,6 +14,22 @@
     </thead>
     <tbody>
         <tr>
+            <td align="center" width="200"><h2>CzaryMary Okulary</h2>
+                <p>My role: Developer</p>
+            <a href="https://czarymaryokulary.pl/"><p>Page</p>
+            </td>
+            <td align="center"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/czarymary.png" alt="Czarymary Okulary"  width="700" ></td>
+        </tr>
+        <tr>
+            <td align="center" width="200"><h2>Filmoteka</h2>
+            <p>My role: Team leader</p>
+            <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><p>See More</p>
+            <a href="https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/"><p>Page</p>
+            </td>
+            <td align="center"><a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka"  width="700" ></td>
+        </tr>
+        <tr>
+        <tr>
             <td align="center" width="200"><h2>Wallet</h2>
                 <p>My role: Team leader</p>
             <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><p>See More</p>
