@@ -21,6 +21,14 @@
             <td align="center"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/czarymary.png" alt="Czarymary Okulary"  width="700" ></td>
         </tr>
         <tr>
+            <td align="center" width="200"><h2>Rick and Morty Wiki</h2>
+                <p>My role: Developer</p>
+<a href="https://github.com/DamTchorzewski/Rick-and-Morty-Wiki"><p>See More</p>
+            <a href="https://damtchorzewski.github.io/Rick-and-Morty-Wiki/"><p>Page</p>
+            </td>
+            <td align="center"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/ram.png" alt="Czarymary Okulary"  width="700" ></td>
+        </tr>
+        <tr>
             <td align="center" width="200"><h2>Wallet</h2>
                 <p>My role: Team leader</p>
             <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><p>See More</p>
