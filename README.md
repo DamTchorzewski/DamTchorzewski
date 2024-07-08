@@ -13,17 +13,22 @@
     <thead>
     </thead>
     <tbody>
-        <tr>
-            <td align="center" width="200">
-                <h2>Id Verification and Neural Network</h2>
-                <p>My role: Developer</p>
-            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p>
-            </td>
-            <td align="center"><a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/openCv"><p>Id Verification</p>
-            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch"><p>Neural Network</p>
-            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch/advancedTools"><p>Model predicting the next word</p>
-            </td>
-        </tr>
+      <tr>
+        <td align="center" colspan="2">
+            <h2>Id Verification and Neural Network</h2>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" width="200">
+            <p>My role: Developer</p>
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p></a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/openCv"><p>Id Verification</p></a>
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch"><p>Neural Network</p></a>
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch/advancedTools"><p>Model predicting the next word</p></a>
+        </td>
+    </tr>
         <tr>
             <td align="center" width="200"><h2>Czarymary Okulary</h2>
                 <p>My role: Developer</p>
