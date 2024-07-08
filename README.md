@@ -13,6 +13,7 @@
     <thead>
     </thead>
     <tbody>
+        <td align="center" width="200"><h2>Id Verification and Neural Network</h2></td>
         <tr>
             <td align="center" width="200"><h2>Id Verification and Neural Network</h2>
                 <p>My role: Developer</p>
