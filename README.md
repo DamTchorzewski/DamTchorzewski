@@ -17,7 +17,6 @@
         <td align="center" width="300">
             <h2>Id Verification and Neural Network</h2>
             <p>My role: Ai & Ml Developer</p>
-            <p>Main technologies: Python</p>
             <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p></a>
         </td>
         <td align="center">
@@ -36,7 +35,7 @@
         <tr>
             <td align="center" width="200"><h2>Rick and Morty Wiki</h2>
                 <p>My role: Developer</p>
-<a href="https://github.com/DamTchorzewski/Rick-and-Morty-Wiki"><p>See More</p>
+<a href="https://github.com/DamTchorzewski/Rick-and-Morty-Wiki"><p>See more</p>
             <a href="https://damtchorzewski.github.io/Rick-and-Morty-Wiki/"><p>Page</p>
             </td>
             <td align="center"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/ram.png" alt="Czarymary Okulary"  width="700" ></td>
@@ -44,7 +43,7 @@
         <tr>
             <td align="center" width="200"><h2>Wallet</h2>
                 <p>My role: Team leader</p>
-            <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><p>See More</p>
+            <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><p>See more</p>
             <a href="https://github.com/DamTchorzewski/wallet"><p>Server</p>
             <a href="https://damtchorzewski.github.io/S7venSurvivors-Wallet/"><p>Page</p>
             </td>
@@ -53,7 +52,7 @@
         <tr>
             <td align="center" width="200"><h2>Filmoteka</h2>
             <p>My role: Team leader</p>
-            <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><p>See More</p>
+            <a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><p>See more</p>
             <a href="https://damtchorzewski.github.io/Filmoteka-HiFiveTeam/"><p>Page</p>
             </td>
             <td align="center"><a href="https://github.com/damtchorzewski/Filmoteka-HiFiveTeam"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/home-desk.png" alt="Filmoteka"  width="700" ></td>
@@ -61,7 +60,7 @@
         <tr>
             <td align="center" width="200"><h2>IceCream</h2>
             <p>My role: Co-creator</p>
-            <a href="https://github.com/damtchorzewski/IceCream"><p>See More</p>
+            <a href="https://github.com/damtchorzewski/IceCream"><p>See more</p>
             <a href="https://damtchorzewski.github.io/IceCream/"><p>Page</p>
             </td>
             <td align="center"><a href="https://github.com/damtchorzewski/IceCream"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/IceCream.png" alt="IceCream"  width="700" ></td>
@@ -69,7 +68,7 @@
         <tr>
             <td align="center" width="200"><h2>WebStudio</h2>
             <p>My role: Developer</p>
-            <a href="https://github.com/damtchorzewski/WebStudio"><p>See More</p>
+            <a href="https://github.com/damtchorzewski/WebStudio"><p>See more</p>
             <a href="https://damtchorzewski.github.io/WebStudio/"><p>Page</p>
             </td>
             <td align="center"><a href="https://github.com/damtchorzewski/WebStudio"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web-studio.png" alt="WebStudio"  width="700" ></td>
@@ -77,7 +76,7 @@
         <tr>
             <td align="center" width="200"><h2>Phonebook</h2>
             <p>My role: Developer</p>
-             <a href="https://github.com/damtchorzewski/Phonebook"><p>See More</p>
+             <a href="https://github.com/damtchorzewski/Phonebook"><p>See more</p>
             <a href="https://dt-goit-react-hw-08-phonebook.netlify.app/"><p>Page</p>
             </td>
             <td align="center"><a href="https://github.com/damtchorzewski/Phonebook"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/phonebook.png" alt="Phonebook"  width="700" ></td>
@@ -85,7 +84,7 @@
         <tr>
             <td align="center" width="200"><h2>Movies</h2>
             <p>My role: Developer</p>
-            <a href="https://github.com/damtchorzewski/goit-react-hw-05-movies"><p>See More</p>
+            <a href="https://github.com/damtchorzewski/goit-react-hw-05-movies"><p>See more</p>
             <a href="https://damtchorzewski.github.io/goit-react-hw-05-movies/"><p>Page</p>
             </td>
             <td align="center"><a href="https://github.com/damtchorzewski/goit-react-hw-05-movies"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/movies.png" alt="Movies"  width="700" ></td>
@@ -93,7 +92,7 @@
         <tr>
             <td align="center" width="200"><h2>API</h2>
             <p>My role: Developer</p>
-            <a href="https://github.com/damtchorzewski/goit-node-hw-02-06"><p>See More</p>
+            <a href="https://github.com/damtchorzewski/goit-node-hw-02-06"><p>See more</p>
             </td>
             <td align="center">
 <img alt="Coder GIF" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif"/>
