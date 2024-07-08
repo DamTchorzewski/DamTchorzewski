@@ -19,10 +19,6 @@
                 <p>My role: Developer</p>
             <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p>
             </td>
-            <td align="center" width="100">
-                <p>My role: Developer</p>
-            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p>
-            </td>
             <td align="center"><a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/openCv"><p>Id Verification</p>
             <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch"><p>Neural Network</p>
             <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch/advancedTools"><p>Model predicting the next word</p>
