@@ -14,6 +14,16 @@
     </thead>
     <tbody>
         <tr>
+            <td align="center" width="200"><h2>Id Verification and Neural Network</h2>
+                <p>My role: Developer</p>
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p>
+            </td>
+            <td align="center"><a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/openCv"><p>Id Verification</p>
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch"><p>Neural Network</p>
+            </td>
+        </tr>
+        <tr>
+        <tr>
             <td align="center" width="200"><h2>Czarymary Okulary</h2>
                 <p>My role: Developer</p>
             <a href="https://czarymaryokulary.pl/"><p>Page</p>
