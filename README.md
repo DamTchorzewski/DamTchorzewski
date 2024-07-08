@@ -13,18 +13,6 @@
     <thead>
     </thead>
     <tbody>
-      <tr>
-        <td align="center" width="300">
-            <h2>Id Verification and Neural Network</h2>
-            <p>My role: Ai & Ml Developer</p>
-            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p></a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/openCv"><p>Id Verification</p></a>
-            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch"><p>Neural Network</p></a>
-            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch/advancedTools"><p>Model predicting the next word</p></a>
-        </td>
-    </tr>
         <tr>
             <td align="center" width="200"><h2>Czarymary Okulary</h2>
                 <p>My role: WordPress Developer</p>
@@ -40,7 +28,19 @@
             </td>
             <td align="center"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/ram.png" alt="Czarymary Okulary"  width="700" ></td>
         </tr>
-        <tr>
+         <tr>
+        <td align="center" width="300">
+            <h2>Id Verification and Neural Network</h2>
+            <p>My role: Ai & Ml Developer</p>
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p></a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/openCv"><p>Id Verification</p></a>
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch"><p>Neural Network</p></a>
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch/advancedTools"><p>Model predicting the next word</p></a>
+        </td>
+    </tr>
+                <tr>
             <td align="center" width="200"><h2>Wallet</h2>
                 <p>My role: Team leader</p>
             <a href="https://github.com/damtchorzewski/S7venSurvivors-Wallet"><p>See more</p>
