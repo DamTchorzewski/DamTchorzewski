@@ -13,8 +13,13 @@
     <thead>
     </thead>
     <tbody>
-        <tr><h2>Id Verification and Neural Network</h2>
-            <td align="center" width="200"><h2>Id Verification and Neural Network</h2>
+        <tr>
+            <td align="center" width="100%">
+                <h2>Id Verification and Neural Network</h2>
+                <p>My role: Developer</p>
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p>
+            </td>
+            <td align="center" width="auto">
                 <p>My role: Developer</p>
             <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p>
             </td>
@@ -24,7 +29,6 @@
             </td>
         </tr>
         <tr>
-        <tr><h2>Czarymary Okulary</h2>
             <td align="center" width="200"><h2>Czarymary Okulary</h2>
                 <p>My role: Developer</p>
             <a href="https://czarymaryokulary.pl/"><p>Page</p>
