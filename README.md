@@ -142,4 +142,8 @@
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/babel.svg" title="Babel" alt="Babel" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/express.svg" title="Express" alt="Express" width="40" height="40"/>&nbsp;
 <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/insomnia.svg" title="Insomnia" alt="Insomnia" width="40" height="40"/>&nbsp;
+<img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/php.png" title="PHP" alt="PHP" width="40" height="40"/>&nbsp;
+<img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/wordpress.png" title="WordPress" alt="WordPress" width="40" height="40"/>&nbsp;
+<img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/mysql.png" title="MySql" alt="MySql" width="40" height="40"/>&nbsp;
+<img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/python.png" title="Python" alt="Python" width="40" height="40"/>&nbsp;
 </div>
