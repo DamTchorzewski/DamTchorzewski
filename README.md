@@ -20,15 +20,7 @@
             </td>
             <td align="center"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/czarymary.png" alt="Czarymary Okulary"  width="700" ></td>
         </tr>
-        <tr>
-            <td align="center" width="200"><h2>Rick and Morty Wiki</h2>
-                <p>My role: Developer</p>
-<a href="https://github.com/DamTchorzewski/Rick-and-Morty-Wiki"><p>See more</p>
-            <a href="https://damtchorzewski.github.io/Rick-and-Morty-Wiki/"><p>Page</p>
-            </td>
-            <td align="center"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/ram.png" alt="Czarymary Okulary"  width="700" ></td>
-        </tr>
-         <tr>
+                 <tr>
         <td align="center" width="300">
             <h2>Id Verification and Neural Network</h2>
             <p>My role: Ai & Ml Developer</p>
@@ -40,6 +32,14 @@
             <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch/advancedTools"><p>Model predicting the next word</p></a>
         </td>
     </tr>
+        <tr>
+            <td align="center" width="200"><h2>Rick and Morty Wiki</h2>
+                <p>My role: Developer</p>
+<a href="https://github.com/DamTchorzewski/Rick-and-Morty-Wiki"><p>See more</p>
+            <a href="https://damtchorzewski.github.io/Rick-and-Morty-Wiki/"><p>Page</p>
+            </td>
+            <td align="center"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/ram.png" alt="Czarymary Okulary"  width="700" ></td>
+        </tr>
                 <tr>
             <td align="center" width="200"><h2>Wallet</h2>
                 <p>My role: Team leader</p>
