@@ -20,6 +20,7 @@
             </td>
             <td align="center"><a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/openCv"><p>Id Verification</p>
             <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch"><p>Neural Network</p>
+            <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network/tree/main/pyTorch/advancedTools"><p>Model predicting the next word</p>
             </td>
         </tr>
         <tr>
