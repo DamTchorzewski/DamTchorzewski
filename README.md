@@ -34,7 +34,7 @@
         </tr>
         <tr>
             <td align="center" width="200"><h2>Rick and Morty Wiki</h2>
-                <p>My role: React Developer</p>
+                <p>My role: Developer</p>
 <a href="https://github.com/DamTchorzewski/Rick-and-Morty-Wiki"><p>See More</p>
             <a href="https://damtchorzewski.github.io/Rick-and-Morty-Wiki/"><p>Page</p>
             </td>
