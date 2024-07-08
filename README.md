@@ -14,7 +14,7 @@
     </thead>
     <tbody>
       <tr>
-        <td align="center" width="200">
+        <td align="center" width="1000">
             <h2>Id Verification and Neural Network</h2>
         </td>
     </tr>
