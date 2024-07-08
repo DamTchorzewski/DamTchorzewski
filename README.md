@@ -16,7 +16,7 @@
       <tr>
         <td align="center" width="200">
             <h2>Id Verification and Neural Network</h2>
-            <p>My role: Developer</p>
+            <p>My role: Python Developer</p>
             <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p></a>
         </td>
         <td align="center">
@@ -27,14 +27,14 @@
     </tr>
         <tr>
             <td align="center" width="200"><h2>Czarymary Okulary</h2>
-                <p>My role: Developer</p>
+                <p>My role: WordPress Developer</p>
             <a href="https://czarymaryokulary.pl/"><p>Page</p>
             </td>
             <td align="center"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/czarymary.png" alt="Czarymary Okulary"  width="700" ></td>
         </tr>
         <tr>
             <td align="center" width="200"><h2>Rick and Morty Wiki</h2>
-                <p>My role: Developer</p>
+                <p>My role: React Developer</p>
 <a href="https://github.com/DamTchorzewski/Rick-and-Morty-Wiki"><p>See More</p>
             <a href="https://damtchorzewski.github.io/Rick-and-Morty-Wiki/"><p>Page</p>
             </td>
