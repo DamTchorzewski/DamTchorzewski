@@ -2,9 +2,9 @@
 
 # :man_mechanic:About me
 
-- 🏆 Recently, I successfully completed one-year professional training "FullStack Web Developer" and internship at GoIt University.
-- 👯 I'm actively looking for a job as a programmer.
-- 🌱 I'm currently doing an internship at Paidwork in the area of Ai/Ml and learning Python
+- 🏆 I am a certified FullStack Web Developer, having successfully completed a professional training and internship at GoIt University.
+- 👯 I am actively seeking a position as a programmer.
+- 🌱 I recently completed an internship at Paidwork as an AI/ML Developer. 
 - 😄 My passions: 👨‍💻 computer technology, 🐛 programming, 🛠️ mechanics, 🔥🚴‍ extreme bike riding.
 
 # 🏗️My projects
