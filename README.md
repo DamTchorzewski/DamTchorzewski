@@ -24,7 +24,7 @@
             </td>
         </tr>
         <tr>
-        <tr>
+        <tr><h2>Czarymary Okulary</h2>
             <td align="center" width="200"><h2>Czarymary Okulary</h2>
                 <p>My role: Developer</p>
             <a href="https://czarymaryokulary.pl/"><p>Page</p>
