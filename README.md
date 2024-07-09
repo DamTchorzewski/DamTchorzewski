@@ -21,7 +21,7 @@
             <td align="center"><img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/czarymary.png" alt="Czarymary Okulary"  width="700" ></td>
         </tr>
                  <tr>
-        <td align="center" width="300">
+        <td align="center" width="200">
             <h2>Id Verification and Neural Network</h2>
             <p>My role: Ai & Ml Developer</p>
             <a href="https://github.com/DamTchorzewski/Id-Verification-And-Neural-Network"><p>See more</p></a>
