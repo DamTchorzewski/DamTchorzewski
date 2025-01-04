@@ -1,4 +1,4 @@
-<a href="https://github.com/DamTchorzewski"><img width="100%" src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/banerx.gif">
+
 
 # :man_mechanic:About me
 
