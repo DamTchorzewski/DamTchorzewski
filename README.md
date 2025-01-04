@@ -2,7 +2,7 @@
 
 # :man_mechanic:About me
 
-- 🏆 I am a certified FullStack Web Developer with completed professional training in FullStack Development, AI/ML, Python, SQL, and PHP.
+- 🏆 I am FullStack Web Developer.
 - 🎓 I am currently pursuing a degree in Computer Science to deepen my technical knowledge and skills.
 - 💻 I specialize in creating web applications and websites, combining technical expertise with a passion for innovation.
 - 🚀 I am actively seeking a full-time position in the IT industry to contribute my skills and grow professionally.
