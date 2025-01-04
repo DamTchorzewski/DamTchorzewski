@@ -8,7 +8,7 @@
 - 😄 My passions include modern technologies, programming and mechanics.
 - 🌟 Feel free to explore my portfolio to see my work: [**Visit my portfolio**](https://damtchorzewski.github.io/WebCraftStudio/)  
 - 🎓 I am currently pursuing a degree in Computer Science to deepen my technical knowledge and skills.
-
+- 📚 I am currently learning technologies such as C#, React Native, and advanced database management. I am also delving into complex algorithms to enhance my problem-solving abilities.
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
