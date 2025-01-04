@@ -3,12 +3,11 @@
 # :man_mechanic:About me
 
 - 🏆 I am FullStack Web Developer.
-- 🎓 I am currently pursuing a degree in Computer Science to deepen my technical knowledge and skills.
 - 💻 I specialize in creating web applications and websites, combining technical expertise with a passion for innovation.
 - 🚀 I am actively seeking a full-time position in the IT industry to contribute my skills and grow professionally.
 - 😄 My passions include modern technologies, programming, mechanics, and extreme bike riding.
 -🌟 Feel free to explore my portfolio to see my work: [**Visit my portfolio**](https://damtchorzewski.github.io/WebCraftStudio/)  
-
+- 🎓 I am currently pursuing a degree in Computer Science to deepen my technical knowledge and skills.
 
 ---
 
