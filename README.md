@@ -14,7 +14,6 @@ I specialize in building modern, scalable web applications and delivering custom
 ### 🤝 Let's Connect
 I am open to new projects and professional opportunities. Depending on what you're looking for, here is how we can collaborate:
 
-- 💼 **B2B & Freelance Clients:** Looking for custom IT solutions? Let's work together at [damreboot.pl](https://damreboot.pl).
 - 📄 **Recruiters & HR:** Check out my detailed experience and resume at [cv.damreboot.pl](https://cv.damreboot.pl).
 ---
 
