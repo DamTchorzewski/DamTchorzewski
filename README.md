@@ -1,14 +1,21 @@
 
+# Hi, I'm Damian Chabracki 👋
+### Full-Stack Web Developer | Founder of DamReboot IT
 
-# :man_mechanic:About me
+I specialize in building modern, scalable web applications and delivering custom IT solutions. I combine technical expertise with a passion for innovation, creating software that drives results.
 
-- 🏆 I am FullStack Web Developer.
-- 💻 I specialize in creating web applications and websites, combining technical expertise with a passion for innovation.
-- 🚀 I am actively seeking a full-time position in the IT industry to contribute my skills and grow professionally.
-- 😄 My passions include modern technologies, programming and mechanics.
-- 🌟 Feel free to explore my portfolio to see my work: [**Visit my portfolio**](https://damtchorzewski.github.io/WebCraftStudio/)  
-- 🎓 I am currently pursuing a degree in Computer Science to deepen my technical knowledge and skills.
-- 📚 I am currently learning technologies such as C#, React Native, and advanced database management. I am also delving into complex algorithms to enhance my problem-solving abilities.
+**🚀 Quick Facts:**
+- 🏢 **Experience:** Working professionally as a Frontend Developer & running my own B2B venture.
+- 💻 **Core Stack:** React, TypeScript, Next.js, Node.js, Tailwind CSS.
+- 🌱 **Learning:** C#, React Native, and advanced database management.
+- 🎓 **Education:** Currently pursuing a degree in Computer Science.
+- ⚡ **Interests:** Modern tech, complex algorithms, and mechanics.
+
+### 🤝 Let's Connect
+I am open to new projects and professional opportunities. Depending on what you're looking for, here is how we can collaborate:
+
+- 💼 **B2B & Freelance Clients:** Looking for custom IT solutions? Let's work together at [damreboot.pl](https://damreboot.pl).
+- 📄 **Recruiters & HR:** Check out my detailed experience and resume at [cv.damreboot.pl](https://cv.damreboot.pl).
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
