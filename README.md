@@ -11,10 +11,6 @@ I specialize in building modern, scalable web applications and delivering custom
 - 🎓 **Education:** Currently pursuing a degree in Computer Science.
 - ⚡ **Interests:** Modern tech, complex algorithms, and mechanics.
 
-### 🤝 Let's Connect
-I am open to new projects and professional opportunities. Depending on what you're looking for, here is how we can collaborate:
-
-- 📄 **Recruiters & HR:** Check out my detailed experience and resume at [cv.damreboot.pl](https://cv.damreboot.pl).
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
