@@ -1,6 +1,6 @@
 
 # Hi, I'm Damian Chabracki 👋
-### Full-Stack Web Developer | Founder of DamReboot IT
+### Full-Stack Developer | Founder of DamReboot IT
 
 I specialize in building modern, scalable web applications and delivering custom IT solutions. I combine technical expertise with a passion for innovation, creating software that drives results.
 
