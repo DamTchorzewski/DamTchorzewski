@@ -168,10 +168,11 @@ function tile(c, item, icon, cx, top, size, iconSize, delay) {
 // ---------- stack card ----------
 const PAD = 24;
 const TILE = 52;
-const GAP = 22;
+/** Same width as the stats image, so the headings render at the same size in README. */
+const W = 976;
 const GROUP_GAP = 44;
 const count = GROUPS.reduce((n, g) => n + g.items.length, 0);
-const W = 2 * PAD + count * TILE + (count - GROUPS.length) * GAP + (GROUPS.length - 1) * GROUP_GAP + 2 * 14;
+const GAP = (W - 2 * PAD - count * TILE - (GROUPS.length - 1) * GROUP_GAP - 2 * 14) / (count - GROUPS.length);
 
 function stackCard(c, icons) {
   const H = 160;
