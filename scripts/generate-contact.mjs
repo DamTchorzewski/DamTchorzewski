@@ -14,7 +14,7 @@ const OUT = join(dirname(fileURLToPath(import.meta.url)), "../img/contact");
 
 export const CONTACTS = [
   { id: "email", icon: "mail", label: "Email", value: "damianchabracki@gmail.com", href: "mailto:damianchabracki@gmail.com" },
-  { id: "linkedin", icon: "linkedin", label: "LinkedIn", value: "Damian Tchorzewski", href: "https://www.linkedin.com/in/damian-tchorzewski-3b2388275/" },
+  { id: "linkedin", icon: "linkedin", label: "LinkedIn", value: "Damian Chabracki", href: "https://www.linkedin.com/in/damian-tchorzewski-3b2388275/" },
   { id: "portfolio", icon: "cv", label: "Portfolio & CV", value: "cv.damreboot.pl", href: "https://cv.damreboot.pl" },
   { id: "company", icon: "globe", label: "DamReboot IT", value: "damreboot.pl", href: "https://damreboot.pl" },
 ];

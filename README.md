@@ -19,6 +19,21 @@ I build web, desktop, and mobile applications end-to-end — from database schem
 
 ---
 
+### 📊 GitHub stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/stats/overview-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="img/stats/overview-light.svg">
+    <img src="img/stats/overview-dark.svg" alt="GitHub activity: contributions, repositories, stars, streaks and the last 12 months" width="49%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/stats/languages-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="img/stats/languages-light.svg">
+    <img src="img/stats/languages-dark.svg" alt="Most used languages by code size" width="49%">
+  </picture>
+</p>
+
 ### ⚡ Core stack
 
 <picture>
@@ -85,21 +100,6 @@ I build web, desktop, and mobile applications end-to-end — from database schem
 
 </details>
 
-### 📊 GitHub stats
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="img/stats/overview-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="img/stats/overview-light.svg">
-    <img src="img/stats/overview-dark.svg" alt="GitHub activity: contributions, repositories, stars, streaks and the last 12 months" width="49%">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="img/stats/languages-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="img/stats/languages-light.svg">
-    <img src="img/stats/languages-dark.svg" alt="Most used languages by code size" width="49%">
-  </picture>
-</p>
-
 ---
 
 ### 📫 Contact
@@ -108,7 +108,7 @@ I build web, desktop, and mobile applications end-to-end — from database schem
 
 <p align="center">
   <a href="mailto:damianchabracki@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="img/contact/email-dark.svg"><img src="img/contact/email-light.svg" alt="Email: damianchabracki@gmail.com" width="49%"></picture></a>
-  <a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/"><picture><source media="(prefers-color-scheme: dark)" srcset="img/contact/linkedin-dark.svg"><img src="img/contact/linkedin-light.svg" alt="LinkedIn: Damian Tchorzewski" width="49%"></picture></a>
+  <a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/"><picture><source media="(prefers-color-scheme: dark)" srcset="img/contact/linkedin-dark.svg"><img src="img/contact/linkedin-light.svg" alt="LinkedIn: Damian Chabracki" width="49%"></picture></a>
   <a href="https://cv.damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/contact/portfolio-dark.svg"><img src="img/contact/portfolio-light.svg" alt="Portfolio and CV: cv.damreboot.pl" width="49%"></picture></a>
   <a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/contact/company-dark.svg"><img src="img/contact/company-light.svg" alt="DamReboot IT: damreboot.pl" width="49%"></picture></a>
 </p>
