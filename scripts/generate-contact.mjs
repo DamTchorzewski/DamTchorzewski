@@ -84,8 +84,40 @@ ${frame(c, BW, BH)}
 `;
 }
 
-// ---------- contact cards (two per row in README) ----------
-const CW = 440;
+/** Mobile banner: the headline on two lines, the grid as a strip along the bottom. */
+function bannerNarrow(c) {
+  const NW = 360;
+  const NH = 176;
+  let seed = 5;
+  const rnd = () => ((seed = (seed * 16807) % 2147483647) - 1) / 2147483646;
+  const cells = [];
+  for (let y = NH - 36; y + 10 <= NH - 12; y += 14) {
+    for (let x = NW - 24 - 10; x > NW * 0.3; x -= 14) {
+      const fade = Math.min(1, (x - NW * 0.3) / (NW * 0.35));
+      const v = rnd();
+      if (v < 0.5) continue;
+      const level = v < 0.75 ? 0 : v < 0.9 ? 1 : v < 0.97 ? 2 : 3;
+      const hot = rnd() < 0.05;
+      cells.push(`<rect x="${x}" y="${y}" width="10" height="10" rx="2" fill="${hot ? c.amber : c.levels[level]}" opacity="${(fade * 0.9).toFixed(2)}"/>`);
+    }
+  }
+  return `${open(NW, NH, "Let's build something together")}
+${style(c)}
+${frame(c, NW, NH)}
+<g>${cells.join("")}</g>
+<g class="fade">
+<text x="24" y="46" style="font-size:22px;font-weight:700;letter-spacing:-.01em">Let's build something</text>
+<text x="24" y="74" style="font-size:22px;font-weight:700;letter-spacing:-.01em">together</text>
+<text x="24" y="104" style="font-size:14px">Web, desktop and mobile applications</text>
+<text x="24" y="124" style="font-size:14px">for businesses, <tspan style="fill:${c.accent};font-weight:600">from idea to production.</tspan></text>
+</g>
+</svg>
+`;
+}
+
+// ---------- contact cards: 400px wide with no width in README, so they sit two per row on
+// desktop and wrap to one per row on a phone ----------
+const CW = 400;
 const CH = 84;
 
 function card(c, item, i) {
@@ -106,6 +138,7 @@ ${icon("arrow", CW - 46, CH / 2 - 10, 20, c.text)}
 mkdirSync(OUT, { recursive: true });
 for (const [theme, c] of Object.entries(THEMES)) {
   writeFileSync(join(OUT, `banner-${theme}.svg`), banner(c));
+  writeFileSync(join(OUT, `banner-${theme}-narrow.svg`), bannerNarrow(c));
   CONTACTS.forEach((item, i) => writeFileSync(join(OUT, `${item.id}-${theme}.svg`), card(c, item, i)));
 }
 console.log(`contact: banner + ${CONTACTS.length} cards`);

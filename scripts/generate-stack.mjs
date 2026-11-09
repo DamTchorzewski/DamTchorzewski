@@ -196,6 +196,30 @@ function stackCard(c, icons) {
   return `${svgOpen(W, H, "Core stack", `Core stack: ${names}`)}\n${style(c)}\n${frame(c, W, H)}\n${parts.join("\n")}\n</svg>\n`;
 }
 
+/** Mobile variant: the same groups, three tiles per row, so icons and names stay readable. */
+function stackCardNarrow(c, icons) {
+  const NW = 360;
+  const COLS = 3;
+  const ROW = TILE + 38;
+  const colW = (NW - 2 * PAD) / COLS;
+  const parts = [];
+  let y = 34;
+  let i = 0;
+  GROUPS.forEach((group) => {
+    parts.push(`<text class="label" x="${PAD}" y="${y}">${esc(group.label)}</text>`);
+    const top = y + 14;
+    group.items.forEach((item, k) => {
+      const cx = PAD + (k % COLS) * colW + colW / 2;
+      parts.push(tile(c, item, icons[i], cx, top + Math.floor(k / COLS) * ROW, TILE, 28, 60 + i * 45));
+      i++;
+    });
+    y = top + Math.ceil(group.items.length / COLS) * ROW + 22;
+  });
+  const H = y - 22 + 4;
+  const names = GROUPS.flatMap((g) => g.items.map((it) => it.name)).join(", ");
+  return `${svgOpen(NW, H, "Core stack", `Core stack: ${names}`)}\n${style(c)}\n${frame(c, NW, H)}\n${parts.join("\n")}\n</svg>\n`;
+}
+
 // ---------- tools strip (README, collapsible section under the stack card) ----------
 // Plain icons like a classic README strip; names show on hover. Single-color logos get a dark and a
 // light file in img/tools/ and a <picture>, so they stay visible in both GitHub themes.
@@ -239,6 +263,7 @@ mkdirSync(OUT, { recursive: true });
 for (const [name, c] of Object.entries(THEMES)) {
   const stackIcons = await Promise.all(GROUPS.flatMap((g) => g.items.map((it) => loadIcon(it.icon))));
   writeFileSync(join(OUT, `stack-${name}.svg`), stackCard(c, stackIcons));
+  writeFileSync(join(OUT, `stack-${name}-narrow.svg`), stackCardNarrow(c, stackIcons));
 }
 writeReadme(await toolsStrip());
 console.log(`stack card ${W}px wide, ${count} items; tools strip ${TOOLS.length} icons`);
