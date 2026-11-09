@@ -1,3 +1,10 @@
+<a href="https://damreboot.pl">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/damreboot-banner-dark.gif">
+    <source media="(prefers-color-scheme: light)" srcset="img/damreboot-banner-light.gif">
+    <img src="img/damreboot-banner-dark.gif" alt="DamReboot" width="100%">
+  </picture>
+</a>
 
 # Hi, I'm Damian Chabracki 👋
 ### Full-Stack Developer | Founder of DamReboot IT
