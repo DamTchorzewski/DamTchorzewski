@@ -144,7 +144,7 @@ async function loadIcon(src, color) {
 
 const style = (c, extra = "") => `<style>
 text{font-family:${FONT}}
-.label{font-size:12px;font-weight:600;fill:${c.accent}}
+.label{font-size:16px;font-weight:600;fill:${c.text}}
 .name{font-size:12px;font-weight:500;fill:${c.text}}
 .tile{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
 @keyframes rise{from{opacity:0;transform:translateY(6px)}}
@@ -174,13 +174,13 @@ const count = GROUPS.reduce((n, g) => n + g.items.length, 0);
 const W = 2 * PAD + count * TILE + (count - GROUPS.length) * GAP + (GROUPS.length - 1) * GROUP_GAP + 2 * 14;
 
 function stackCard(c, icons) {
-  const H = 150;
-  const TOP = 50;
+  const H = 160;
+  const TOP = 58;
   let x = PAD + 14;
   let i = 0;
   const parts = [];
   GROUPS.forEach((group, g) => {
-    parts.push(`<text class="label" x="${x}" y="33">${esc(group.label)}</text>`);
+    parts.push(`<text class="label" x="${x}" y="38">${esc(group.label)}</text>`);
     group.items.forEach((item, k) => {
       parts.push(tile(c, item, icons[i], x + k * (TILE + GAP) + TILE / 2, TOP, TILE, 28, 60 + i * 45));
       i++;
