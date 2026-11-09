@@ -2,8 +2,7 @@
  * Generates the profile stat cards (img/stats/*.svg) in a GitHub-native look with DamReboot accents:
  *  - overview: contributions, repositories, stars, current/longest streak, best day + last 12 months,
  *  - languages: most used languages by code size (bytes, the same way GitHub computes the repo bar).
- * Both cards are combined into one image per theme and layout: wide (side by side, desktop) and
- * narrow (stacked and re-laid out, mobile). README picks one with <picture> media queries.
+ * Each card comes in a dark and a light variant (README picks one with <picture>).
  *
  * Style rules: no uppercase text, no grey text (secondary text uses the brand accent).
  * Only aggregated numbers are rendered - never names of repositories (private ones may be under NDA).
@@ -206,12 +205,11 @@ const FONT = `-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const fmt = (n) => n.toLocaleString("en-US");
 
+const W = 480;
+const H = 250;
 const PAD = 24;
-/** Card widths: desktop (two cards side by side) and mobile (stacked, re-laid out for a narrow screen). */
-const WIDE = 480;
-const NARROW = 360;
 
-const frame = (c, w, h, title, aside, body, label) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(label)}">
+const frame = (c, title, aside, body, label) => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">
 <title>${esc(label)}</title>
 <style>
 text{font-family:${FONT};fill:${c.text}}
@@ -228,16 +226,14 @@ text{font-family:${FONT};fill:${c.text}}
 @keyframes growx{from{transform:scaleX(0)}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<rect x=".5" y=".5" width="${w - 1}" height="${h - 1}" rx="10" fill="${c.bg}" stroke="${c.border}"/>
+<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="${c.bg}" stroke="${c.border}"/>
 <text class="t" x="${PAD}" y="38">${esc(title)}</text>
-<text class="s accent" x="${w - PAD}" y="38" text-anchor="end">${esc(aside)}</text>
+<text class="s accent" x="${W - PAD}" y="38" text-anchor="end">${esc(aside)}</text>
 ${body}
 </svg>
 `;
 
-/** Activity: 3 columns of numbers on desktop, 2 on mobile; last 12 months as bars. */
-function overviewCard(c, s, W) {
-  const cols = W >= 440 ? 3 : 2;
+function overviewCard(c, s) {
   const cells = [
     { icon: "commit", tone: c.blue, bg: c.blueBg, value: fmt(s.contributions), label: "Contributions" },
     { icon: "repo", tone: c.blue, bg: c.blueBg, value: fmt(s.repos), label: "Repositories" },
@@ -246,11 +242,11 @@ function overviewCard(c, s, W) {
     { icon: "trophy", tone: c.trophy, bg: `${c.trophy}22`, value: `${s.longest} days`, label: "Longest streak" },
     { icon: "zap", tone: c.zap, bg: `${c.zap}22`, value: fmt(s.best), label: "Best day" },
   ];
-  const colW = (W - 2 * PAD) / cols;
+  const colW = (W - 2 * PAD) / 3;
   const grid = cells
     .map((cell, i) => {
-      const x = PAD + (i % cols) * colW;
-      const y = 60 + Math.floor(i / cols) * 50;
+      const x = PAD + (i % 3) * colW;
+      const y = 60 + Math.floor(i / 3) * 50;
       return `<g class="fade" style="animation-delay:${80 + i * 70}ms">
 <circle cx="${x + 16}" cy="${y + 17}" r="16" fill="${cell.bg}"/>
 <svg x="${x + 7}" y="${y + 8}" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="${cell.tone}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${ICONS[cell.icon]}</svg>
@@ -260,12 +256,10 @@ function overviewCard(c, s, W) {
     })
     .join("\n");
 
-  const rows = Math.ceil(cells.length / cols);
-  const gap = W >= 440 ? 8 : 6;
+  const gap = 8;
   const bw = (W - 2 * PAD - 11 * gap) / 12;
-  const top = 60 + rows * 50 + 26;
+  const top = 186;
   const bh = 34;
-  const H = top + bh + 30;
   const max = Math.max(1, ...s.months.map((m) => m.count));
   const bars = s.months
     .map((m, i) => {
@@ -283,12 +277,10 @@ function overviewCard(c, s, W) {
 <text class="s muted" x="${PAD}" y="${top - 10}">Last 12 months</text>
 <text class="s muted" x="${W - PAD}" y="${top - 10}" text-anchor="end">${fmt(yearTotal)} contributions</text>
 ${bars}`;
-  return { w: W, h: H, svg: frame(c, W, H, "GitHub activity", `since ${s.since}`, body, `GitHub activity of ${USER}`) };
+  return frame(c, "GitHub activity", `since ${s.since}`, body, `GitHub activity of ${USER}`);
 }
 
-/** Languages: two legend columns on desktop, one on mobile. */
-function languagesCard(c, s, W, H0) {
-  const cols = W >= 440 ? 2 : 1;
+function languagesCard(c, s) {
   const total = s.languages.reduce((sum, l) => sum + l.bytes, 0) || 1;
   const top = s.languages.slice(0, 6).map((l) => ({ ...l, pct: (l.bytes / total) * 100 }));
   const rest = 100 - top.reduce((sum, l) => sum + l.pct, 0);
@@ -306,13 +298,11 @@ function languagesCard(c, s, W, H0) {
     })
     .join("");
 
-  const colGap = 24;
-  const colW = (W - 2 * PAD - (cols - 1) * colGap) / cols;
-  const rowH = cols === 2 ? 48 : 42;
+  const colW = (W - 2 * PAD - 24) / 2;
   const items = top
     .map((l, i) => {
-      const cx = PAD + (i % cols) * (colW + colGap);
-      const y = 100 + Math.floor(i / cols) * rowH;
+      const cx = PAD + (i % 2) * (colW + 24);
+      const y = 100 + Math.floor(i / 2) * 48;
       const pct = l.pct >= 10 ? l.pct.toFixed(0) : l.pct.toFixed(1);
       return `<g class="fade" style="animation-delay:${250 + i * 70}ms">
 <circle cx="${cx + 5}" cy="${y - 5}" r="5" fill="${color(l)}"/>
@@ -324,30 +314,10 @@ function languagesCard(c, s, W, H0) {
     })
     .join("\n");
 
-  const rows = Math.ceil(top.length / cols);
-  const H = Math.max(H0 ?? 0, 100 + (rows - 1) * rowH + 38);
   const body = `<clipPath id="bar"><rect x="${PAD}" y="56" width="${barW}" height="10" rx="5"/></clipPath>
 <g clip-path="url(#bar)"><rect x="${PAD}" y="56" width="${barW}" height="10" fill="${c.track}"/><g class="growx">${bar}</g></g>
 ${items}`;
-  const aside = cols === 2 ? `by code size · ${s.counted} repos` : "by code size";
-  return { w: W, h: H, svg: frame(c, W, H, "Most used languages", aside, body, `Most used languages of ${USER}`) };
-}
-
-/** Both cards in one image: side by side (desktop) or stacked (mobile). */
-function combined(c, s, layout) {
-  const nest = (card, x, y) => card.svg.replace('<svg xmlns="http://www.w3.org/2000/svg" ', `<svg x="${x}" y="${y}" `);
-  const GAP = 16;
-  if (layout === "wide") {
-    const a = overviewCard(c, s, WIDE);
-    const b = languagesCard(c, s, WIDE, a.h);
-    const w = a.w + GAP + b.w;
-    const h = Math.max(a.h, b.h);
-    return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="GitHub stats of ${USER}">\n${nest(a, 0, 0)}${nest(b, a.w + GAP, 0)}</svg>\n`;
-  }
-  const a = overviewCard(c, s, NARROW);
-  const b = languagesCard(c, s, NARROW);
-  const h = a.h + GAP + b.h;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${NARROW}" height="${h}" viewBox="0 0 ${NARROW} ${h}" role="img" aria-label="GitHub stats of ${USER}">\n${nest(a, 0, 0)}${nest(b, 0, a.h + GAP)}</svg>\n`;
+  return frame(c, "Most used languages", `by code size · ${s.counted} repos`, body, `Most used languages of ${USER}`);
 }
 
 // ---------- main ----------
@@ -375,8 +345,8 @@ const stats = {
 
 mkdirSync(OUT, { recursive: true });
 for (const [name, c] of Object.entries(THEMES)) {
-  writeFileSync(join(OUT, `stats-${name}-wide.svg`), combined(c, stats, "wide"));
-  writeFileSync(join(OUT, `stats-${name}-narrow.svg`), combined(c, stats, "narrow"));
+  writeFileSync(join(OUT, `overview-${name}.svg`), overviewCard(c, stats));
+  writeFileSync(join(OUT, `languages-${name}.svg`), languagesCard(c, stats));
 }
 console.log(
   `repos ${stats.repos}, stars ${stats.stars}, contributions ${stats.contributions}, streak ${st.current}/${st.longest}, best ${st.best}, languages ${stats.languages.length} (${counted} repos)`,

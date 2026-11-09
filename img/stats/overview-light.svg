@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="976" height="250" viewBox="0 0 976 250" role="img" aria-label="GitHub stats of DamTchorzewski">
-<svg x="0" y="0" width="480" height="250" viewBox="0 0 480 250" role="img" aria-label="GitHub activity of DamTchorzewski">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="250" viewBox="0 0 480 250" role="img" aria-label="GitHub activity of DamTchorzewski">
 <title>GitHub activity of DamTchorzewski</title>
 <style>
 text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;fill:#1f2328}
@@ -22,7 +21,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helveti
 <g class="fade" style="animation-delay:80ms">
 <circle cx="40" cy="77" r="16" fill="rgba(61,108,201,.1)"/>
 <svg x="31" y="68" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3d6cc9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M3 12h6M15 12h6"/></svg>
-<text class="v" x="66" y="77">2,659</text>
+<text class="v" x="66" y="77">2,651</text>
 <text class="s muted" x="66" y="93">Contributions</text>
 </g>
 <g class="fade" style="animation-delay:150ms">
@@ -56,7 +55,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helveti
 <text class="s muted" x="354" y="143">Best day</text>
 </g>
 <text class="s muted" x="24" y="176">Last 12 months</text>
-<text class="s muted" x="456" y="176" text-anchor="end">626 contributions</text>
+<text class="s muted" x="456" y="176" text-anchor="end">618 contributions</text>
 <rect class="grow" style="animation-delay:450ms" x="24.0" y="216.0" width="28.7" height="4.0" rx="3" fill="#b3c8f0"><title>Dec: 15</title></rect>
 <text class="muted" x="38.3" y="236" text-anchor="middle" style="font-size:10px">Dec</text>
 <rect class="grow" style="animation-delay:490ms" x="60.7" y="214.9" width="28.7" height="5.1" rx="3" fill="#b3c8f0"><title>Jan: 36</title></rect>
@@ -79,72 +78,6 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helveti
 <text class="muted" x="368.3" y="236" text-anchor="middle" style="font-size:10px">Sep</text>
 <rect class="grow" style="animation-delay:850ms" x="390.7" y="186.0" width="28.7" height="34.0" rx="3" fill="#3d6cc9"><title>Oct: 239</title></rect>
 <text class="muted" x="405.0" y="236" text-anchor="middle" style="font-size:10px">Oct</text>
-<rect class="grow" style="animation-delay:890ms" x="427.3" y="216.0" width="28.7" height="4.0" rx="3" fill="#d97706"><title>Nov: 17</title></rect>
+<rect class="grow" style="animation-delay:890ms" x="427.3" y="216.0" width="28.7" height="4.0" rx="3" fill="#d97706"><title>Nov: 9</title></rect>
 <text class="muted" x="441.7" y="236" text-anchor="middle" style="font-size:10px">Nov</text>
-</svg>
-<svg x="496" y="0" width="480" height="250" viewBox="0 0 480 250" role="img" aria-label="Most used languages of DamTchorzewski">
-<title>Most used languages of DamTchorzewski</title>
-<style>
-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;fill:#1f2328}
-.muted{fill:#1f2328}
-.accent{fill:#2f5fb3;font-weight:600}
-.t{font-size:16px;font-weight:600}
-.s{font-size:12px}
-.v{font-size:19px;font-weight:700}
-.fade{animation:fade .6s cubic-bezier(.2,.8,.2,1) both}
-.grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow .8s cubic-bezier(.2,.8,.2,1) both}
-.growx{transform-box:fill-box;transform-origin:0 50%;animation:growx 1s cubic-bezier(.2,.8,.2,1) both}
-@keyframes fade{from{opacity:0;transform:translateY(5px)}}
-@keyframes grow{from{transform:scaleY(0)}}
-@keyframes growx{from{transform:scaleX(0)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}
-</style>
-<rect x=".5" y=".5" width="479" height="249" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-<text class="t" x="24" y="38">Most used languages</text>
-<text class="s accent" x="456" y="38" text-anchor="end">by code size · 105 repos</text>
-<clipPath id="bar"><rect x="24" y="56" width="432" height="10" rx="5"/></clipPath>
-<g clip-path="url(#bar)"><rect x="24" y="56" width="432" height="10" fill="#eff2f5"/><g class="growx"><rect x="24.00" y="56" width="207.42" height="10" fill="#3178c6"/><rect x="233.42" y="56" width="138.24" height="10" fill="#f1e05a"/><rect x="373.66" y="56" width="30.43" height="10" fill="#e34c26"/><rect x="406.09" y="56" width="18.82" height="10" fill="#3572A5"/><rect x="426.91" y="56" width="10.66" height="10" fill="#c6538c"/><rect x="439.57" y="56" width="7.76" height="10" fill="#663399"/><rect x="449.34" y="56" width="6.66" height="10" fill="#59636e"/></g></g>
-<g class="fade" style="animation-delay:250ms">
-<circle cx="29" cy="95" r="5" fill="#3178c6"/>
-<text x="41" y="100" style="font-size:14px;font-weight:600">TypeScript</text>
-<text class="muted" x="228" y="100" text-anchor="end" style="font-size:13px">48%</text>
-<rect x="24" y="110" width="204" height="4" rx="2" fill="#eff2f5"/>
-<rect class="growx" style="animation-delay:350ms" x="24" y="110" width="204.0" height="4" rx="2" fill="#3178c6"/>
-</g>
-<g class="fade" style="animation-delay:320ms">
-<circle cx="257" cy="95" r="5" fill="#f1e05a"/>
-<text x="269" y="100" style="font-size:14px;font-weight:600">JavaScript</text>
-<text class="muted" x="456" y="100" text-anchor="end" style="font-size:13px">32%</text>
-<rect x="252" y="110" width="204" height="4" rx="2" fill="#eff2f5"/>
-<rect class="growx" style="animation-delay:420ms" x="252" y="110" width="136.6" height="4" rx="2" fill="#f1e05a"/>
-</g>
-<g class="fade" style="animation-delay:390ms">
-<circle cx="29" cy="143" r="5" fill="#e34c26"/>
-<text x="41" y="148" style="font-size:14px;font-weight:600">HTML</text>
-<text class="muted" x="228" y="148" text-anchor="end" style="font-size:13px">7.5%</text>
-<rect x="24" y="158" width="204" height="4" rx="2" fill="#eff2f5"/>
-<rect class="growx" style="animation-delay:490ms" x="24" y="158" width="31.6" height="4" rx="2" fill="#e34c26"/>
-</g>
-<g class="fade" style="animation-delay:460ms">
-<circle cx="257" cy="143" r="5" fill="#3572A5"/>
-<text x="269" y="148" style="font-size:14px;font-weight:600">Python</text>
-<text class="muted" x="456" y="148" text-anchor="end" style="font-size:13px">4.8%</text>
-<rect x="252" y="158" width="204" height="4" rx="2" fill="#eff2f5"/>
-<rect class="growx" style="animation-delay:560ms" x="252" y="158" width="20.3" height="4" rx="2" fill="#3572A5"/>
-</g>
-<g class="fade" style="animation-delay:530ms">
-<circle cx="29" cy="191" r="5" fill="#c6538c"/>
-<text x="41" y="196" style="font-size:14px;font-weight:600">SCSS</text>
-<text class="muted" x="228" y="196" text-anchor="end" style="font-size:13px">2.9%</text>
-<rect x="24" y="206" width="204" height="4" rx="2" fill="#eff2f5"/>
-<rect class="growx" style="animation-delay:630ms" x="24" y="206" width="12.3" height="4" rx="2" fill="#c6538c"/>
-</g>
-<g class="fade" style="animation-delay:600ms">
-<circle cx="257" cy="191" r="5" fill="#663399"/>
-<text x="269" y="196" style="font-size:14px;font-weight:600">CSS</text>
-<text class="muted" x="456" y="196" text-anchor="end" style="font-size:13px">2.3%</text>
-<rect x="252" y="206" width="204" height="4" rx="2" fill="#eff2f5"/>
-<rect class="growx" style="animation-delay:700ms" x="252" y="206" width="9.5" height="4" rx="2" fill="#663399"/>
-</g>
-</svg>
 </svg>
