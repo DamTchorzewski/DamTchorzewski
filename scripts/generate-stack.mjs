@@ -144,7 +144,7 @@ async function loadIcon(src, color) {
 
 const style = (c, extra = "") => `<style>
 text{font-family:${FONT}}
-.label{font-size:12px;font-weight:600;fill:${c.accent}}
+.label{font-size:16px;font-weight:600;fill:${c.text}}
 .name{font-size:12px;font-weight:500;fill:${c.text}}
 .tile{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
 @keyframes rise{from{opacity:0;transform:translateY(6px)}}
@@ -168,19 +168,20 @@ function tile(c, item, icon, cx, top, size, iconSize, delay) {
 // ---------- stack card ----------
 const PAD = 24;
 const TILE = 52;
-const GAP = 22;
+/** Same width as the stats image, so the headings render at the same size in README. */
+const W = 976;
 const GROUP_GAP = 44;
 const count = GROUPS.reduce((n, g) => n + g.items.length, 0);
-const W = 2 * PAD + count * TILE + (count - GROUPS.length) * GAP + (GROUPS.length - 1) * GROUP_GAP + 2 * 14;
+const GAP = (W - 2 * PAD - count * TILE - (GROUPS.length - 1) * GROUP_GAP - 2 * 14) / (count - GROUPS.length);
 
 function stackCard(c, icons) {
-  const H = 150;
-  const TOP = 50;
+  const H = 160;
+  const TOP = 58;
   let x = PAD + 14;
   let i = 0;
   const parts = [];
   GROUPS.forEach((group, g) => {
-    parts.push(`<text class="label" x="${x}" y="33">${esc(group.label)}</text>`);
+    parts.push(`<text class="label" x="${x}" y="38">${esc(group.label)}</text>`);
     group.items.forEach((item, k) => {
       parts.push(tile(c, item, icons[i], x + k * (TILE + GAP) + TILE / 2, TOP, TILE, 28, 60 + i * 45));
       i++;
@@ -203,19 +204,19 @@ function stackCardNarrow(c, icons) {
   const ROW = TILE + 38;
   const colW = (NW - 2 * PAD) / COLS;
   const parts = [];
-  let y = 34;
+  let y = 38;
   let i = 0;
   GROUPS.forEach((group) => {
     parts.push(`<text class="label" x="${PAD}" y="${y}">${esc(group.label)}</text>`);
-    const top = y + 14;
+    const top = y + 18;
     group.items.forEach((item, k) => {
       const cx = PAD + (k % COLS) * colW + colW / 2;
       parts.push(tile(c, item, icons[i], cx, top + Math.floor(k / COLS) * ROW, TILE, 28, 60 + i * 45));
       i++;
     });
-    y = top + Math.ceil(group.items.length / COLS) * ROW + 22;
+    y = top + Math.ceil(group.items.length / COLS) * ROW + 30;
   });
-  const H = y - 22 + 4;
+  const H = y - 30 + 4;
   const names = GROUPS.flatMap((g) => g.items.map((it) => it.name)).join(", ");
   return `${svgOpen(NW, H, "Core stack", `Core stack: ${names}`)}\n${style(c)}\n${frame(c, NW, H)}\n${parts.join("\n")}\n</svg>\n`;
 }

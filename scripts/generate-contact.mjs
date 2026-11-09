@@ -53,7 +53,7 @@ const icon = (name, x, y, size, fill) =>
   `<svg x="${x}" y="${y}" width="${size}" height="${size}" viewBox="0 0 24 24"><path fill="${fill}" d="${ICONS[name]}"/></svg>`;
 
 // ---------- call-to-action banner (same width as the stack card) ----------
-const BW = 890;
+const BW = 976; // same width as the stats image
 const BH = 132;
 
 function banner(c) {
