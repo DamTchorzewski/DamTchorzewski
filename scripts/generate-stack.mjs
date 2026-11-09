@@ -1,8 +1,8 @@
 /**
  * Generates the "Core stack" cards in the same style as the stat cards (light + dark variants):
  *  - img/stats/stack-*.svg: one row of rounded tiles, languages and frameworks & platforms,
- *  - img/stats/tools-*.svg: every other language and tool as a grid of the same tiles
- *    (shown in the collapsible section right under the stack card).
+ * and the plain icon strip of every other language and tool in README.md (between the
+ * tools markers, inside the collapsible section right under the stack card).
  *
  * Icons: devicon (MIT) and the logos in img/ - local files where they exist, the rest from the
  * devicon package on jsDelivr (pinned version). They are embedded as data URIs, so each card is a
@@ -125,17 +125,21 @@ async function source(src) {
   return sources.get(src);
 }
 
-/** Icon as a data URI; `color` repaints a single-color SVG logo (its own styles are dropped). */
-async function loadIcon(src, color) {
-  const data = await source(src);
-  if (extname(src) === ".png") return `data:image/png;base64,${data.toString("base64")}`;
-  let svg = data.toString("utf8");
+/** SVG source; `color` repaints a single-color logo (its own styles are dropped). */
+async function iconSvg(src, color) {
+  let svg = (await source(src)).toString("utf8");
   if (color) {
     svg = svg.replace(/<style[\s\S]*?<\/style>/g, "");
     const open = svg.indexOf(">", svg.indexOf("<svg")) + 1;
     svg = `${svg.slice(0, open)}<style>path,circle,rect,polygon,ellipse{fill:${color}!important}</style>${svg.slice(open)}`;
   }
-  return `data:image/svg+xml;base64,${Buffer.from(svg).toString("base64")}`;
+  return svg;
+}
+
+/** Icon as a data URI (for the cards). */
+async function loadIcon(src, color) {
+  if (extname(src) === ".png") return `data:image/png;base64,${(await source(src)).toString("base64")}`;
+  return `data:image/svg+xml;base64,${Buffer.from(await iconSvg(src, color)).toString("base64")}`;
 }
 
 const style = (c, extra = "") => `<style>
@@ -192,27 +196,49 @@ function stackCard(c, icons) {
   return `${svgOpen(W, H, "Core stack", `Core stack: ${names}`)}\n${style(c)}\n${frame(c, W, H)}\n${parts.join("\n")}\n</svg>\n`;
 }
 
-// ---------- tools card (same width as the stack card) ----------
-function toolsCard(c, icons) {
-  const COLS = 10;
-  const T = 44;
-  const ROW = T + 34;
-  const colW = (W - 2 * PAD) / COLS;
-  const rows = Math.ceil(TOOLS.length / COLS);
-  const H = 24 + rows * ROW + 4;
-  const parts = TOOLS.map((item, i) => {
-    const cx = PAD + (i % COLS) * colW + colW / 2;
-    const top = 22 + Math.floor(i / COLS) * ROW;
-    return tile(c, item, icons[i], cx, top, T, 26, 40 + i * 18);
-  });
-  return `${svgOpen(W, H, "Languages and tools", `Languages and tools: ${TOOLS.map((t) => t.name).join(", ")}`)}\n${style(c)}\n${frame(c, W, H)}\n${parts.join("\n")}\n</svg>\n`;
+// ---------- tools strip (README, collapsible section under the stack card) ----------
+// Plain icons like a classic README strip; names show on hover. Single-color logos get a dark and a
+// light file in img/tools/ and a <picture>, so they stay visible in both GitHub themes.
+const ICON_H = 30;
+const slug = (name) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+async function toolsStrip() {
+  mkdirSync(join(ROOT, "img/tools"), { recursive: true });
+  const items = [];
+  for (const t of TOOLS) {
+    const attrs = `title="${esc(t.name)}" alt="${esc(t.name)}" height="${ICON_H}"`;
+    if (!t.mono) {
+      items.push(`<img src="${t.icon}" ${attrs}/>`);
+      continue;
+    }
+    const files = {};
+    for (const [theme, c] of Object.entries(THEMES)) {
+      files[theme] = `img/tools/${slug(t.name)}-${theme}.svg`;
+      writeFileSync(join(ROOT, files[theme]), await iconSvg(t.icon, c.text));
+    }
+    items.push(
+      `<picture><source media="(prefers-color-scheme: dark)" srcset="${files.dark}"><img src="${files.light}" ${attrs}/></picture>`,
+    );
+  }
+  return items.join("&nbsp;\n");
+}
+
+/** Replaces the block between the tools markers in README.md. */
+function writeReadme(strip) {
+  const path = join(ROOT, "README.md");
+  const readme = readFileSync(path, "utf8");
+  const start = "<!-- tools:start -->";
+  const end = "<!-- tools:end -->";
+  const a = readme.indexOf(start);
+  const b = readme.indexOf(end);
+  if (a < 0 || b < a) throw new Error("README.md: tools markers not found");
+  writeFileSync(path, `${readme.slice(0, a + start.length)}\n${strip}\n${readme.slice(b)}`);
 }
 
 mkdirSync(OUT, { recursive: true });
 for (const [name, c] of Object.entries(THEMES)) {
   const stackIcons = await Promise.all(GROUPS.flatMap((g) => g.items.map((it) => loadIcon(it.icon))));
-  const toolIcons = await Promise.all(TOOLS.map((t) => loadIcon(t.icon, t.mono ? c.text : undefined)));
   writeFileSync(join(OUT, `stack-${name}.svg`), stackCard(c, stackIcons));
-  writeFileSync(join(OUT, `tools-${name}.svg`), toolsCard(c, toolIcons));
 }
-console.log(`stack card ${W}px wide, ${count} items; tools card ${TOOLS.length} items`);
+writeReadme(await toolsStrip());
+console.log(`stack card ${W}px wide, ${count} items; tools strip ${TOOLS.length} icons`);
