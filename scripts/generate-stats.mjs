@@ -207,7 +207,7 @@ const fmt = (n) => n.toLocaleString("en-US");
 
 const W = 480;
 const H = 250;
-const PAD = 24;
+const PAD = 38; // same inset as the core stack card
 
 const frame = (c, title, aside, body, label) => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">
 <title>${esc(label)}</title>

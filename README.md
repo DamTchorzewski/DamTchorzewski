@@ -30,16 +30,16 @@ I build web, desktop, and mobile applications end-to-end — from database schem
 
 ### 📊 GitHub stats
 
-<p align="center">
+<p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="img/stats/overview-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="img/stats/overview-light.svg">
-    <img src="img/stats/overview-dark.svg" alt="GitHub activity: contributions, repositories, stars, streaks and the last 12 months" width="49%">
+    <img src="img/stats/overview-dark.svg" alt="GitHub activity: contributions, repositories, stars, streaks and the last 12 months" width="49.7%">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="img/stats/languages-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="img/stats/languages-light.svg">
-    <img src="img/stats/languages-dark.svg" alt="Most used languages by code size" width="49%">
+    <img src="img/stats/languages-dark.svg" alt="Most used languages by code size" width="49.7%">
   </picture>
 </p>
 
