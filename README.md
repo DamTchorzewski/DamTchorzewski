@@ -7,17 +7,15 @@
 ### Hi, I'm Damian Chabracki 👋
 **Full-Stack Developer (TypeScript / React / Next.js / Node.js)**
 
-I design and build web, desktop, and mobile applications — working across database architecture, REST APIs, modern user interfaces, and production CI/CD deployments. Over the past 4 years (commercial projects since 2023), I've worked both in engineering teams on critical infrastructure systems and independently delivering B2B/SaaS platforms.
+I build web, desktop, and mobile applications end-to-end — from database schemas and REST APIs to modern UIs and Docker/CI/CD deployments. Over the past 4 years (commercial since 2023), I've worked in engineering teams on critical infrastructure systems and built multi-tenant B2B/SaaS platforms.
 
-### 🚀 Quick Facts & Tech Stack:
-- 🏭 **Recent Experience (Proffico):** Developed production systems, real-time SCADA/HMI analytical panels (Electron, React, ECharts), and GIS mobile apps for field technicians (React Native, Mapbox GL) for water treatment stations (SUW / NIS2 security standards).
-- 🏢 **B2B & SaaS (DamReboot IT):** Architecting and building a multi-tenant B2B platform and a logistics marketplace in a monorepo setup (Next.js, Node.js, Turborepo, Prisma), plus delivering custom web systems for business clients.
-- ⚙️ **Backend & Databases:** Node.js, NestJS, Express, Next.js (Server Actions / API Routes), PostgreSQL, MongoDB, Prisma, REST API (OpenAPI/Swagger), Auth.js (JWT/OAuth, RBAC), S3, WebSockets.
-- 💻 **Frontend & Cross-Platform:** TypeScript, React, Next.js (SSR/SSG), React Native (mobile), Electron (desktop), TanStack Query, Redux Toolkit, Zustand, Tailwind CSS, Mapbox GL, ECharts.
-- ☁️ **DevOps & Infrastructure:** Docker, Docker Compose, GitHub Actions (CI/CD), Linux VPS, Nginx, Turborepo, Git, Jest.
-- 🤖 **AI & Data:** Python (Pandas, NumPy, NLP/ML models) & AI-assisted engineering workflow (Claude Code CLI, custom AI Agents).
-- 🎓 **Education:** Final-year Computer Science student (AI/ML specialization) — focusing on software engineering, relational databases, and backend architecture (Python, SQL, C#, Java).
-
+### 🚀 Quick Facts:
+- 🏭 **Recent Experience (Proffico):** Built real-time SCADA/HMI desktop/web apps (Electron, React, ECharts) and GIS mobile apps (React Native, Mapbox GL) for water treatment stations (SUW / NIS2).
+- 🏢 **B2B & SaaS (DamReboot IT):** Developing a multi-tenant B2B platform and a logistics marketplace in a monorepo setup (Next.js, Node.js, Turborepo, Prisma) + custom web systems.
+- ⚙️ **Backend & DB:** Node.js, NestJS, Express, Next.js, PostgreSQL, MongoDB, Prisma, OpenAPI/Swagger, Auth.js, S3.
+- 💻 **Frontend & Mobile/Desktop:** TypeScript, React, Next.js (SSR/SSG), React Native, Electron, TanStack Query, Redux Toolkit, Zustand, Tailwind CSS.
+- ☁️ **DevOps & AI:** Docker, GitHub Actions (CI/CD), Linux VPS, Nginx, Python (Pandas, NumPy, ML), Claude Code CLI.
+- 🎓 **Education:** Final-year Computer Science student (AI/ML specialization — Python, SQL, C#, Java).
 
 ---
 
