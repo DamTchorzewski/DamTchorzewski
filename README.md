@@ -23,34 +23,11 @@ I specialize in building modern, scalable web applications and delivering custom
 
 ### ⚡ Core stack
 
-<div align="center">
-
-**Languages**
-
-<table>
-  <tr>
-    <td align="center" width="96"><img src="img/typescript-original.svg" alt="TypeScript" width="48" height="48"/><br/><sub><b>TypeScript</b></sub></td>
-    <td align="center" width="96"><img src="img/javascript-original.svg" alt="JavaScript" width="48" height="48"/><br/><sub><b>JavaScript</b></sub></td>
-    <td align="center" width="96"><img src="img/python.png" alt="Python" width="48" height="48"/><br/><sub><b>Python</b></sub></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/csharp/csharp-original.svg" alt="C#" width="48" height="48"/><br/><sub><b>C#</b></sub></td>
-    <td align="center" width="96"><img src="https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/java/java-original.svg" alt="Java" width="48" height="48"/><br/><sub><b>Java</b></sub></td>
-  </tr>
-</table>
-
-**Frameworks &amp; platforms**
-
-<table>
-  <tr>
-    <td align="center" width="96"><img src="img/react-original.svg" alt="React" width="48" height="48"/><br/><sub><b>React</b></sub></td>
-    <td align="center" width="96"><img src="img/nextjs-original.svg" alt="Next.js" width="48" height="48"/><br/><sub><b>Next.js</b></sub></td>
-    <td align="center" width="96"><img src="img/nodejs-original.svg" alt="Node.js" width="48" height="48"/><br/><sub><b>Node.js</b></sub></td>
-    <td align="center" width="96"><img src="img/reactnative-original.svg" alt="React Native" width="48" height="48"/><br/><sub><b>React Native</b></sub></td>
-    <td align="center" width="96"><img src="img/electron-original.svg" alt="Electron" width="48" height="48"/><br/><sub><b>Electron</b></sub></td>
-    <td align="center" width="96"><img src="img/tailwindcss-original.svg" alt="Tailwind CSS" width="48" height="48"/><br/><sub><b>Tailwind CSS</b></sub></td>
-  </tr>
-</table>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="img/stats/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="img/stats/stack-light.svg">
+  <img src="img/stats/stack-dark.svg" alt="Core stack: TypeScript, JavaScript, Python, C#, Java, React, Next.js, Node.js, React Native, Electron, Tailwind CSS" width="100%">
+</picture>
 
 ### 📊 GitHub stats
 
@@ -69,7 +46,7 @@ I specialize in building modern, scalable web applications and delivering custom
 
 <sub>Stats refresh daily via GitHub Actions and include private work as aggregated numbers only.</sub>
 
-<details>
+<details open>
 <summary><b>🧰 All languages &amp; tools (47)</b></summary>
 <br/>
 
