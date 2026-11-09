@@ -1,0 +1,48 @@
+name: Profile stats
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # daily, 05:17 / 06:17 Polish time
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate-stats.mjs
+      - .github/workflows/stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate stat cards
+        run: node scripts/generate-stats.mjs
+        env:
+          # Fine-grained PAT of DamTchorzewski (read-only) -> includes private repos and contributions.
+          # Without it the Actions token is used and the cards show public data only.
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add img/stats
+          if git diff --staged --quiet; then
+            echo "Stats unchanged"
+          else
+            git commit -m "Update profile stats"
+            git push
+          fi

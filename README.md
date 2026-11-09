@@ -23,63 +23,93 @@ I specialize in building modern, scalable web applications and delivering custom
 
 ---
 
-### :hammer_and_wrench: Languages and Tools :
+### ⚡ Core stack
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="92"><img src="img/typescript-original.svg" alt="TypeScript" width="48" height="48"/><br/><sub><b>TypeScript</b></sub></td>
+    <td align="center" width="92"><img src="img/javascript-original.svg" alt="JavaScript" width="48" height="48"/><br/><sub><b>JavaScript</b></sub></td>
+    <td align="center" width="92"><img src="img/react-original.svg" alt="React" width="48" height="48"/><br/><sub><b>React</b></sub></td>
+    <td align="center" width="92"><img src="img/nextjs-original.svg" alt="Next.js" width="48" height="48"/><br/><sub><b>Next.js</b></sub></td>
+    <td align="center" width="92"><img src="img/nodejs-original.svg" alt="NodeJS" width="48" height="48"/><br/><sub><b>Node.js</b></sub></td>
+    <td align="center" width="92"><img src="img/reactnative-original.svg" alt="React Native" width="48" height="48"/><br/><sub><b>React Native</b></sub></td>
+    <td align="center" width="92"><img src="img/electron-original.svg" alt="Electron.js" width="48" height="48"/><br/><sub><b>Electron</b></sub></td>
+    <td align="center" width="92"><img src="img/tailwindcss-original.svg" alt="Tailwind CSS" width="48" height="48"/><br/><sub><b>Tailwind CSS</b></sub></td>
+  </tr>
+</table>
+</div>
+
+### 📊 GitHub stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/stats/overview-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="img/stats/overview-light.svg">
+    <img src="img/stats/overview-dark.svg" alt="GitHub activity: contributions, repositories, stars, streaks and the last 12 months" width="49%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/stats/languages-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="img/stats/languages-light.svg">
+    <img src="img/stats/languages-dark.svg" alt="Most used languages by code size" width="49%">
+  </picture>
+</p>
+
+<sub>Stats refresh daily via GitHub Actions and include private work as aggregated numbers only.</sub>
+
+<details>
+<summary><b>🧰 All languages &amp; tools (48)</b></summary>
+<br/>
 
 <div>
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/git-original.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/github-original.svg" title="GitHub" alt="GitHub" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/githubactions-original.svg" title="GitHub Actions" alt="GitHub Actions" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/vscode-original.svg" title="Visual Studio Code" alt="Visual Studio Code" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/claudecode-original.svg" title="Claude Code CLI" alt="Claude Code CLI" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/claude-original.svg" title="Claude / AI Agents" alt="Claude / AI Agents" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/gemini.svg" title="Gemini" alt="Gemini" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/bash-original.svg" title="Bash" alt="Bash" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/figma-original.svg" title="Figma" alt="Figma" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/css3-original.svg" title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/tailwindcss-original.svg" title="Tailwind CSS" alt="Tailwind CSS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/shadcn-original.svg" title="shadcn/ui" alt="shadcn/ui" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/sass-original.svg" title="Sass" alt="Sass" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/bem-original.svg" title="methodology BEM" alt="methodology BEM" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/zod.svg" title="Zod" alt="Zod" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/npm-original-wordmark.svg" title="npm" alt="npm" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/pnpm-original.svg" title="pnpm" alt="pnpm" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/turborepo.svg" title="Turborepo" alt="Turborepo" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/nextjs-original.svg" title="Next.js" alt="Next.js" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/reactnative-original.svg" title="React Native" alt="React Native" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/nodejs-original.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/electron-original.svg" title="Electron.js" alt="Electron.js" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/terminal.png" title="Terminal" alt="Terminal" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/parcel.svg" title="Parcel" alt="Parcel" width="50" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/webpack.svg" title="Webpack" alt="Webpack" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/codepen-plain.svg" title="CodePen" alt="CodePen" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/slack-original.svg" title="Slack" alt="Slack" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/trello-plain.svg" title="Trello" alt="Trello" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/brouslist.svg" title="Browserslist" alt="Browserslist" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/windows-icon.svg" title="Windows" alt="Windows" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/bios.png" title="Bios" alt="Bios" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/office.png" title="Office" alt="Office" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/vite.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/mongodb.svg" title="MongoDB" alt="MongoDB" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/prisma.svg" title="Prisma" alt="Prisma" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/docker.svg" title="Docker" alt="Docker" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/firebase-original.svg" title="Firebase" alt="Firebase" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/ovhcloud.svg" title="OVHcloud" alt="OVHcloud" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/web3forms.svg" title="Web3Forms" alt="Web3Forms" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/jest.svg" title="Jest" alt="Jest" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/vitest-original.svg" title="Vitest" alt="Vitest" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/playwright-original.svg" title="Playwright" alt="Playwright" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/storybook-original.svg" title="Storybook" alt="Storybook" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/eslint-original.svg" title="ESLint" alt="ESLint" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/redux.svg" title="Redux" alt="Redux" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/babel.svg" title="Babel" alt="Babel" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/express.svg" title="Express" alt="Express" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/insomnia.svg" title="Insomnia" alt="Insomnia" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/php.png" title="PHP" alt="PHP" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/wordpress.png" title="WordPress" alt="WordPress" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/mysql.png" title="MySql" alt="MySql" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/damtchorzewski/damtchorzewski/blob/main/img/python.png" title="Python" alt="Python" width="40" height="40"/>&nbsp;
+  <img src="img/git-original.svg" title="Git" alt="Git" width="36" height="36"/>&nbsp;
+  <img src="img/github-original.svg" title="GitHub" alt="GitHub" width="36" height="36"/>&nbsp;
+  <img src="img/githubactions-original.svg" title="GitHub Actions" alt="GitHub Actions" width="36" height="36"/>&nbsp;
+  <img src="img/vscode-original.svg" title="Visual Studio Code" alt="Visual Studio Code" width="36" height="36"/>&nbsp;
+  <img src="img/claudecode-original.svg" title="Claude Code CLI" alt="Claude Code CLI" width="36" height="36"/>&nbsp;
+  <img src="img/claude-original.svg" title="Claude / AI Agents" alt="Claude / AI Agents" width="36" height="36"/>&nbsp;
+  <img src="img/gemini.svg" title="Gemini" alt="Gemini" width="36" height="36"/>&nbsp;
+  <img src="img/bash-original.svg" title="Bash" alt="Bash" width="36" height="36"/>&nbsp;
+  <img src="img/figma-original.svg" title="Figma" alt="Figma" width="36" height="36"/>&nbsp;
+  <img src="img/html5-original.svg" title="HTML5" alt="HTML" width="36" height="36"/>&nbsp;
+  <img src="img/css3-original.svg" title="CSS3" alt="CSS" width="36" height="36"/>&nbsp;
+  <img src="img/shadcn-original.svg" title="shadcn/ui" alt="shadcn/ui" width="36" height="36"/>&nbsp;
+  <img src="img/sass-original.svg" title="Sass" alt="Sass" width="36" height="36"/>&nbsp;
+  <img src="img/bem-original.svg" title="methodology BEM" alt="methodology BEM" width="36" height="36"/>&nbsp;
+  <img src="img/zod.svg" title="Zod" alt="Zod" width="36" height="36"/>&nbsp;
+  <img src="img/npm-original-wordmark.svg" title="npm" alt="npm" width="36" height="36"/>&nbsp;
+  <img src="img/pnpm-original.svg" title="pnpm" alt="pnpm" width="36" height="36"/>&nbsp;
+  <img src="img/turborepo.svg" title="Turborepo" alt="Turborepo" width="36" height="36"/>&nbsp;
+  <img src="img/terminal.png" title="Terminal" alt="Terminal" width="36" height="36"/>&nbsp;
+  <img src="img/parcel.svg" title="Parcel" alt="Parcel" width="45" height="36"/>&nbsp;
+  <img src="img/webpack.svg" title="Webpack" alt="Webpack" width="36" height="36"/>&nbsp;
+  <img src="img/codepen-plain.svg" title="CodePen" alt="CodePen" width="36" height="36"/>&nbsp;
+  <img src="img/slack-original.svg" title="Slack" alt="Slack" width="36" height="36"/>&nbsp;
+  <img src="img/trello-plain.svg" title="Trello" alt="Trello" width="36" height="36"/>&nbsp;
+  <img src="img/brouslist.svg" title="Browserslist" alt="Browserslist" width="36" height="36"/>&nbsp;
+  <img src="img/windows-icon.svg" title="Windows" alt="Windows" width="36" height="36"/>&nbsp;
+  <img src="img/bios.png" title="Bios" alt="Bios" width="36" height="36"/>&nbsp;
+  <img src="img/office.png" title="Office" alt="Office" width="36" height="36"/>&nbsp;
+  <img src="img/vite.svg" title="Vite" alt="Vite" width="36" height="36"/>&nbsp;
+  <img src="img/mongodb.svg" title="MongoDB" alt="MongoDB" width="36" height="36"/>&nbsp;
+  <img src="img/prisma.svg" title="Prisma" alt="Prisma" width="36" height="36"/>&nbsp;
+  <img src="img/docker.svg" title="Docker" alt="Docker" width="36" height="36"/>&nbsp;
+  <img src="img/firebase-original.svg" title="Firebase" alt="Firebase" width="36" height="36"/>&nbsp;
+  <img src="img/ovhcloud.svg" title="OVHcloud" alt="OVHcloud" width="36" height="36"/>&nbsp;
+  <img src="img/web3forms.svg" title="Web3Forms" alt="Web3Forms" width="36" height="36"/>&nbsp;
+  <img src="img/jest.svg" title="Jest" alt="Jest" width="36" height="36"/>&nbsp;
+  <img src="img/vitest-original.svg" title="Vitest" alt="Vitest" width="36" height="36"/>&nbsp;
+  <img src="img/playwright-original.svg" title="Playwright" alt="Playwright" width="36" height="36"/>&nbsp;
+  <img src="img/storybook-original.svg" title="Storybook" alt="Storybook" width="36" height="36"/>&nbsp;
+  <img src="img/eslint-original.svg" title="ESLint" alt="ESLint" width="36" height="36"/>&nbsp;
+  <img src="img/redux.svg" title="Redux" alt="Redux" width="36" height="36"/>&nbsp;
+  <img src="img/babel.svg" title="Babel" alt="Babel" width="36" height="36"/>&nbsp;
+  <img src="img/express.svg" title="Express" alt="Express" width="36" height="36"/>&nbsp;
+  <img src="img/insomnia.svg" title="Insomnia" alt="Insomnia" width="36" height="36"/>&nbsp;
+  <img src="img/php.png" title="PHP" alt="PHP" width="36" height="36"/>&nbsp;
+  <img src="img/wordpress.png" title="WordPress" alt="WordPress" width="36" height="36"/>&nbsp;
+  <img src="img/mysql.png" title="MySql" alt="MySql" width="36" height="36"/>&nbsp;
+  <img src="img/python.png" title="Python" alt="Python" width="36" height="36"/>&nbsp;
 </div>
+
+</details>
