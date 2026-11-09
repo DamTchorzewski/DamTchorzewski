@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="img/damreboot-banner-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="img/damreboot-banner-light.gif">
-  <img src="img/damreboot-banner-dark.gif" alt="DamReboot" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="img/banner/damreboot-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="img/banner/damreboot-light.gif">
+  <img src="img/banner/damreboot-dark.gif" alt="DamReboot" width="100%">
 </picture>
 
 # Hi, I'm Damian Chabracki 👋
