@@ -17,11 +17,31 @@ I build web, desktop, and mobile applications end-to-end — from database schem
 - ☁️ **DevOps & AI:** Docker, GitHub Actions (CI/CD), Linux VPS, Nginx, Python (Pandas, NumPy, ML), Claude Code CLI.
 - 🎓 **Education:** Final-year Computer Science student (AI/ML specialization — Python, SQL, C#, Java).
 
+
+---
+
+### ⚡ Core stack
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="img/stats/stack-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="img/stats/stack-light.svg">
   <img src="img/stats/stack-dark.svg" alt="Core stack: TypeScript, JavaScript, Python, C#, Java, React, Next.js, Node.js, React Native, Electron, Tailwind CSS" width="100%">
 </picture>
+
+### 📊 GitHub stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/stats/overview-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="img/stats/overview-light.svg">
+    <img src="img/stats/overview-dark.svg" alt="GitHub activity: contributions, repositories, stars, streaks and the last 12 months" width="49%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/stats/languages-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="img/stats/languages-light.svg">
+    <img src="img/stats/languages-dark.svg" alt="Most used languages by code size" width="49%">
+  </picture>
+</p>
 
 <details>
 <summary><b>Show all languages &amp; tools</b> (47)</summary>
@@ -80,23 +100,6 @@ I build web, desktop, and mobile applications end-to-end — from database schem
 </p>
 
 </details>
-
----
-
-### 📊 GitHub stats
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="img/stats/overview-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="img/stats/overview-light.svg">
-    <img src="img/stats/overview-dark.svg" alt="GitHub activity: contributions, repositories, stars, streaks and the last 12 months" width="49%">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="img/stats/languages-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="img/stats/languages-light.svg">
-    <img src="img/stats/languages-dark.svg" alt="Most used languages by code size" width="49%">
-  </picture>
-</p>
 
 ---
 
