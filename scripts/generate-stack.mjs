@@ -144,7 +144,7 @@ async function loadIcon(src, color) {
 
 const style = (c, extra = "") => `<style>
 text{font-family:${FONT}}
-.label{font-size:16px;font-weight:600;fill:${c.text}}
+.label{font-size:14.5px;font-weight:600;fill:${c.text}}
 .name{font-size:12px;font-weight:500;fill:${c.text}}
 .tile{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
 @keyframes rise{from{opacity:0;transform:translateY(6px)}}
