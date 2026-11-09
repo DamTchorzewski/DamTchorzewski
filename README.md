@@ -4,20 +4,21 @@
   <img src="img/banner/damreboot-dark.gif" alt="DamReboot" width="100%">
 </picture>
 
-# Hi, I'm Damian Chabracki 👋
-### Full-Stack Developer | Founder of DamReboot IT
+### Hi, I'm Damian Chabracki 👋
+**Full-Stack Developer (TypeScript / React / Next.js / Node.js)**
 
-I specialize in building modern, scalable web applications and delivering custom IT solutions. I combine technical expertise with a passion for innovation, creating software that drives results.
+I design and build web, desktop, and mobile applications — working across database architecture, REST APIs, modern user interfaces, and production CI/CD deployments. Over the past 4 years (commercial projects since 2023), I've worked both in engineering teams on critical infrastructure systems and independently delivering B2B/SaaS platforms.
 
-**🚀 Quick Facts:**
-- 🏢 **Experience:** Working professionally as a Frontend Developer & running my own B2B venture.
-- 💻 **Core Stack:** TypeScript, React, Next.js, Node.js, Tailwind CSS.
-- 📱 **Cross-platform:** React Native (mobile & tablet) and Electron.js (desktop).
-- ☁️ **DevOps & Cloud:** GitHub Actions CI/CD, Turborepo monorepos, Firebase & OVHcloud deployments.
-- 🤖 **AI-assisted workflow:** Claude Code CLI, AI agents and Gemini.
-- 🌱 **Learning:** C# and advanced database management.
-- 🎓 **Education:** Currently pursuing a degree in Computer Science.
-- ⚡ **Interests:** Modern tech, complex algorithms, and mechanics.
+### 🚀 Quick Facts & Tech Stack:
+- 🏭 **Recent Experience (Proffico):** Developed production systems, real-time SCADA/HMI analytical panels (Electron, React, ECharts), and GIS mobile apps for field technicians (React Native, Mapbox GL) for water treatment stations (SUW / NIS2 security standards).
+- 🏢 **B2B & SaaS (DamReboot IT):** Architecting and building a multi-tenant B2B platform and a logistics marketplace in a monorepo setup (Next.js, Node.js, Turborepo, Prisma), plus delivering custom web systems for business clients.
+- ⚙️ **Backend & Databases:** Node.js, NestJS, Express, Next.js (Server Actions / API Routes), PostgreSQL, MongoDB, Prisma, REST API (OpenAPI/Swagger), Auth.js (JWT/OAuth, RBAC), S3, WebSockets.
+- 💻 **Frontend & Cross-Platform:** TypeScript, React, Next.js (SSR/SSG), React Native (mobile), Electron (desktop), TanStack Query, Redux Toolkit, Zustand, Tailwind CSS, Mapbox GL, ECharts.
+- ☁️ **DevOps & Infrastructure:** Docker, Docker Compose, GitHub Actions (CI/CD), Linux VPS, Nginx, Turborepo, Git, Jest.
+- 🤖 **AI & Data:** Python (Pandas, NumPy, NLP/ML models) & AI-assisted engineering workflow (Claude Code CLI, custom AI Agents).
+- 🎓 **Education:** Final-year Computer Science student (AI/ML specialization) — focusing on software engineering, relational databases, and backend architecture (Python, SQL, C#, Java).
+
+📫 **Reach me at:** [damianchabracki@gmail.com](mailto:damianchabracki@gmail.com) | 🌐 **Portfolio & Web:** [damreboot.pl](https://damreboot.pl)
 
 ---
 
