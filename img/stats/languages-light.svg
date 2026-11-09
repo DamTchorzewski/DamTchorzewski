@@ -2,7 +2,8 @@
 <title>Most used languages of DamTchorzewski</title>
 <style>
 text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;fill:#1f2328}
-.muted{fill:#59636e}
+.muted{fill:#1f2328}
+.accent{fill:#2f5fb3;font-weight:600}
 .t{font-size:16px;font-weight:600}
 .s{font-size:12px}
 .v{font-size:19px;font-weight:700}
@@ -16,9 +17,9 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helveti
 </style>
 <rect x=".5" y=".5" width="479" height="249" rx="10" fill="#ffffff" stroke="#d0d7de"/>
 <text class="t" x="24" y="38">Most used languages</text>
-<text class="s muted" x="456" y="38" text-anchor="end">by code size · 105 repos</text>
+<text class="s accent" x="456" y="38" text-anchor="end">by code size · 105 repos</text>
 <clipPath id="bar"><rect x="24" y="56" width="432" height="10" rx="5"/></clipPath>
-<g clip-path="url(#bar)"><rect x="24" y="56" width="432" height="10" fill="#eff2f5"/><g class="growx"><rect x="24.00" y="56" width="207.81" height="10" fill="#3178c6"/><rect x="233.81" y="56" width="137.69" height="10" fill="#f1e05a"/><rect x="373.50" y="56" width="30.49" height="10" fill="#e34c26"/><rect x="405.99" y="56" width="18.86" height="10" fill="#3572A5"/><rect x="426.85" y="56" width="10.69" height="10" fill="#c6538c"/><rect x="439.54" y="56" width="7.78" height="10" fill="#663399"/><rect x="449.32" y="56" width="6.68" height="10" fill="#59636e"/></g></g>
+<g clip-path="url(#bar)"><rect x="24" y="56" width="432" height="10" fill="#eff2f5"/><g class="growx"><rect x="24.00" y="56" width="207.56" height="10" fill="#3178c6"/><rect x="233.56" y="56" width="138.04" height="10" fill="#f1e05a"/><rect x="373.60" y="56" width="30.45" height="10" fill="#e34c26"/><rect x="406.05" y="56" width="18.83" height="10" fill="#3572A5"/><rect x="426.89" y="56" width="10.67" height="10" fill="#c6538c"/><rect x="439.56" y="56" width="7.77" height="10" fill="#663399"/><rect x="449.33" y="56" width="6.67" height="10" fill="#59636e"/></g></g>
 <g class="fade" style="animation-delay:250ms">
 <circle cx="29" cy="95" r="5" fill="#3178c6"/>
 <text x="41" y="100" style="font-size:14px;font-weight:600">TypeScript</text>
@@ -31,7 +32,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helveti
 <text x="269" y="100" style="font-size:14px;font-weight:600">JavaScript</text>
 <text class="muted" x="456" y="100" text-anchor="end" style="font-size:13px">32%</text>
 <rect x="252" y="110" width="204" height="4" rx="2" fill="#eff2f5"/>
-<rect class="growx" style="animation-delay:420ms" x="252" y="110" width="135.8" height="4" rx="2" fill="#f1e05a"/>
+<rect class="growx" style="animation-delay:420ms" x="252" y="110" width="136.3" height="4" rx="2" fill="#f1e05a"/>
 </g>
 <g class="fade" style="animation-delay:390ms">
 <circle cx="29" cy="143" r="5" fill="#e34c26"/>

@@ -1,13 +1,17 @@
 /**
- * Generates the "Core stack" card (img/stats/stack-{dark,light}.svg) in the same style as the stat
- * cards: one row of rounded tiles with icons and names, grouped into languages and frameworks.
+ * Generates the "Core stack" cards in the same style as the stat cards (light + dark variants):
+ *  - img/stats/stack-*.svg: one row of rounded tiles, languages and frameworks & platforms,
+ *  - img/stats/tools-*.svg: every other language and tool as a grid of the same tiles
+ *    (shown in the collapsible section right under the stack card).
  *
- * Icons: devicon (MIT) - local copies from img/ where they exist, the rest from the devicon package
- * on jsDelivr (pinned version). They are embedded as data URIs, so the card is a single file.
- * Run when the stack changes: node scripts/generate-stack.mjs
+ * Icons: devicon (MIT) and the logos in img/ - local files where they exist, the rest from the
+ * devicon package on jsDelivr (pinned version). They are embedded as data URIs, so each card is a
+ * single file. Run when the stack changes: node scripts/generate-stack.mjs
+ *
+ * Style rules: no uppercase text, no grey text (secondary text uses the brand accent).
  */
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
+import { dirname, extname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -29,8 +33,7 @@ const GROUPS = [
     label: "Frameworks & platforms",
     items: [
       { name: "React", icon: "img/react-original.svg" },
-      // black disc: on the dark card it gets a light ring so it does not disappear
-      { name: "Next.js", icon: "img/nextjs-original.svg", ring: true },
+      { name: "Next.js", icon: "img/nextjs-original.svg", dark: true },
       { name: "Node.js", icon: "img/nodejs-original.svg" },
       { name: "React Native", icon: "img/reactnative-original.svg" },
       { name: "Electron", icon: "img/electron-original.svg" },
@@ -39,83 +42,177 @@ const GROUPS = [
   },
 ];
 
+/**
+ * Everything else. Third field: `true` = the logo is (nearly) black, so on the dark card its tile is
+ * light; "mono" = single-color logo, repainted in the text color of each theme.
+ */
+const TOOLS = [
+  ["Git", "git-original.svg"],
+  ["GitHub", "github-original.svg", "mono"],
+  ["GitHub Actions", "githubactions-original.svg"],
+  ["VS Code", "vscode-original.svg"],
+  ["Claude Code", "claudecode-original.svg"],
+  ["Claude", "claude-original.svg"],
+  ["Gemini", "gemini.svg"],
+  ["Bash", "bash-original.svg", true],
+  ["Figma", "figma-original.svg"],
+  ["HTML5", "html5-original.svg"],
+  ["CSS3", "css3-original.svg"],
+  ["shadcn/ui", "shadcn-original.svg", "mono"],
+  ["Sass", "sass-original.svg"],
+  ["BEM", "bem-original.svg", "mono"],
+  ["Zod", "zod.svg"],
+  ["npm", "npm-original-wordmark.svg"],
+  ["pnpm", "pnpm-original.svg"],
+  ["Turborepo", "turborepo.svg"],
+  ["Terminal", "terminal.png"],
+  ["Parcel", "parcel.svg"],
+  ["Webpack", "webpack.svg"],
+  ["CodePen", "codepen-plain.svg", "mono"],
+  ["Slack", "slack-original.svg"],
+  ["Trello", "trello-plain.svg"],
+  ["Browserslist", "brouslist.svg"],
+  ["Windows", "windows-icon.svg"],
+  ["BIOS", "bios.png"],
+  ["Office", "office.png"],
+  ["Vite", "vite.svg"],
+  ["MongoDB", "mongodb.svg"],
+  ["Prisma", "prisma.svg", "mono"],
+  ["Docker", "docker.svg"],
+  ["Firebase", "firebase-original.svg"],
+  ["OVHcloud", "ovhcloud.svg", "mono"],
+  ["Web3Forms", "web3forms.svg"],
+  ["Jest", "jest.svg"],
+  ["Vitest", "vitest-original.svg"],
+  ["Playwright", "playwright-original.svg"],
+  ["Storybook", "storybook-original.svg"],
+  ["ESLint", "eslint-original.svg"],
+  ["Redux", "redux.svg"],
+  ["Babel", "babel.svg"],
+  ["Express", `${DEVICON}/express/express-original.svg`, "mono"],
+  ["Insomnia", "insomnia.svg"],
+  ["PHP", "php.png"],
+  ["WordPress", "wordpress.png"],
+  ["MySQL", "mysql.png", true],
+].map(([name, file, kind]) => ({
+  name,
+  icon: file.startsWith("http") ? file : `img/${file}`,
+  dark: kind === true,
+  mono: kind === "mono",
+}));
+
 const THEMES = {
-  dark: { bg: "#0d1117", border: "#30363d", tile: "#161b22", tileBorder: "#262c36", text: "#e6edf3", muted: "#8d96a0", ring: "#e6edf3" },
-  light: { bg: "#ffffff", border: "#d0d7de", tile: "#f6f8fa", tileBorder: "#e4e8ec", text: "#1f2328", muted: "#59636e", ring: "transparent" },
+  dark: { bg: "#0d1117", border: "#30363d", tile: "#161b22", tileBorder: "#262c36", lightTile: "#e6edf3", text: "#e6edf3", accent: "#6ea8ff" },
+  light: { bg: "#ffffff", border: "#d0d7de", tile: "#f6f8fa", tileBorder: "#e4e8ec", lightTile: "#f6f8fa", text: "#1f2328", accent: "#2f5fb3" },
 };
 
 const FONT = `-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif`;
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 
-async function loadIcon(src) {
-  const svg = src.startsWith("http")
-    ? await fetch(src).then((r) => {
-        if (!r.ok) throw new Error(`${src} -> ${r.status}`);
-        return r.text();
-      })
-    : readFileSync(join(ROOT, src), "utf8");
+const sources = new Map();
+async function source(src) {
+  if (!sources.has(src)) {
+    sources.set(
+      src,
+      src.startsWith("http")
+        ? fetch(src).then((res) => {
+            if (!res.ok) throw new Error(`${src} -> ${res.status}`);
+            return res.arrayBuffer().then((b) => Buffer.from(b));
+          })
+        : Promise.resolve(readFileSync(join(ROOT, src))),
+    );
+  }
+  return sources.get(src);
+}
+
+/** Icon as a data URI; `color` repaints a single-color SVG logo (its own styles are dropped). */
+async function loadIcon(src, color) {
+  const data = await source(src);
+  if (extname(src) === ".png") return `data:image/png;base64,${data.toString("base64")}`;
+  let svg = data.toString("utf8");
+  if (color) {
+    svg = svg.replace(/<style[\s\S]*?<\/style>/g, "");
+    const open = svg.indexOf(">", svg.indexOf("<svg")) + 1;
+    svg = `${svg.slice(0, open)}<style>path,circle,rect,polygon,ellipse{fill:${color}!important}</style>${svg.slice(open)}`;
+  }
   return `data:image/svg+xml;base64,${Buffer.from(svg).toString("base64")}`;
 }
 
-// ---------- layout ----------
+const style = (c, extra = "") => `<style>
+text{font-family:${FONT}}
+.label{font-size:12px;font-weight:600;fill:${c.accent}}
+.name{font-size:12px;font-weight:500;fill:${c.text}}
+.tile{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}${extra}
+</style>`;
+
+const svgOpen = (w, h, title, label) =>
+  `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(label)}">\n<title>${esc(title)}</title>`;
+const frame = (c, w, h) => `<rect x=".5" y=".5" width="${w - 1}" height="${h - 1}" rx="10" fill="${c.bg}" stroke="${c.border}"/>`;
+
+/** Rounded tile with an icon and the name under it, centered on cx. */
+function tile(c, item, icon, cx, top, size, iconSize, delay) {
+  const fill = item.dark && c === THEMES.dark ? c.lightTile : c.tile;
+  return `<g class="tile" style="animation-delay:${delay}ms">
+<rect x="${cx - size / 2 + 0.5}" y="${top + 0.5}" width="${size - 1}" height="${size - 1}" rx="${Math.round(size * 0.24)}" fill="${fill}" stroke="${c.tileBorder}"/>
+<image href="${icon}" x="${cx - iconSize / 2}" y="${top + (size - iconSize) / 2}" width="${iconSize}" height="${iconSize}"/>
+<text class="name" x="${cx}" y="${top + size + 19}" text-anchor="middle">${esc(item.name)}</text>
+</g>`;
+}
+
+// ---------- stack card ----------
 const PAD = 24;
 const TILE = 52;
-const ICON = 28;
-const GAP = 22; // between tiles
-const GROUP_GAP = 44; // between groups (with a divider in the middle)
-const COL = TILE + GAP;
+const GAP = 22;
+const GROUP_GAP = 44;
 const count = GROUPS.reduce((n, g) => n + g.items.length, 0);
 const W = 2 * PAD + count * TILE + (count - GROUPS.length) * GAP + (GROUPS.length - 1) * GROUP_GAP + 2 * 14;
-const H = 150;
-const TOP = 50;
 
-function card(c, icons) {
+function stackCard(c, icons) {
+  const H = 150;
+  const TOP = 50;
   let x = PAD + 14;
   let i = 0;
   const parts = [];
   GROUPS.forEach((group, g) => {
-    const groupW = group.items.length * TILE + (group.items.length - 1) * GAP;
-    parts.push(
-      `<text class="label" x="${x}" y="32">${esc(group.label.toUpperCase())}</text>`,
-    );
+    parts.push(`<text class="label" x="${x}" y="33">${esc(group.label)}</text>`);
     group.items.forEach((item, k) => {
-      const tx = x + k * COL;
-      const cx = tx + TILE / 2;
-      const ring = item.ring && c.ring !== "transparent"
-        ? `<circle cx="${cx}" cy="${TOP + TILE / 2}" r="${ICON / 2 + 1}" fill="none" stroke="${c.ring}" stroke-opacity=".55" stroke-width="1"/>`
-        : "";
-      parts.push(`<g class="tile" style="animation-delay:${60 + i * 45}ms">
-<rect x="${tx + 0.5}" y="${TOP + 0.5}" width="${TILE - 1}" height="${TILE - 1}" rx="12" fill="${c.tile}" stroke="${c.tileBorder}"/>
-<image href="${icons[i]}" x="${cx - ICON / 2}" y="${TOP + (TILE - ICON) / 2}" width="${ICON}" height="${ICON}"/>${ring}
-<text class="name" x="${cx}" y="${TOP + TILE + 20}" text-anchor="middle">${esc(item.name)}</text>
-</g>`);
+      parts.push(tile(c, item, icons[i], x + k * (TILE + GAP) + TILE / 2, TOP, TILE, 28, 60 + i * 45));
       i++;
     });
-    x += groupW;
+    x += group.items.length * TILE + (group.items.length - 1) * GAP;
     if (g < GROUPS.length - 1) {
       const dx = x + GROUP_GAP / 2;
       parts.push(`<line x1="${dx}" y1="${TOP + 6}" x2="${dx}" y2="${TOP + TILE - 6}" stroke="${c.border}"/>`);
       x += GROUP_GAP;
     }
   });
-
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Core stack: ${esc(GROUPS.flatMap((g) => g.items.map((i) => i.name)).join(", "))}">
-<title>Core stack</title>
-<style>
-text{font-family:${FONT}}
-.label{font-size:11px;font-weight:600;letter-spacing:.08em;fill:${c.muted}}
-.name{font-size:12px;font-weight:500;fill:${c.text}}
-.tile{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
-@keyframes rise{from{opacity:0;transform:translateY(6px)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}
-</style>
-<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="${c.bg}" stroke="${c.border}"/>
-${parts.join("\n")}
-</svg>
-`;
+  const names = GROUPS.flatMap((g) => g.items.map((it) => it.name)).join(", ");
+  return `${svgOpen(W, H, "Core stack", `Core stack: ${names}`)}\n${style(c)}\n${frame(c, W, H)}\n${parts.join("\n")}\n</svg>\n`;
 }
 
-const icons = await Promise.all(GROUPS.flatMap((g) => g.items.map((i) => loadIcon(i.icon))));
+// ---------- tools card (same width as the stack card) ----------
+function toolsCard(c, icons) {
+  const COLS = 10;
+  const T = 44;
+  const ROW = T + 34;
+  const colW = (W - 2 * PAD) / COLS;
+  const rows = Math.ceil(TOOLS.length / COLS);
+  const H = 24 + rows * ROW + 4;
+  const parts = TOOLS.map((item, i) => {
+    const cx = PAD + (i % COLS) * colW + colW / 2;
+    const top = 22 + Math.floor(i / COLS) * ROW;
+    return tile(c, item, icons[i], cx, top, T, 26, 40 + i * 18);
+  });
+  return `${svgOpen(W, H, "Languages and tools", `Languages and tools: ${TOOLS.map((t) => t.name).join(", ")}`)}\n${style(c)}\n${frame(c, W, H)}\n${parts.join("\n")}\n</svg>\n`;
+}
+
 mkdirSync(OUT, { recursive: true });
-for (const [name, c] of Object.entries(THEMES)) writeFileSync(join(OUT, `stack-${name}.svg`), card(c, icons));
-console.log(`stack card ${W}x${H}, ${count} items`);
+for (const [name, c] of Object.entries(THEMES)) {
+  const stackIcons = await Promise.all(GROUPS.flatMap((g) => g.items.map((it) => loadIcon(it.icon))));
+  const toolIcons = await Promise.all(TOOLS.map((t) => loadIcon(t.icon, t.mono ? c.text : undefined)));
+  writeFileSync(join(OUT, `stack-${name}.svg`), stackCard(c, stackIcons));
+  writeFileSync(join(OUT, `tools-${name}.svg`), toolsCard(c, toolIcons));
+}
+console.log(`stack card ${W}px wide, ${count} items; tools card ${TOOLS.length} items`);

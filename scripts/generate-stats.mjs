@@ -4,6 +4,7 @@
  *  - languages: most used languages by code size (bytes, the same way GitHub computes the repo bar).
  * Each card comes in a dark and a light variant (README picks one with <picture>).
  *
+ * Style rules: no uppercase text, no grey text (secondary text uses the brand accent).
  * Only aggregated numbers are rendered - never names of repositories (private ones may be under NDA).
  *
  * Token: STATS_TOKEN (fine-grained PAT of DamTchorzewski -> full picture incl. private repos and
@@ -158,6 +159,7 @@ const THEMES = {
     empty: "#161b22",
     blue: "#4c8bec",
     blueBg: "rgba(76,139,236,.14)",
+    accent: "#6ea8ff",
     levels: ["#1b3873", "#2856ad", "#3a73d6", "#4c8bec"],
     flame: "#f97316",
     trophy: "#f59e0b",
@@ -172,6 +174,7 @@ const THEMES = {
     empty: "#eff2f5",
     blue: "#3d6cc9",
     blueBg: "rgba(61,108,201,.1)",
+    accent: "#2f5fb3",
     levels: ["#b3c8f0", "#7c9fe2", "#5784d6", "#3d6cc9"],
     flame: "#ea580c",
     trophy: "#d97706",
@@ -210,7 +213,8 @@ const frame = (c, title, aside, body, label) => `<svg xmlns="http://www.w3.org/2
 <title>${esc(label)}</title>
 <style>
 text{font-family:${FONT};fill:${c.text}}
-.muted{fill:${c.muted}}
+.muted{fill:${c.text}}
+.accent{fill:${c.accent};font-weight:600}
 .t{font-size:16px;font-weight:600}
 .s{font-size:12px}
 .v{font-size:19px;font-weight:700}
@@ -224,7 +228,7 @@ text{font-family:${FONT};fill:${c.text}}
 </style>
 <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="${c.bg}" stroke="${c.border}"/>
 <text class="t" x="${PAD}" y="38">${esc(title)}</text>
-<text class="s muted" x="${W - PAD}" y="38" text-anchor="end">${esc(aside)}</text>
+<text class="s accent" x="${W - PAD}" y="38" text-anchor="end">${esc(aside)}</text>
 ${body}
 </svg>
 `;
