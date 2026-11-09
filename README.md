@@ -18,7 +18,6 @@ I design and build web, desktop, and mobile applications — working across data
 - 🤖 **AI & Data:** Python (Pandas, NumPy, NLP/ML models) & AI-assisted engineering workflow (Claude Code CLI, custom AI Agents).
 - 🎓 **Education:** Final-year Computer Science student (AI/ML specialization) — focusing on software engineering, relational databases, and backend architecture (Python, SQL, C#, Java).
 
-📫 **Reach me at:** [damianchabracki@gmail.com](mailto:damianchabracki@gmail.com) | 🌐 **Portfolio & Web:** [damreboot.pl](https://damreboot.pl)
 
 ---
 
@@ -31,7 +30,7 @@ I design and build web, desktop, and mobile applications — working across data
 </picture>
 
 <details>
-<summary><b>All languages &amp; tools</b> · 47 more</summary>
+<summary><b>Show all languages &amp; tools</b> (47)</summary>
 <br/>
 
 <p>
@@ -103,4 +102,15 @@ I design and build web, desktop, and mobile applications — working across data
   </picture>
 </p>
 
-<sub>Stats refresh daily via GitHub Actions and include private work as aggregated numbers only.</sub>
+---
+
+### 📫 Contact
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/contact/banner-dark.svg"><img src="img/contact/banner-light.svg" alt="Let's build something together" width="100%"></picture>
+
+<p align="center">
+  <a href="mailto:damianchabracki@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="img/contact/email-dark.svg"><img src="img/contact/email-light.svg" alt="Email: damianchabracki@gmail.com" width="49%"></picture></a>
+  <a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/"><picture><source media="(prefers-color-scheme: dark)" srcset="img/contact/linkedin-dark.svg"><img src="img/contact/linkedin-light.svg" alt="LinkedIn: Damian Tchorzewski" width="49%"></picture></a>
+  <a href="https://cv.damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/contact/portfolio-dark.svg"><img src="img/contact/portfolio-light.svg" alt="Portfolio and CV: cv.damreboot.pl" width="49%"></picture></a>
+  <a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/contact/company-dark.svg"><img src="img/contact/company-light.svg" alt="DamReboot IT: damreboot.pl" width="49%"></picture></a>
+</p>
