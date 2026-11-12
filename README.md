@@ -15,7 +15,7 @@ I build web, desktop, and mobile applications end-to-end — from database schem
 - ⚙️ **Backend & DB:** Node.js, NestJS, Express, Next.js, PostgreSQL, MongoDB, Prisma, OpenAPI/Swagger, Auth.js, S3.
 - 💻 **Frontend & Mobile/Desktop:** TypeScript, React, Next.js (SSR/SSG), React Native, Electron, TanStack Query, Redux Toolkit, Zustand, Tailwind CSS.
 - ☁️ **DevOps & AI:** Docker, GitHub Actions (CI/CD), Linux VPS, Nginx, Python (Pandas, NumPy, ML), Claude Code CLI.
-- 🎓 **Education:** Final-year Computer Science student (AI/ML specialization — Python, SQL, C#, Java).
+- 🎓 **Education:** Final-year Computer Science student (AI/ML specialization — Python, SQL, C#, Java)
 
 
 ---
