@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="196" height="34" viewBox="0 0 196 34" role="img" aria-label="Profile views: 0">
-<title>Profile views: 0</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="34" viewBox="0 0 196 34" role="img" aria-label="Profile views: 3">
+<title>Profile views: 3</title>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.6px}
 </style>
@@ -11,5 +11,5 @@ text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberatio
 <rect x=".5" y=".5" width="195" height="33" rx="5.5" fill="none" stroke="#d0d7de"/>
 <svg x="12" y="10" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2f5fb3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>
 <text x="34" y="21" textLength="92" lengthAdjust="spacing" style="fill:#2f5fb3">PROFILE VIEWS</text>
-<text x="154" y="21" textLength="7" lengthAdjust="spacing" style="fill:#06121f">0</text>
+<text x="154" y="21" textLength="7" lengthAdjust="spacing" style="fill:#06121f">3</text>
 </svg>

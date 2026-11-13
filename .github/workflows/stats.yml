@@ -2,20 +2,15 @@ name: Profile stats
 
 on:
   schedule:
-    - cron: "17 4 * * *" # daily, 05:17 / 06:17 Polish time
+    - cron: "0 23 * * *" # once a day, 23:00 UTC = 00:00 Polish winter time (01:00 in summer)
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - scripts/generate-stats.mjs
-      - .github/workflows/stats.yml
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-stats
-  cancel-in-progress: true
+  group: profile-daily
+  cancel-in-progress: false
 
 jobs:
   stats:
@@ -44,5 +39,6 @@ jobs:
             echo "Stats unchanged"
           else
             git commit -m "Update profile stats"
+            git pull --rebase
             git push
           fi

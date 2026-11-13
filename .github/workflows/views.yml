@@ -2,20 +2,15 @@ name: Profile views badge
 
 on:
   schedule:
-    - cron: "41 */6 * * *" # every six hours
+    - cron: "0 23 * * *" # once a day, 23:00 UTC = 00:00 Polish winter time (01:00 in summer)
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - scripts/generate-views.mjs
-      - .github/workflows/views.yml
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-views
-  cancel-in-progress: true
+  group: profile-daily
+  cancel-in-progress: false
 
 jobs:
   views:
