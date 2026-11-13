@@ -6,7 +6,7 @@
 
 <p align="center"><a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/company-dark.svg"><img src="img/badges/company-light.svg" alt="damreboot.pl: company website" height="36"></picture></a><a href="https://cv.damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/cv-dark.svg"><img src="img/badges/cv-light.svg" alt="CV portal: portfolio and CV" height="36"></picture></a><a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/linkedin-dark.svg"><img src="img/badges/linkedin-light.svg" alt="LinkedIn: let's connect" height="36"></picture></a><a href="mailto:damianchabracki@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/email-dark.svg"><img src="img/badges/email-light.svg" alt="E-mail: write to me" height="36"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/status-dark.svg"><img src="img/badges/status-light.svg" alt="Status: open for B2B / projects" height="36"></picture></p>
 
-## 🚀 Hi, I'm Damian Chabracki!
+## <picture><source media="(prefers-color-scheme: dark)" srcset="img/icons/hi-dark.svg"><img src="img/icons/hi-light.svg" alt="" height="42" align="middle"></picture> Hi, I'm Damian Chabracki!
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/role-dark.svg"><img src="img/hero/role-light.svg" alt="Full-Stack Software Engineer &amp; Systems Architect • Founder @ DamReboot IT" height="30"></picture>
 
@@ -21,7 +21,7 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 - **Full-stack TypeScript execution:** high-performance frontends (`Next.js`, `React`, `React Native`, `Electron`) with scalable backend services (`NestJS`, `Node.js`) and `Python` ML.
 - **Pragmatic DevOps and ownership:** end-to-end delivery from system design and CI/CD (`Docker`, `GitHub Actions`, `Linux VPS`) to production observability (`Grafana`).
 
-📫 **Open to:** Lead Full-Stack and Frontend roles, Tech Lead and Frontend Architect positions, systems architecture consulting and B2B contracts.
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/icons/open-to-dark.svg"><img src="img/icons/open-to-light.svg" alt="" height="33" align="middle"></picture> **Open to:** Lead Full-Stack and Frontend roles, Tech Lead and Frontend Architect positions, systems architecture consulting and B2B contracts.
 
 <br clear="right">
 
@@ -32,7 +32,7 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-featured-dark.svg"><img src="img/hero/heading-featured-light.svg" alt="🚀 Featured Systems &amp; Architecture Highlights" height="28" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-featured-dark.svg"><img src="img/hero/heading-featured-light.svg" alt="Featured Systems &amp; Architecture Highlights" height="28" align="middle"></picture></summary>
 
 <br>
 
@@ -52,7 +52,7 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-domains-dark.svg"><img src="img/hero/heading-domains-light.svg" alt="🧭 Engineering Domains &amp; Production Experience" height="28" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-domains-dark.svg"><img src="img/hero/heading-domains-light.svg" alt="Engineering Domains &amp; Production Experience" height="28" align="middle"></picture></summary>
 
 <br>
 
@@ -76,7 +76,7 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-stack-dark.svg"><img src="img/hero/heading-stack-light.svg" alt="⚡ Core Tech Stack &amp; Ecosystem" height="28" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-stack-dark.svg"><img src="img/hero/heading-stack-light.svg" alt="Core Tech Stack &amp; Ecosystem" height="28" align="middle"></picture></summary>
 
 <br>
 
@@ -95,7 +95,7 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-telemetry-dark.svg"><img src="img/hero/heading-telemetry-light.svg" alt="📊 GitHub Telemetry &amp; Language Distribution" height="28" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-telemetry-dark.svg"><img src="img/hero/heading-telemetry-light.svg" alt="GitHub Telemetry &amp; Language Distribution" height="28" align="middle"></picture></summary>
 
 <br>
 
@@ -125,5 +125,5 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 <p align="center"><a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/company-dark.svg"><img src="img/badges/company-light.svg" alt="damreboot.pl: company website" height="36"></picture></a><a href="https://cv.damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/cv-dark.svg"><img src="img/badges/cv-light.svg" alt="CV portal: portfolio and CV" height="36"></picture></a><a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/linkedin-dark.svg"><img src="img/badges/linkedin-light.svg" alt="LinkedIn: let's connect" height="36"></picture></a><a href="mailto:damianchabracki@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/email-dark.svg"><img src="img/badges/email-light.svg" alt="E-mail: write to me" height="36"></picture></a></p>
 
 <p align="center">
-  ⚡ Engineered by <b>Damian Chabracki</b> (DamReboot IT)
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/icons/engineered-dark.svg"><img src="img/icons/engineered-light.svg" alt="" height="33" align="middle"></picture> Engineered by <b>Damian Chabracki</b> (DamReboot IT)
 </p>

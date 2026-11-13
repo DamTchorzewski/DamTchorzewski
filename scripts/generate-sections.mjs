@@ -17,6 +17,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { iconTile } from "./icons.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CONFIG = JSON.parse(readFileSync(join(ROOT, "profile.config.json"), "utf8"));
@@ -228,9 +229,8 @@ const SECTIONS = {
     }),
 };
 
-// ---------- section headings (inline images for <summary>) ----------
+// ---------- section headings (inline images for <summary>), with a custom icon set instead of emoji ----------
 const SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif";
-const EMOJI = "'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif";
 function charEm(ch) {
   if ("ilj.,:;'!|".includes(ch)) return 0.28;
   if (" ()[]/-".includes(ch)) return 0.32;
@@ -242,21 +242,21 @@ function charEm(ch) {
   return 0.54;
 }
 const HEADINGS = {
-  domains: ["🧭", "Engineering Domains & Production Experience"],
-  stack: ["⚡", "Core Tech Stack & Ecosystem"],
-  featured: ["🚀", "Featured Systems & Architecture Highlights"],
-  telemetry: ["📊", "GitHub Telemetry & Language Distribution"],
+  domains: "Engineering Domains & Production Experience",
+  stack: "Core Tech Stack & Ecosystem",
+  featured: "Featured Systems & Architecture Highlights",
+  telemetry: "GitHub Telemetry & Language Distribution",
 };
 const HEADING_COLOR = { dark: "#f0f6fc", light: "#1f2328" };
-for (const [id, [emoji, text]] of Object.entries(HEADINGS)) {
+for (const [id, text] of Object.entries(HEADINGS)) {
   const size = 24;
   const tw = Math.round([...text].reduce((w, ch) => w + charEm(ch), 0) * size * 1.07);
   const w = 40 + tw + 4;
   for (const name of Object.keys(THEMES)) {
     writeFileSync(
       join(ROOT, "img/hero", `heading-${id}-${name}.svg`),
-      `${svgOpen(w, 28, `${emoji} ${text}`)}
-<text x="0" y="20" style="font:24px ${EMOJI}">${emoji}</text>
+      `${svgOpen(w, 28, text)}
+<g transform="translate(0 .5) scale(1.0833)">${iconTile(id, name, 0)}</g>
 <text x="40" y="20" textLength="${tw}" lengthAdjust="spacingAndGlyphs" style="font:600 ${size}px ${SANS};fill:${HEADING_COLOR[name]}">${esc(text)}</text>
 </svg>
 `,
