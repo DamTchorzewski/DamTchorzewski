@@ -241,23 +241,27 @@ function charEm(ch) {
   if (/[0-9]/.test(ch)) return 0.56;
   return 0.54;
 }
+// Heading text is 20px, 600 weight, in the same system font stack as the text of the README, so it reads like the "Hi, I'm ..."
+// heading. Widths are measured in a browser (Segoe UI semibold) and the glyphs are never stretched: lengthAdjust="spacing"
+// only nudges the letter spacing, so a viewer's own font (SF, Noto, ...) still looks natural.
 const HEADINGS = {
-  domains: "Engineering Domains & Production Experience",
-  stack: "Core Tech Stack & Ecosystem",
-  featured: "Featured Systems & Architecture Highlights",
-  telemetry: "GitHub Telemetry & Language Distribution",
+  domains: ["Engineering Domains & Production Experience", 423],
+  stack: ["Core Tech Stack & Ecosystem", 262],
+  featured: ["Featured Systems & Architecture Highlights", 394],
+  telemetry: ["GitHub Telemetry & Language Distribution", 387],
 };
 const HEADING_COLOR = { dark: "#f0f6fc", light: "#1f2328" };
-for (const [id, text] of Object.entries(HEADINGS)) {
-  const size = 24;
-  const tw = Math.round([...text].reduce((w, ch) => w + charEm(ch), 0) * size * 1.07);
-  const w = 40 + tw + 4;
+const HEADING_H = 34; // icon tile 32px + 1px above and below
+const TILE = 32;
+const TEXT_X = TILE + 12;
+for (const [id, [text, tw]] of Object.entries(HEADINGS)) {
+  const w = TEXT_X + tw + 2;
   for (const name of Object.keys(THEMES)) {
     writeFileSync(
       join(ROOT, "img/hero", `heading-${id}-${name}.svg`),
-      `${svgOpen(w, 28, text)}
-<g transform="translate(0 .5) scale(1.0833)">${iconTile(id, name, 0)}</g>
-<text x="40" y="20" textLength="${tw}" lengthAdjust="spacingAndGlyphs" style="font:600 ${size}px ${SANS};fill:${HEADING_COLOR[name]}">${esc(text)}</text>
+      `${svgOpen(w, HEADING_H, text)}
+<g transform="translate(0 ${(HEADING_H - TILE) / 2}) scale(${(TILE / 24).toFixed(4)})">${iconTile(id, name, 0)}</g>
+<text x="${TEXT_X}" y="23.5" textLength="${tw}" lengthAdjust="spacing" style="font:600 20px ${SANS};fill:${HEADING_COLOR[name]}">${esc(text)}</text>
 </svg>
 `,
     );

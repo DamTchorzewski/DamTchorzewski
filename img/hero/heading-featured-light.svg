@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="561" height="28" viewBox="0 0 561 28" role="img" aria-label="Featured Systems &amp; Architecture Highlights">
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="34" viewBox="0 0 440 34" role="img" aria-label="Featured Systems &amp; Architecture Highlights">
 <title>Featured Systems &amp; Architecture Highlights</title>
-<g transform="translate(0 .5) scale(1.0833)"><rect x=".5" y="0.5" width="23" height="23" rx="7.0" fill="#0969da" fill-opacity="0.1" stroke="#0969da" stroke-opacity=".45"/>
+<g transform="translate(0 1) scale(1.3333)"><rect x=".5" y="0.5" width="23" height="23" rx="7.0" fill="#0969da" fill-opacity="0.1" stroke="#0969da" stroke-opacity=".45"/>
 <g transform="translate(2 2) scale(0.833)" fill="none" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5c3 2 5 5.4 5 9.3 0 1.6-.4 3-1 4.2H8c-.6-1.2-1-2.6-1-4.2 0-3.9 2-7.3 5-9.3z"/><circle cx="12" cy="9.5" r="1.9"/><path d="M8 15.6l-3 2.9v-3.4l2-2.5M16 15.6l3 2.9v-3.4l-2-2.5M10 19c.5 1 1 1.9 2 2.6 1-.7 1.5-1.6 2-2.6"/></g></g>
-<text x="40" y="20" textLength="517" lengthAdjust="spacingAndGlyphs" style="font:600 24px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#1f2328">Featured Systems &amp; Architecture Highlights</text>
+<text x="44" y="23.5" textLength="394" lengthAdjust="spacing" style="font:600 20px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#1f2328">Featured Systems &amp; Architecture Highlights</text>
 </svg>

@@ -1,7 +1,7 @@
 /**
  * The icons of README.md (replace the emoji): one line weight, one accent color. Every glyph is drawn on a 24x24 grid
  * with round caps and joins, so they all look like one family. Used by generate-sections.mjs (section headings, in a
- * tile) and generate-icons.mjs ("Open to" and the footer, as the bare glyph). The "Hi, I'm ..." header keeps the 👋 emoji.
+ * tile) and generate-icons.mjs (the footer, as the bare glyph). The "Hi, I'm ..." header and the "Open to" line keep their emoji.
  *
  * The tile is drawn on 24x24 and shown at 26x26 in the section headings, a little larger than the emoji it replaces. In the section headings its center sits at y = 13.5:
  * between the middle of the capital and of the lowercase letters of the 24px heading text next to it (baseline y = 20),
@@ -16,8 +16,6 @@ export const ICONS = {
     `<path d="M13.2 2.5L5.5 13.4h5.8L10.4 21.5l8.1-11.4h-5.9z"/>`,
   telemetry: // bar chart
     `<path d="M5.5 20.5v-8M12 20.5v-16M18.5 20.5v-11"/>`,
-  openTo: // briefcase
-    `<rect x="3" y="7.5" width="18" height="12.5" rx="2.2"/><path d="M8.5 7.5V6a1.8 1.8 0 0 1 1.8-1.8h3.4A1.8 1.8 0 0 1 15.5 6v1.5M3 13h18M10.5 13v1.6h3V13"/>`,
 };
 
 export const ICON_COLOR = { dark: "#38bdf8", light: "#0969da" };
