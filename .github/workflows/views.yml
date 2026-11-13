@@ -1,0 +1,44 @@
+name: Profile views badge
+
+on:
+  schedule:
+    - cron: "41 */6 * * *" # every six hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate-views.mjs
+      - .github/workflows/views.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-views
+  cancel-in-progress: true
+
+jobs:
+  views:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Read the counter and draw the badge
+        run: node scripts/generate-views.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add img/badges/views-dark.svg img/badges/views-light.svg
+          if git diff --staged --quiet; then
+            echo "Views unchanged"
+          else
+            git commit -m "Update profile views"
+            git pull --rebase
+            git push
+          fi

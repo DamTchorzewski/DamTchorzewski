@@ -8,31 +8,31 @@
 
 ## 👋 Hi, I'm Damian Chabracki!
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/role-dark.svg"><img src="img/hero/role-light.svg" alt="Full-Stack Software Engineer &amp; Systems Architect • Founder @ DamReboot IT" height="30"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/role-dark.svg"><img src="img/hero/role-light.svg" alt="Full-Stack Software Engineer | TypeScript, Node.js, Python, C#" height="30"></picture>
 
 <img src="img/hero/robot.svg" alt="DamReboot robot mascot waving hello" width="200" align="right">
 
-I design, architect and ship production-grade web, mobile and desktop systems. My background spans **mission-critical industrial telemetry (SCADA/HMI)**, **multi-tenant B2B SaaS and marketplaces** and **ML services behind REST APIs**, built from the ground up with strict type safety, predictable state management and measurable business value. Warsaw-based, in commercial delivery since 2023.
+I am a Full-Stack Developer with 4 years of experience building scalable web applications, critical infrastructure dashboards, and multi-tenant B2B platforms. My core expertise lies in the **TypeScript** ecosystem (React, Node.js, NestJS), but my strong academic and practical foundations in **Python**, **C# (OOP)**, and **SQL** allow me to comfortably navigate polyglot environments.
 
 **How I engineer systems:**
 
-- **Contract-first architecture:** strict `OpenAPI` / REST schemas, domain boundaries and database models (`PostgreSQL`, `Prisma`) before UI or business logic.
-- **Mission-critical reliability:** real-time industrial telemetry systems built to **NIS2** security standards and **WCAG** accessibility.
-- **Full-stack TypeScript execution:** high-performance frontends (`Next.js`, `React`, `React Native`, `Electron`) with scalable backend services (`NestJS`, `Node.js`) and `Python` ML.
-- **Pragmatic DevOps and ownership:** end-to-end delivery from system design and CI/CD (`Docker`, `GitHub Actions`, `Linux VPS`) to production observability (`Grafana`).
+- **End-to-End Development:** From gathering requirements and designing database schemas (SQL/NoSQL) to deploying REST/GraphQL APIs and responsive frontends.
+- **Architecture & Cloud:** Implementing multi-tenant architectures, micro-services concepts, and deploying containerized applications (Docker, CI/CD).
+- **Critical Systems:** Experience in building high-performance, secure SCADA/HMI interfaces for critical infrastructure (NIS2 standards).
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/icons/open-to-dark.svg"><img src="img/icons/open-to-light.svg" alt="" height="33" align="middle"></picture> **Open to:** Lead Full-Stack and Frontend roles, Tech Lead and Frontend Architect positions, systems architecture consulting and B2B contracts.
+📫 **Open to:** Lead Full-Stack and Frontend roles, Tech Lead and Frontend Architect positions, systems architecture consulting and B2B contracts.
 
 <br clear="right">
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/experience-dark.svg"><img src="img/badges/experience-light.svg" alt="Commercial experience since 2023, 4+ years coding" height="34"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/views-dark.svg"><img src="img/badges/views-light.svg" alt="Profile views" height="34"></picture><img src="https://komarev.com/ghpvc/?username=DamTchorzewski&label=&color=3fb6d6&style=flat-square" alt="" width="1" height="1">
 </p>
 
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-featured-dark.svg"><img src="img/hero/heading-featured-light.svg" alt="Featured Systems &amp; Architecture Highlights" height="28" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-featured-dark.svg"><img src="img/hero/heading-featured-light.svg" alt="Featured Systems &amp; Architecture Highlights" height="34" align="middle"></picture></summary>
 
 <br>
 
@@ -52,7 +52,7 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-domains-dark.svg"><img src="img/hero/heading-domains-light.svg" alt="Engineering Domains &amp; Production Experience" height="28" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-domains-dark.svg"><img src="img/hero/heading-domains-light.svg" alt="Engineering Domains &amp; Production Experience" height="34" align="middle"></picture></summary>
 
 <br>
 
@@ -76,7 +76,7 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-stack-dark.svg"><img src="img/hero/heading-stack-light.svg" alt="Core Tech Stack &amp; Ecosystem" height="28" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-stack-dark.svg"><img src="img/hero/heading-stack-light.svg" alt="Core Tech Stack &amp; Ecosystem" height="34" align="middle"></picture></summary>
 
 <br>
 
@@ -95,7 +95,7 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-telemetry-dark.svg"><img src="img/hero/heading-telemetry-light.svg" alt="GitHub Telemetry &amp; Language Distribution" height="28" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-telemetry-dark.svg"><img src="img/hero/heading-telemetry-light.svg" alt="GitHub Telemetry &amp; Language Distribution" height="34" align="middle"></picture></summary>
 
 <br>
 
