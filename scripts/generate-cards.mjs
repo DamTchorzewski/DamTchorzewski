@@ -1,6 +1,5 @@
 /**
  * Generates the content cards of README.md from profile.config.json (light + dark variants):
- *  - img/cards/stack-<group>-*.svg: framed "Core tech stack" cards with brand-colored pills,
  *  - img/cards/domain-<id>-*.svg and featured-<id>-*.svg: framed cards (colored title, tag, text with code chips),
  *  - img/hero/role-*.svg: the colored role line under the heading.
  *
@@ -183,52 +182,6 @@ function writeSection(prefix, specs, kind) {
 writeSection("domain", CONFIG.domains, "domain");
 writeSection("featured", CONFIG.featured, "featured");
 
-// ---------- stack cards (full width, brand-colored pills) ----------
-const SW = 880;
-const PILL_H = 34;
-const GAP = 10;
-const ASCII = /^[\x20-\x7e\u25b2]+$/;
-
-const iconWidth = (icon) => (ASCII.test(icon) ? sansW(icon, 13, true) : 19);
-const pillWidth = ([icon, name]) => Math.round(14 + iconWidth(icon) + 8 + sansW(name, 14, true) + 14);
-
-function stackCard(group, th) {
-  const accent = group.color[th.idx];
-  const innerW = SW - 44;
-  let x = 0;
-  let row = 0;
-  let pills = "";
-  for (const item of group.items) {
-    const [icon, name, bg, fg = "#ffffff", stroke] = item;
-    const w = pillWidth(item);
-    if (x > 0 && x + w > innerW) {
-      row++;
-      x = 0;
-    }
-    const px = 22 + x;
-    const py = 62 + row * (PILL_H + GAP);
-    const iconW = iconWidth(icon);
-    pills += `<rect x="${px}" y="${py}" width="${w}" height="${PILL_H}" rx="8" fill="${bg}"${stroke ? ` stroke="${stroke}"` : ""}/>`;
-    pills += ASCII.test(icon)
-      ? `<text x="${px + 14}" y="${py + 22}" textLength="${iconW.toFixed(1)}" lengthAdjust="spacingAndGlyphs" style="font:800 13px ${SANS};fill:${fg}">${esc(icon)}</text>`
-      : `<text x="${px + 14}" y="${py + 23}" style="font:16px ${EMOJI}">${icon}</text>`;
-    pills += `<text x="${px + 14 + iconW + 8}" y="${py + 22}" textLength="${sansW(name, 14, true).toFixed(1)}" lengthAdjust="spacingAndGlyphs" style="font:700 14px ${SANS};fill:${fg}">${esc(name)}</text>`;
-    x += w + GAP;
-  }
-  const H = 62 + (row + 1) * PILL_H + row * GAP + 22;
-  const title = group.title.toUpperCase();
-  return `${open(SW, H, `${group.title}: ${group.items.map((i) => i[1]).join(", ")}`)}
-${frame(th, SW, H)}
-<text x="22" y="37" style="font:17px ${EMOJI}">${group.emoji}</text>
-<text x="48" y="37" textLength="${monoW(title, 13).toFixed(1)}" lengthAdjust="spacingAndGlyphs" style="font:700 13px ${MONO};fill:${accent}">${esc(title)}</text>
-${pills}
-</svg>
-`;
-}
-for (const group of CONFIG.stack) {
-  for (const [name, th] of Object.entries(THEMES)) writeFileSync(join(OUT, `stack-${group.id}-${name}.svg`), stackCard(group, th));
-}
-
 // ---------- colored role line ----------
 mkdirSync(join(ROOT, "img/hero"), { recursive: true });
 for (const [name, th] of Object.entries(THEMES)) {
@@ -243,4 +196,4 @@ for (const [name, th] of Object.entries(THEMES)) {
   );
 }
 
-console.log(`cards: ${CONFIG.stack.length} stack + ${CONFIG.domains.length} domain + ${CONFIG.featured.length} featured cards, x 2 themes + role line`);
+console.log(`cards: ${CONFIG.domains.length} domain + ${CONFIG.featured.length} featured cards, x 2 themes + role line`);

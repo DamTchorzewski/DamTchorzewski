@@ -10,7 +10,7 @@
 
 <a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/role-dark.svg"><img src="img/hero/role-light.svg" alt="Full-Stack Software Engineer • Founder @ DamReboot IT" height="30"></picture></a>
 
-<img src="img/hero/robot.svg" alt="DamReboot robot mascot" width="200" align="right">
+<img src="img/hero/robot.svg" alt="DamReboot robot mascot waving hello" width="200" align="right">
 
 I am a Warsaw-based Full-Stack Software Developer delivering commercial software systems since 2023. My background combines working inside engineering teams on high-reliability industrial software with leading independent end-to-end B2B deliveries through my software house, **DamReboot IT**.
 
@@ -27,7 +27,14 @@ I am a Warsaw-based Full-Stack Software Developer delivering commercial software
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/experience-dark.svg"><img src="img/badges/experience-light.svg" alt="Commercial experience since 2023, 4+ years coding" height="34"></picture>
 </p>
 
-## 🧭 Engineering Domains & Production Experience
+<br>
+
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-domains-dark.svg"><img src="img/hero/heading-domains-light.svg" alt="🧭 Engineering Domains &amp; Production Experience" height="28" align="middle"></picture></summary>
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/intro-domains-dark.svg"><img src="img/cards/intro-domains-light.svg" alt="Terminal: ls ~/domains lists infra, b2b, frontend, backend, devops and ai: 6 areas, commercial delivery since 2023. The DamReboot robot stands next to it." width="100%"></picture>
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/domain-infra-dark.svg"><img src="img/cards/domain-infra-light.svg" alt="Critical Infrastructure (Security): At Proffico: security by design for SCADA/HMI-class telemetry and field apps for water infrastructure, built to NIS2 standards: contract-first APIs with strict runtime validation, code reviews, unit tests, WCAG accessibility and performance tuning for large real-time data volumes." width="49.6%"></picture>
@@ -42,82 +49,55 @@ I am a Warsaw-based Full-Stack Software Developer delivering commercial software
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/domain-ai-dark.svg"><img src="img/cards/domain-ai-light.svg" alt="Applied AI &amp; ML (AI / ML): Python ML (Pandas, NumPy) exposed through REST APIs: automated KYC identity-document verification and a real-time text-autocompletion NLP model with 95% prediction accuracy. Daily agentic engineering with Claude Code CLI and Gemini." width="49.6%"></picture>
 </p>
 
-## ⚡ Core Tech Stack & Ecosystem
+</details>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-frontend-dark.svg"><img src="img/cards/stack-frontend-light.svg" alt="Frontend, desktop &amp; cross-platform mobile: TypeScript, React 18/19, Next.js (SSR/SSG), React Native, Electron.js, Tailwind CSS, TanStack Query, Redux Toolkit & Zustand, Apache ECharts, Mapbox GL" width="100%"></picture><br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-backend-dark.svg"><img src="img/cards/stack-backend-light.svg" alt="Backend architecture, APIs &amp; databases: Node.js, NestJS, Express.js, PostgreSQL, MongoDB, Prisma ORM, OpenAPI / Swagger, SQL, Auth.js / JWT, S3-compatible storage" width="100%"></picture><br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-devops-dark.svg"><img src="img/cards/stack-devops-light.svg" alt="DevOps &amp; monorepo tooling: Docker & Compose, GitHub Actions (CI/CD), Turborepo, Nginx Reverse Proxy, Microsoft Azure, Grafana, Linux VPS (OVH)" width="100%"></picture><br>
+<br>
 
 <details>
-<summary><b>Show all languages &amp; tools</b> (47)</summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-stack-dark.svg"><img src="img/hero/heading-stack-light.svg" alt="⚡ Core Tech Stack &amp; Ecosystem" height="28" align="middle"></picture></summary>
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-terminal-dark.svg"><img src="img/cards/stack-terminal-light.svg" alt="Core tech stack as stack.ts in an editor window, with the DamReboot robot coding: Frontend, desktop &amp; cross-platform mobile: TypeScript, React 18/19, Next.js (SSR/SSG), React Native, Electron.js, Tailwind CSS, TanStack Query, Redux Toolkit &amp; Zustand, Apache ECharts, Mapbox GL. Backend architecture, APIs &amp; databases: Node.js, NestJS, Express.js, PostgreSQL, MongoDB, Prisma ORM, OpenAPI / Swagger, SQL, Auth.js / JWT, S3-compatible storage. DevOps &amp; monorepo tooling: Docker &amp; Compose, GitHub Actions (CI/CD), Turborepo, Nginx Reverse Proxy, Microsoft Azure, Grafana, Linux VPS. Google, Firebase &amp; AI tooling: Firebase, Gemini, Lighthouse, Claude Code CLI" width="100%"></picture>
+
+<details>
+<summary><b>$ npm ls --all</b>: show all languages &amp; tools (46)</summary>
 <br/>
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/tools-terminal-dark.svg"><img src="img/cards/tools-terminal-light.svg" alt="npm ls --all: 46 languages and tools: Git, GitHub, GitHub Actions, VS Code, Claude Code, Claude, Gemini, Bash, Figma, HTML5, CSS3, shadcn/ui, Sass, BEM, Zod, npm, pnpm, Turborepo, Terminal, Parcel, Webpack, CodePen, Slack, Trello, Browserslist, Windows, BIOS, Office, Vite, MongoDB, Prisma, Docker, Firebase, Web3Forms, Jest, Vitest, Playwright, Storybook, ESLint, Redux, Babel, Express, Insomnia, PHP, WordPress, MySQL" width="100%"></picture>
+
+</details>
+
+</details>
+
+<br>
+
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-featured-dark.svg"><img src="img/hero/heading-featured-light.svg" alt="🚀 Featured Systems &amp; Architecture Highlights" height="28" align="middle"></picture></summary>
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/intro-featured-dark.svg"><img src="img/cards/intro-featured-light.svg" alt="Terminal: git log --graph lists Rikigo (cargo marketplace), Wallet Manager (personal finance), Pogotowie Glazurnicze (lead-gen web) and Czarymary Okulary (retail web) as colored nodes of a commit graph. The DamReboot robot is soldering a chip next to it." width="100%"></picture>
+
 <p>
-<!-- tools:start -->
-<img src="img/git-original.svg" title="Git" alt="Git" height="30"/>&nbsp;
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/tools/github-dark.svg"><img src="img/tools/github-light.svg" title="GitHub" alt="GitHub" height="30"/></picture>&nbsp;
-<img src="img/githubactions-original.svg" title="GitHub Actions" alt="GitHub Actions" height="30"/>&nbsp;
-<img src="img/vscode-original.svg" title="VS Code" alt="VS Code" height="30"/>&nbsp;
-<img src="img/claudecode-original.svg" title="Claude Code" alt="Claude Code" height="30"/>&nbsp;
-<img src="img/claude-original.svg" title="Claude" alt="Claude" height="30"/>&nbsp;
-<img src="img/gemini.svg" title="Gemini" alt="Gemini" height="30"/>&nbsp;
-<img src="img/bash-original.svg" title="Bash" alt="Bash" height="30"/>&nbsp;
-<img src="img/figma-original.svg" title="Figma" alt="Figma" height="30"/>&nbsp;
-<img src="img/html5-original.svg" title="HTML5" alt="HTML5" height="30"/>&nbsp;
-<img src="img/css3-original.svg" title="CSS3" alt="CSS3" height="30"/>&nbsp;
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/tools/shadcn-ui-dark.svg"><img src="img/tools/shadcn-ui-light.svg" title="shadcn/ui" alt="shadcn/ui" height="30"/></picture>&nbsp;
-<img src="img/sass-original.svg" title="Sass" alt="Sass" height="30"/>&nbsp;
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/tools/bem-dark.svg"><img src="img/tools/bem-light.svg" title="BEM" alt="BEM" height="30"/></picture>&nbsp;
-<img src="img/zod.svg" title="Zod" alt="Zod" height="30"/>&nbsp;
-<img src="img/npm-original-wordmark.svg" title="npm" alt="npm" height="30"/>&nbsp;
-<img src="img/pnpm-original.svg" title="pnpm" alt="pnpm" height="30"/>&nbsp;
-<img src="img/turborepo.svg" title="Turborepo" alt="Turborepo" height="30"/>&nbsp;
-<img src="img/terminal.png" title="Terminal" alt="Terminal" height="30"/>&nbsp;
-<img src="img/parcel.svg" title="Parcel" alt="Parcel" height="30"/>&nbsp;
-<img src="img/webpack.svg" title="Webpack" alt="Webpack" height="30"/>&nbsp;
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/tools/codepen-dark.svg"><img src="img/tools/codepen-light.svg" title="CodePen" alt="CodePen" height="30"/></picture>&nbsp;
-<img src="img/slack-original.svg" title="Slack" alt="Slack" height="30"/>&nbsp;
-<img src="img/trello-plain.svg" title="Trello" alt="Trello" height="30"/>&nbsp;
-<img src="img/brouslist.svg" title="Browserslist" alt="Browserslist" height="30"/>&nbsp;
-<img src="img/windows-icon.svg" title="Windows" alt="Windows" height="30"/>&nbsp;
-<img src="img/bios.png" title="BIOS" alt="BIOS" height="30"/>&nbsp;
-<img src="img/office.png" title="Office" alt="Office" height="30"/>&nbsp;
-<img src="img/vite.svg" title="Vite" alt="Vite" height="30"/>&nbsp;
-<img src="img/mongodb.svg" title="MongoDB" alt="MongoDB" height="30"/>&nbsp;
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/tools/prisma-dark.svg"><img src="img/tools/prisma-light.svg" title="Prisma" alt="Prisma" height="30"/></picture>&nbsp;
-<img src="img/docker.svg" title="Docker" alt="Docker" height="30"/>&nbsp;
-<img src="img/firebase-original.svg" title="Firebase" alt="Firebase" height="30"/>&nbsp;
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/tools/ovhcloud-dark.svg"><img src="img/tools/ovhcloud-light.svg" title="OVHcloud" alt="OVHcloud" height="30"/></picture>&nbsp;
-<img src="img/web3forms.svg" title="Web3Forms" alt="Web3Forms" height="30"/>&nbsp;
-<img src="img/jest.svg" title="Jest" alt="Jest" height="30"/>&nbsp;
-<img src="img/vitest-original.svg" title="Vitest" alt="Vitest" height="30"/>&nbsp;
-<img src="img/playwright-original.svg" title="Playwright" alt="Playwright" height="30"/>&nbsp;
-<img src="img/storybook-original.svg" title="Storybook" alt="Storybook" height="30"/>&nbsp;
-<img src="img/eslint-original.svg" title="ESLint" alt="ESLint" height="30"/>&nbsp;
-<img src="img/redux.svg" title="Redux" alt="Redux" height="30"/>&nbsp;
-<img src="img/babel.svg" title="Babel" alt="Babel" height="30"/>&nbsp;
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/tools/express-dark.svg"><img src="img/tools/express-light.svg" title="Express" alt="Express" height="30"/></picture>&nbsp;
-<img src="img/insomnia.svg" title="Insomnia" alt="Insomnia" height="30"/>&nbsp;
-<img src="img/php.png" title="PHP" alt="PHP" height="30"/>&nbsp;
-<img src="img/wordpress.png" title="WordPress" alt="WordPress" height="30"/>&nbsp;
-<img src="img/mysql.png" title="MySQL" alt="MySQL" height="30"/>
-<!-- tools:end -->
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-rikigo-dark.svg"><img src="img/cards/featured-rikigo-light.svg" alt="Rikigo (Cargo marketplace): Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a state machine and double-entry ledger. Stack: Next.js, TypeScript, Turborepo, PostgreSQL." width="49.6%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-wallet-dark.svg"><img src="img/cards/featured-wallet-light.svg" alt="Wallet Manager (Personal finance): Personal finance app: income and expenses by category, balance and spending charts on any device. REST API with JWT auth, Swagger docs, team project. Stack: React, Redux Toolkit, Node.js, MongoDB." width="49.6%"></picture>
+</p>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-glazurnicze-dark.svg"><img src="img/cards/featured-glazurnicze-light.svg" alt="Pogotowie Glazurnicze (Lead-gen web): Site for a renovation firm in Katowice: four service lines, free-quote form and tap-to-call on every screen. Lighthouse 100/100/100, WCAG 2.2 AA tests. Stack: Next.js, TypeScript, Tailwind CSS, Zod." width="49.6%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-czarymary-dark.svg"><img src="img/cards/featured-czarymary-light.svg" alt="Czarymary Okulary (Retail web): Redesigned site of a Warsaw optical salon: offer, news and directions in a few clicks, light/dark mode. Lighthouse 100 perf, 100 SEO, 97 a11y. Stack: Next.js, React, TypeScript, Tailwind CSS." width="49.6%"></picture>
 </p>
 
 </details>
 
-## 🚀 Featured Systems & Architecture Highlights
+<br>
 
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-rikigo-dark.svg"><img src="img/cards/featured-rikigo-light.svg" alt="Rikigo (Cargo marketplace): Business value: marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform handles payments and disputes. Under the hood: Turborepo monorepo with Next.js apps and a pure-TypeScript core: order state machine and double-entry ledger. Stack: Next.js, TypeScript, Turborepo, PostgreSQL." width="49.6%"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-wallet-dark.svg"><img src="img/cards/featured-wallet-light.svg" alt="Wallet Manager (Personal finance): Business value: personal finance app for budget control: income and expenses by category, balance and spending charts on any device. Under the hood: React + Redux Toolkit frontend, Node.js / Express API on MongoDB with JWT auth and Swagger docs. Team project. Stack: React, Redux Toolkit, Node.js, MongoDB." width="49.6%"></picture>
-</p>
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-glazurnicze-dark.svg"><img src="img/cards/featured-glazurnicze-light.svg" alt="Pogotowie Glazurnicze (Lead-gen web): Business value: website for a renovation firm in Katowice: four service lines, a free-quote form and tap-to-call on every screen. Under the hood: lightweight Next.js site with WCAG 2.2 AA tests and Lighthouse 100/100/100 for performance, SEO and accessibility. Stack: Next.js, TypeScript, Tailwind CSS, Zod." width="49.6%"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-czarymary-dark.svg"><img src="img/cards/featured-czarymary-light.svg" alt="Czarymary Okulary (Retail web): Business value: redesigned site of a Warsaw optical salon for children and adults: offer, news and directions in a few clicks. Under the hood: Next.js with a subpage per offer, gallery and light/dark mode. Lighthouse 100 performance, 100 SEO, 97 accessibility. Stack: Next.js, React, TypeScript, Tailwind CSS." width="49.6%"></picture>
-</p>
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-telemetry-dark.svg"><img src="img/hero/heading-telemetry-light.svg" alt="📊 GitHub Telemetry &amp; Language Distribution" height="28" align="middle"></picture></summary>
 
-## 📊 GitHub Telemetry & Language Distribution
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/intro-telemetry-dark.svg"><img src="img/cards/intro-telemetry-light.svg" alt="Terminal: generate-stats builds the overview (contributions, repositories, stars, streaks, 12 months) and the languages card. The DamReboot robot is analyzing a chart next to it." width="100%"></picture>
 
 <p>
   <picture>
@@ -132,8 +112,16 @@ I am a Warsaw-based Full-Stack Software Developer delivering commercial software
   </picture>
 </p>
 
+</details>
+
 ---
 
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/intro-ending-dark.svg"><img src="img/cards/intro-ending-light.svg" alt="Thanks for scrolling this far. Open for B2B / projects. The DamReboot robot is celebrating with confetti." width="100%"></picture>
+
+<p align="center"><a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/company-dark.svg"><img src="img/badges/company-light.svg" alt="damreboot.pl: company website" height="36"></picture></a><a href="https://cv.damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/cv-dark.svg"><img src="img/badges/cv-light.svg" alt="CV portal: portfolio and CV" height="36"></picture></a><a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/linkedin-dark.svg"><img src="img/badges/linkedin-light.svg" alt="LinkedIn: let's connect" height="36"></picture></a><a href="mailto:damianchabracki@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/email-dark.svg"><img src="img/badges/email-light.svg" alt="E-mail: write to me" height="36"></picture></a></p>
+
 <p align="center">
-  ⚡ Engineered by <b>Damian Chabracki</b> (DamReboot IT) · Let's build scalable software together: <a href="https://damreboot.pl">damreboot.pl</a> · <a href="mailto:damianchabracki@gmail.com">damianchabracki@gmail.com</a>
+  ⚡ Engineered by <b>Damian Chabracki</b> (DamReboot IT)
 </p>
