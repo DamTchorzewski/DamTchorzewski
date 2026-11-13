@@ -26,7 +26,7 @@ I am a Full-Stack Developer with 4 years of experience building scalable web app
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/experience-dark.svg"><img src="img/badges/experience-light.svg" alt="Commercial experience since 2023, 4+ years coding" height="34"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/views-dark.svg"><img src="img/badges/views-light.svg" alt="Profile views" height="34"></picture><img src="https://komarev.com/ghpvc/?username=DamTchorzewski&label=&color=3fb6d6&style=flat-square" alt="" width="1" height="1">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/views-dark.svg"><img src="img/badges/views-light.svg" alt="Profile views" height="34"></picture><img src="https://komarev.com/ghpvc/?username=DamTchorzewski&label=&color=3fb6d6&style=flat-square" alt="" width="0" height="0">
 </p>
 
 <br>
