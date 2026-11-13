@@ -9,7 +9,8 @@
  * a fine grid and a few dots that fade out towards the edges.
  *
  * Animation is kept to the minimum (pure CSS @keyframes, which GitHub renders when the file is used via <img>): the
- * eyes blink, the glows slowly breathe, a sheen sweeps over the wordmark and the dots of the background twinkle. It respects prefers-reduced-motion; the static state is a complete picture.
+ * eyes blink, the glows drift, change shape and breathe, a sheen sweeps over the wordmark and the dots of the
+ * background twinkle. It respects prefers-reduced-motion; the static state is a complete picture.
  * Text is pinned with textLength so the layout does not depend on the viewer's fonts.
  * Run when the banner changes: node scripts/generate-banner.mjs
  */
@@ -27,12 +28,12 @@ const H = 260;
 
 const THEMES = {
   dark: {
-    bg: ["#0f1620", "#0b1017"], border: "#232c3a", grid: "#2a3647", dots: "#7dd3fc", sheen: "#22d3ee", accent2: "#22d3ee", glow: 0.42,
+    bg: ["#0f1620", "#0b1017"], border: "#232c3a", grid: "#2a3647", dots: "#7dd3fc", sheen: "#22d3ee", accent2: "#22d3ee", glow: 0.5,
     word: ["#ffffff", "#b9e6ff"], muted: "#8b949e", pillar: "#9fb3c8", chip: ["#ffffff", 0.05, "#ffffff", 0.16],
     domains: ["#22d3ee", "#38bdf8", "#4ade80", "#c084fc"],
   },
   light: {
-    bg: ["#ffffff", "#f1f6fb"], border: "#d0d7de", grid: "#cfdbe8", dots: "#0b7bb8", sheen: "#ffffff", accent2: "#0e7490", glow: 0.24,
+    bg: ["#ffffff", "#f1f6fb"], border: "#d0d7de", grid: "#cfdbe8", dots: "#0b7bb8", sheen: "#ffffff", accent2: "#0e7490", glow: 0.28,
     word: ["#0b1a33", "#0b5f95"], muted: "#57606a", pillar: "#425466", chip: ["#ffffff", 0.8, "#8aa4bd", 0.45],
     domains: ["#0e7490", "#0b7bb8", "#1a7f37", "#8250df"],
   },
@@ -112,7 +113,7 @@ ${mono(word, px + 28, CY + 18.4, hot ? c.word[1] : c.pillar, { size: CS, weight:
     const x = rnd() * W;
     const y = rnd() * H;
     if (x > 330 && x < 870 && y > 36 && y < 232) continue;
-    dotList.push(`<circle class="tw" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(0.7 + rnd() * 1.3).toFixed(1)}" fill-opacity="${(0.3 + rnd() * 0.5).toFixed(2)}" style="animation-duration:${(4 + rnd() * 5).toFixed(1)}s;animation-delay:-${(rnd() * 9).toFixed(1)}s"/>`);
+    dotList.push(`<circle class="tw" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(0.7 + rnd() * 1.3).toFixed(1)}" fill-opacity="${(0.3 + rnd() * 0.5).toFixed(2)}" style="animation-duration:${(2.5 + rnd() * 3).toFixed(1)}s;animation-delay:-${(rnd() * 6).toFixed(1)}s"/>`);
   }
   const dots = dotList.join("");
   const gradients = c.domains
@@ -140,10 +141,10 @@ ${gradients}
 <style>
 .eye{transform-box:fill-box;transform-origin:50% 50%;animation:eyes 5.5s ease-in-out infinite}
 @keyframes eyes{0%,90%,100%{transform:scaleY(1)}94%{transform:scaleY(.08)}}
-.breathe{animation:breathe 9s ease-in-out infinite}
-@keyframes breathe{50%{opacity:.55}}
-.tw{animation:tw 6s ease-in-out infinite}
-@keyframes tw{0%,100%{opacity:1}50%{opacity:.12}}
+.breathe{transform-box:fill-box;transform-origin:50% 50%;animation:breathe 7s ease-in-out infinite}
+@keyframes breathe{0%,100%{opacity:1;transform:translate(-70px,8px) scale(1)}50%{opacity:.2;transform:translate(70px,-16px) scale(1.15,1.3)}}
+.tw{animation:tw 3.5s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:1}50%{opacity:.04}}
 .sheen{animation:sheen 12s ease-in-out infinite 1s}
 @keyframes sheen{0%{transform:translateX(0) skewX(-20deg)}12%{transform:translateX(${total + 220}px) skewX(-20deg)}100%{transform:translateX(${total + 220}px) skewX(-20deg)}}
 @media (prefers-reduced-motion:reduce){.eye,.breathe,.tw,.sheen{animation:none}.sheen{display:none}}
