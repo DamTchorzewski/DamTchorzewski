@@ -1,14 +1,14 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="img/banner/damreboot-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="img/banner/damreboot-light.gif">
-  <img src="img/banner/damreboot-dark.gif" alt="DamReboot" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="img/banner/damreboot-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="img/banner/damreboot-light.svg">
+  <img src="img/banner/damreboot-dark.svg" alt="DamReboot: Full-Stack Developer. Frontend, architecture, backend, DevOps." width="100%">
 </picture>
 
 <p align="center"><a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/company-dark.svg"><img src="img/badges/company-light.svg" alt="damreboot.pl: company website" height="36"></picture></a><a href="https://cv.damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/cv-dark.svg"><img src="img/badges/cv-light.svg" alt="CV portal: portfolio and CV" height="36"></picture></a><a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/linkedin-dark.svg"><img src="img/badges/linkedin-light.svg" alt="LinkedIn: let's connect" height="36"></picture></a><a href="mailto:damianchabracki@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/email-dark.svg"><img src="img/badges/email-light.svg" alt="E-mail: write to me" height="36"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/status-dark.svg"><img src="img/badges/status-light.svg" alt="Status: open for B2B / projects" height="36"></picture></p>
 
 ## 🚀 Hi, I'm Damian Chabracki!
 
-<a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/role-dark.svg"><img src="img/hero/role-light.svg" alt="Full-Stack Software Engineer &amp; Systems Architect • Founder @ DamReboot IT" height="30"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/role-dark.svg"><img src="img/hero/role-light.svg" alt="Full-Stack Software Engineer &amp; Systems Architect • Founder @ DamReboot IT" height="30"></picture>
 
 <img src="img/hero/robot.svg" alt="DamReboot robot mascot waving hello" width="200" align="right">
 
@@ -21,7 +21,7 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 - **Full-stack TypeScript execution:** high-performance frontends (`Next.js`, `React`, `React Native`, `Electron`) with scalable backend services (`NestJS`, `Node.js`) and `Python` ML.
 - **Pragmatic DevOps and ownership:** end-to-end delivery from system design and CI/CD (`Docker`, `GitHub Actions`, `Linux VPS`) to production observability (`Grafana`).
 
-📫 **Open to:** Senior / Lead Full-Stack and Frontend roles, systems architecture consulting and B2B contracts.
+📫 **Open to:** Lead Full-Stack and Frontend roles, Tech Lead and Frontend Architect positions, systems architecture consulting and B2B contracts.
 
 <br clear="right">
 
