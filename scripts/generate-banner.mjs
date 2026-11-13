@@ -104,7 +104,7 @@ ${mono(word, px + 28, CY + 18.4, hot ? c.word[1] : c.pillar, { size: CS, weight:
   // background: a glow under each area, in the order of the line
   const glowX = [210, 470, 730, 990];
   const glows = glowX
-    .map((x, i) => `<ellipse class="breathe" cx="${x}" cy="232" rx="270" ry="130" fill="url(#g${i})" style="animation-delay:${(i * 1.6).toFixed(1)}s"/>`)
+    .map((x, i) => `<ellipse class="breathe" cx="${x}" cy="232" rx="270" ry="130" fill="url(#g${i})" style="animation-delay:-${(i * 1.75).toFixed(2)}s"/>`) // negative delay: every glow starts in its own place of the cycle, with no jump when the delay would end
     .join("\n");
   const grid = Array.from({ length: Math.floor(W / 40) + 1 }, (_, i) => `<path d="M${i * 40 + 0.5} 0V${H}"/>`).join("") + Array.from({ length: Math.floor(H / 40) + 1 }, (_, i) => `<path d="M0 ${i * 40 + 0.5}H${W}"/>`).join("");
   // background dots stay out of the text block, so none of them can be mistaken for a character

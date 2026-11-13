@@ -30,10 +30,10 @@
 </style>
 <g clip-path="url(#frame)">
 <rect width="1200" height="260" fill="url(#bg)"/>
-<ellipse class="breathe" cx="210" cy="232" rx="270" ry="130" fill="url(#g0)" style="animation-delay:0.0s"/>
-<ellipse class="breathe" cx="470" cy="232" rx="270" ry="130" fill="url(#g1)" style="animation-delay:1.6s"/>
-<ellipse class="breathe" cx="730" cy="232" rx="270" ry="130" fill="url(#g2)" style="animation-delay:3.2s"/>
-<ellipse class="breathe" cx="990" cy="232" rx="270" ry="130" fill="url(#g3)" style="animation-delay:4.8s"/>
+<ellipse class="breathe" cx="210" cy="232" rx="270" ry="130" fill="url(#g0)" style="animation-delay:-0.00s"/>
+<ellipse class="breathe" cx="470" cy="232" rx="270" ry="130" fill="url(#g1)" style="animation-delay:-1.75s"/>
+<ellipse class="breathe" cx="730" cy="232" rx="270" ry="130" fill="url(#g2)" style="animation-delay:-3.50s"/>
+<ellipse class="breathe" cx="990" cy="232" rx="270" ry="130" fill="url(#g3)" style="animation-delay:-5.25s"/>
 <ellipse cx="600" cy="100" rx="340" ry="110" fill="url(#halo)"/>
 <g mask="url(#fadeMask)">
 <g stroke="#cfdbe8" stroke-opacity=".8" stroke-width="1" fill="none"><path d="M0.5 0V260"/><path d="M40.5 0V260"/><path d="M80.5 0V260"/><path d="M120.5 0V260"/><path d="M160.5 0V260"/><path d="M200.5 0V260"/><path d="M240.5 0V260"/><path d="M280.5 0V260"/><path d="M320.5 0V260"/><path d="M360.5 0V260"/><path d="M400.5 0V260"/><path d="M440.5 0V260"/><path d="M480.5 0V260"/><path d="M520.5 0V260"/><path d="M560.5 0V260"/><path d="M600.5 0V260"/><path d="M640.5 0V260"/><path d="M680.5 0V260"/><path d="M720.5 0V260"/><path d="M760.5 0V260"/><path d="M800.5 0V260"/><path d="M840.5 0V260"/><path d="M880.5 0V260"/><path d="M920.5 0V260"/><path d="M960.5 0V260"/><path d="M1000.5 0V260"/><path d="M1040.5 0V260"/><path d="M1080.5 0V260"/><path d="M1120.5 0V260"/><path d="M1160.5 0V260"/><path d="M1200.5 0V260"/><path d="M0 0.5H1200"/><path d="M0 40.5H1200"/><path d="M0 80.5H1200"/><path d="M0 120.5H1200"/><path d="M0 160.5H1200"/><path d="M0 200.5H1200"/><path d="M0 240.5H1200"/></g>
