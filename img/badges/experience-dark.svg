@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="34" viewBox="0 0 410 34" role="img" aria-label="Commercial experience: Since 2023 (4+ yrs coding)">
+<title>Commercial experience: Since 2023 (4+ yrs coding)</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.6px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}animate{display:none}}
+</style>
+<clipPath id="r"><rect width="410" height="34" rx="6"/></clipPath>
+<g clip-path="url(#r)">
+<rect width="197" height="34" fill="#0d1117"/>
+<rect x="197" width="213" height="34" fill="#3fb6d6"/>
+</g>
+<rect x=".5" y=".5" width="409" height="33" rx="5.5" fill="none" stroke="#30363d"/>
+<svg x="12" y="10" width="14" height="14" viewBox="0 0 24 24"><path fill="#6ea8ff" d="M23 12L15.9289 19.0711L14.5147 17.6569L20.1716 12L14.5147 6.34315L15.9289 4.92893L23 12ZM3.82843 12L9.48528 17.6569L8.07107 19.0711L1 12L8.07107 4.92893L9.48528 6.34315L3.82843 12Z"/></svg>
+<text x="34" y="21" textLength="149" lengthAdjust="spacing" style="fill:#6ea8ff">COMMERCIAL EXPERIENCE</text>
+<text x="211" y="21" textLength="185" lengthAdjust="spacing" style="fill:#06121f">SINCE 2023 (4+ YRS CODING)</text>
+</svg>

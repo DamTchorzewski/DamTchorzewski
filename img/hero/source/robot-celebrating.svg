@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="100%" height="100%">
+                        
+            <defs>
+                <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#f8fafc"/>
+                    <stop offset="55%" stop-color="#cbd5e1"/>
+                    <stop offset="100%" stop-color="#64748b"/>
+                </linearGradient>
+                <linearGradient id="visorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#091526"/>
+                    <stop offset="100%" stop-color="#02060d"/>
+                </linearGradient>
+                <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00f3ff"/>
+                    <stop offset="100%" stop-color="#0284c7"/>
+                </linearGradient>
+                <linearGradient id="popperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00f3ff"/>
+                    <stop offset="60%" stop-color="#3b82f6"/>
+                    <stop offset="100%" stop-color="#9333ea"/>
+                </linearGradient>
+                <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+                    <feGaussianBlur stdDeviation="3.5" result="blur"/>
+                    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                </filter>
+            </defs>
+        
+                        <!-- Ambient Cyber Halo -->
+                        <circle cx="145" cy="150" r="95" fill="#00f3ff" opacity="0.06"/>
+                        
+                        <!-- CONFETTI STREAMERS & STARS (Owl-style party explosion!) -->
+                        <g filter="url(#glow)">
+                            <!-- Streamer ribbons -->
+                            <path d="M150 115 Q115 65 75 52" stroke="#00f3ff" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+                            <path d="M162 105 Q150 48 118 24" stroke="#f43f5e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+                            <path d="M175 112 Q205 55 245 42" stroke="#facc15" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+                            <path d="M145 128 Q85 95 45 105" stroke="#a855f7" stroke-width="3" fill="none" stroke-linecap="round"/>
+                            <path d="M180 125 Q225 90 258 95" stroke="#22c55e" stroke-width="3" fill="none" stroke-linecap="round"/>
+                            <!-- Stars & Confetti Dots -->
+                            <polygon points="65,35 69,44 79,45 71,51 73,61 65,56 57,61 59,51 51,45 61,44" fill="#facc15"/>
+                            <polygon points="155,18 158,25 165,26 160,31 161,38 155,34 149,38 150,31 145,26 152,25" fill="#00f3ff"/>
+                            <polygon points="228,22 231,29 238,30 233,35 234,42 228,38 222,42 223,35 218,30 225,29" fill="#f43f5e"/>
+                            <rect x="95" y="28" width="8" height="8" rx="2" transform="rotate(25 95 28)" fill="#22c55e"/>
+                            <rect x="195" y="38" width="9" height="9" rx="2" transform="rotate(-20 195 38)" fill="#a855f7"/>
+                            <circle cx="52" cy="78" r="4.5" fill="#00f3ff"/>
+                            <circle cx="118" cy="58" r="4" fill="#facc15"/>
+                            <circle cx="242" cy="68" r="5" fill="#00f3ff"/>
+                            <circle cx="212" cy="115" r="4" fill="#f43f5e"/>
+                        </g>
+
+                        <!-- TILTED JOYFUL ROBOT BODY (Owl Pose) -->
+                        <g transform="translate(8, 12) rotate(-8 135 165)">
+                            <!-- Shadow -->
+                            <ellipse cx="125" cy="248" rx="52" ry="9" fill="#00f3ff" opacity="0.18"/>
+                            <!-- Legs (Jumping/Dancing) -->
+                            <path d="M98 205 Q88 225 78 232" stroke="#334155" stroke-width="14" stroke-linecap="round" fill="none"/>
+                            <ellipse cx="75" cy="235" rx="14" ry="8" fill="url(#bodyGrad)" stroke="#475569" stroke-width="2"/>
+                            <path d="M138 205 Q148 225 156 236" stroke="#334155" stroke-width="14" stroke-linecap="round" fill="none"/>
+                            <ellipse cx="160" cy="239" rx="14" ry="8" fill="url(#bodyGrad)" stroke="#475569" stroke-width="2"/>
+
+                            <!-- Torso -->
+                            <rect x="86" y="148" width="68" height="62" rx="24" fill="url(#bodyGrad)" stroke="#475569" stroke-width="2.5"/>
+                            <!-- Glowing Chest Reactor Core -->
+                            <circle cx="120" cy="177" r="13" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+                            <circle cx="120" cy="177" r="8" fill="#00f3ff" filter="url(#glow)"/>
+
+                            <!-- Head -->
+                            <g transform="translate(56, 56)">
+                                <!-- Side Antenna Left -->
+                                <rect x="-8" y="34" width="10" height="28" rx="5" fill="#334155"/>
+                                <path d="M-4 38 L-12 10" stroke="url(#bodyGrad)" stroke-width="6" stroke-linecap="round"/>
+                                <circle cx="-12" cy="8" r="4.5" fill="#00f3ff" filter="url(#glow)"/>
+                                <!-- Side Antenna Right -->
+                                <rect x="126" y="34" width="10" height="28" rx="5" fill="#334155"/>
+                                <path d="M132 38 L140 10" stroke="url(#bodyGrad)" stroke-width="6" stroke-linecap="round"/>
+                                <circle cx="140" cy="8" r="4.5" fill="#00f3ff" filter="url(#glow)"/>
+
+                                <!-- Main Rounded Helmet -->
+                                <rect x="0" y="0" width="128" height="92" rx="42" fill="url(#bodyGrad)" stroke="#475569" stroke-width="2.5"/>
+                                <!-- Forehead seam -->
+                                <path d="M35 12 Q64 20 93 12" stroke="#94a3b8" stroke-width="2" fill="none"/>
+                                <!-- Visor Screen -->
+                                <rect x="14" y="18" width="100" height="58" rx="26" fill="url(#visorGrad)" stroke="#00f3ff" stroke-width="2"/>
+                                
+                                <!-- Happy Laughing Neon Eyes (^ ^) -->
+                                <path d="M32 45 Q44 30 56 45" stroke="#00f3ff" stroke-width="5" stroke-linecap="round" fill="none" filter="url(#glow)"/>
+                                <path d="M72 45 Q84 30 96 45" stroke="#00f3ff" stroke-width="5" stroke-linecap="round" fill="none" filter="url(#glow)"/>
+                                <!-- Open Joyful Smile -->
+                                <path d="M52 56 Q64 68 76 56 Z" fill="#00f3ff" filter="url(#glow)"/>
+                            </g>
+
+                            <!-- Arms holding the Party Popper Cannon -->
+                            <path d="M88 165 Q65 145 115 135" stroke="url(#bodyGrad)" stroke-width="14" stroke-linecap="round" fill="none"/>
+                            <!-- Party Popper Tube (Just like the Owl!) -->
+                            <g transform="translate(135, 112) rotate(35)">
+                                <polygon points="-16,0 16,0 10,68 -10,68" fill="url(#popperGrad)" stroke="#e2e8f0" stroke-width="2"/>
+                                <ellipse cx="0" cy="0" rx="16" ry="6" fill="#091526" stroke="#00f3ff" stroke-width="2"/>
+                                <line x1="-13" y1="22" x2="13" y2="16" stroke="#facc15" stroke-width="4"/>
+                                <line x1="-11" y1="44" x2="11" y2="38" stroke="#f43f5e" stroke-width="4"/>
+                            </g>
+                            <path d="M150 168 Q175 155 155 135" stroke="url(#bodyGrad)" stroke-width="14" stroke-linecap="round" fill="none"/>
+                        </g>
+                    </svg>

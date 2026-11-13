@@ -1,0 +1,169 @@
+{
+  "name": "Damian Chabracki",
+  "role": "Full-Stack Software Engineer • Founder @ DamReboot IT",
+  "codingSince": 2022,
+  "commercialSince": 2023,
+  "status": {
+    "label": "Status",
+    "value": "Open for B2B / projects"
+  },
+  "badges": [
+    { "id": "company", "icon": "globe", "text": "damreboot.pl", "href": "https://damreboot.pl", "tone": ["#3fb6d6", "#0b7bb8"] },
+    { "id": "cv", "icon": "cv", "text": "Portfolio & CV", "href": "https://cv.damreboot.pl", "tone": ["#6ea8ff", "#2f5fb3"] },
+    { "id": "linkedin", "icon": "linkedin", "text": "LinkedIn", "href": "https://www.linkedin.com/in/damian-tchorzewski-3b2388275/", "tone": ["#6ea8ff", "#2f5fb3"] },
+    { "id": "email", "icon": "mail", "text": "E-mail", "href": "mailto:damianchabracki@gmail.com", "tone": ["#b794f4", "#8250df"] }
+  ],
+  "stack": [
+    {
+      "id": "frontend",
+      "emoji": "🖥️",
+      "title": "Frontend, desktop & cross-platform mobile",
+      "color": ["#38bdf8", "#0b7bb8"],
+      "items": [
+        ["TS", "TypeScript", "#3178c6"],
+        ["⚛️", "React 18/19", "#1c2128", "#e6edf3", "#30363d"],
+        ["▲", "Next.js (SSR/SSG)", "#000000", "#ffffff", "#e6edf3"],
+        ["📱", "React Native", "#1c2128", "#e6edf3", "#30363d"],
+        ["⚡", "Electron.js", "#1f1f5c", "#c9d4ff", "#3a3a8c"],
+        ["🌊", "Tailwind CSS", "#0f2a44", "#38bdf8", "#1d4a75"],
+        ["🔄", "TanStack Query", "#e5594c"],
+        ["🟣", "Redux Toolkit & Zustand", "#5b3a8f"],
+        ["📊", "Apache ECharts", "#a23b4a"],
+        ["🗺️", "Mapbox GL", "#3b6df0"]
+      ]
+    },
+    {
+      "id": "backend",
+      "emoji": "⚙️",
+      "title": "Backend architecture, APIs & databases",
+      "color": ["#4ade80", "#1a7f37"],
+      "items": [
+        ["🟢", "Node.js", "#4a8f3c"],
+        ["🦁", "NestJS", "#c03b4a"],
+        ["🚂", "Express.js", "#1f2328", "#e6edf3", "#30363d"],
+        ["🐘", "PostgreSQL", "#4a63d6"],
+        ["🍃", "MongoDB", "#4b8a4f"],
+        ["💎", "Prisma ORM", "#232b36", "#e6edf3", "#3d4756"],
+        ["📜", "OpenAPI / Swagger", "#86a63c", "#0d1117"],
+        ["🗄️", "SQL", "#336791"],
+        ["🔐", "Auth.js / JWT", "#1f2328", "#e6b422", "#3d4756"],
+        ["☁️", "S3-compatible storage", "#7d8f72"]
+      ]
+    },
+    {
+      "id": "devops",
+      "emoji": "🐳",
+      "title": "DevOps & monorepo tooling",
+      "color": ["#c084fc", "#8250df"],
+      "items": [
+        ["🐳", "Docker & Compose", "#2f8ae5"],
+        ["🚀", "GitHub Actions (CI/CD)", "#3b6ee0"],
+        ["🌀", "Turborepo", "#e0613a"],
+        ["🌐", "Nginx Reverse Proxy", "#3f8f4c"],
+        ["☁️", "Microsoft Azure", "#0078d4"],
+        ["📈", "Grafana", "#e8601c"],
+        ["🐧", "Linux VPS (OVH)", "#f2c94c", "#0d1117"]
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "id": "infra",
+      "emoji": "🏭",
+      "title": "Critical Infrastructure",
+      "tag": "Security",
+      "color": ["#38bdf8", "#0b7bb8"],
+      "text": "At Proffico: **security by design** for **SCADA/HMI**-class telemetry and field apps for water infrastructure, built to **NIS2** standards: contract-first APIs with strict runtime validation, code reviews, unit tests, **WCAG** accessibility and performance tuning for large real-time data volumes."
+    },
+    {
+      "id": "b2b",
+      "emoji": "🏢",
+      "title": "B2B & SaaS Products",
+      "tag": "Multi-Tenant",
+      "color": ["#60a5fa", "#1f6feb"],
+      "text": "**Multi-tenancy by design:** a B2B platform and logistics marketplace in one `Turborepo` monorepo, built as a **modular monolith** with clean boundaries, client portal, admin panel, invoicing and Kanban automation, plus SEO-ready websites for SME clients."
+    },
+    {
+      "id": "frontend",
+      "emoji": "🖥️",
+      "title": "Frontend, Desktop & Mobile",
+      "tag": "UI / UX",
+      "color": ["#22d3ee", "#0e7490"],
+      "text": "`React`, `Next.js` (hybrid **SSR / SSG**) and strict `TypeScript` with `Tailwind CSS`, **accessibility-first** (`WCAG 2.2 AA`). State with `TanStack Query`; desktop in `Electron`, field apps in `React Native`, real-time charts in `ECharts`, maps in `Mapbox GL`."
+    },
+    {
+      "id": "backend",
+      "emoji": "⚙️",
+      "title": "Backend & Data Layer",
+      "tag": "API-First",
+      "color": ["#4ade80", "#1a7f37"],
+      "text": "**API-first** backends with `NestJS` and `Node.js`: **state-machine-driven** workflows, a **double-entry ledger**, relational `SQL` (`PostgreSQL`) and `MongoDB` modeling via `Prisma`, `OpenAPI` contracts, `RBAC` enforced in the API layer and rate-limited public APIs."
+    },
+    {
+      "id": "devops",
+      "emoji": "☁️",
+      "title": "Cloud & DevOps",
+      "tag": "CI/CD",
+      "color": ["#c084fc", "#8250df"],
+      "text": "**Shift-left delivery:** `GitHub Actions` run type checks, linting and tests (`Jest`, `Vitest`) before every deploy to `Microsoft Azure` or a `Linux VPS` (`Docker`, `Nginx`), with `Turborepo` monorepos and `Grafana` **observability**."
+    },
+    {
+      "id": "ai",
+      "emoji": "🤖",
+      "title": "Applied AI & ML",
+      "tag": "AI / ML",
+      "color": ["#f472b6", "#bf3989"],
+      "text": "`Python` ML (`Pandas`, `NumPy`) exposed through REST APIs: automated KYC identity-document verification and a real-time text-autocompletion NLP model with 95% prediction accuracy. Daily agentic engineering with `Claude Code CLI` and `Gemini`."
+    }
+  ],
+  "featured": [
+    {
+      "id": "rikigo",
+      "emoji": "🚛",
+      "title": "Rikigo",
+      "tag": "Cargo marketplace",
+      "color": ["#5eb0ff", "#0969da"],
+      "text": [
+        "**Business value:** marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform handles payments and disputes.",
+        "**Under the hood:** `Turborepo` monorepo with `Next.js` apps and a pure-`TypeScript` core: order state machine and **double-entry ledger**."
+      ],
+      "tech": ["Next.js", "TypeScript", "Turborepo", "PostgreSQL"]
+    },
+    {
+      "id": "wallet",
+      "emoji": "💳",
+      "title": "Wallet Manager",
+      "tag": "Personal finance",
+      "color": ["#4ade80", "#1a7f37"],
+      "text": [
+        "**Business value:** personal finance app for budget control: income and expenses by category, balance and spending charts on any device.",
+        "**Under the hood:** `React` + `Redux Toolkit` frontend, `Node.js` / `Express` API on `MongoDB` with `JWT` auth and `Swagger` docs. Team project."
+      ],
+      "tech": ["React", "Redux Toolkit", "Node.js", "MongoDB"]
+    },
+    {
+      "id": "glazurnicze",
+      "emoji": "🧱",
+      "title": "Pogotowie Glazurnicze",
+      "tag": "Lead-gen web",
+      "color": ["#fbbf24", "#9a6700"],
+      "text": [
+        "**Business value:** website for a renovation firm in Katowice: four service lines, a free-quote form and tap-to-call on every screen.",
+        "**Under the hood:** lightweight `Next.js` site with WCAG 2.2 AA tests and Lighthouse 100/100/100 for performance, SEO and accessibility."
+      ],
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Zod"]
+    },
+    {
+      "id": "czarymary",
+      "emoji": "👓",
+      "title": "Czarymary Okulary",
+      "tag": "Retail web",
+      "color": ["#f472b6", "#bf3989"],
+      "text": [
+        "**Business value:** redesigned site of a Warsaw optical salon for children and adults: offer, news and directions in a few clicks.",
+        "**Under the hood:** `Next.js` with a subpage per offer, gallery and light/dark mode. Lighthouse 100 performance, 100 SEO, 97 accessibility."
+      ],
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+    }
+  ]
+}

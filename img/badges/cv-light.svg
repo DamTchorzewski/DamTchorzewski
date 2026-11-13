@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="149" height="36" viewBox="0 0 149 36" role="img" aria-label="Portfolio &amp; CV">
+<title>Portfolio &amp; CV</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.6px}
+@media (prefers-reduced-motion:reduce){animate{display:none}}
+</style>
+<clipPath id="r"><rect width="149" height="36"/></clipPath>
+<g clip-path="url(#r)">
+<rect x="-10" y=".5" width="169" height="35" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+
+<line x1="148.5" y1="0" x2="148.5" y2="36" stroke="#d0d7de"/>
+</g>
+<svg x="14" y="11" width="14" height="14" viewBox="0 0 24 24"><path fill="#2f5fb3" d="M15 4H5V20H19V8H15V4ZM3 2.9918C3 2.44405 3.44749 2 3.9985 2H16L20.9997 7L21 20.9925C21 21.5489 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5447 3 21.0082V2.9918ZM12 11.5C10.6193 11.5 9.5 10.3807 9.5 9C9.5 7.61929 10.6193 6.5 12 6.5C13.3807 6.5 14.5 7.61929 14.5 9C14.5 10.3807 13.3807 11.5 12 11.5ZM7.52746 17C7.77619 14.75 9.68372 13 12 13C14.3163 13 16.2238 14.75 16.4725 17H7.52746Z"/></svg>
+<text x="36" y="22" textLength="99" lengthAdjust="spacing" style="fill:#2f5fb3">PORTFOLIO &amp; CV</text>
+</svg>
