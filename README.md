@@ -8,22 +8,24 @@
 
 ## 🚀 Hi, I'm Damian Chabracki!
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/role-dark.svg"><img src="img/hero/role-light.svg" alt="Full-Stack Software Engineer • Founder @ DamReboot IT" height="30"></picture>
+<a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/role-dark.svg"><img src="img/hero/role-light.svg" alt="Full-Stack Software Engineer • Founder @ DamReboot IT" height="30"></picture></a>
 
 <img src="img/hero/robot.svg" alt="DamReboot robot mascot" width="200" align="right">
 
-**Product-minded Full-Stack Engineer** (`TypeScript` • `React / Next.js` • `Node.js / NestJS`) with **4+ years of coding experience** (commercial since 2023). I build complete digital products, from architecture and database design to polished web, mobile and desktop interfaces.
+I am a Warsaw-based Full-Stack Software Developer delivering commercial software systems since 2023. My background combines working inside engineering teams on high-reliability industrial software with leading independent end-to-end B2B deliveries through my software house, **DamReboot IT**.
 
-🎯 **What I deliver:** multi-tenant B2B SaaS and marketplaces • high-performance web apps • cross-platform mobile (`React Native`) and desktop (`Electron`) • real-time industrial dashboards • applied AI/ML (`Python`).
+Alongside my commercial work, I am in my final (3rd) year of a **Computer Science degree (AI & Machine Learning specialization)**, bridging disciplined software architecture with modern, AI-augmented development workflows to ship resilient products faster.
 
-⚡ **How I engineer software under the hood:**
+**🎯 My development philosophy and standards:**
 
-- 🖥️ **Frontend:** hybrid `SSR / SSG` rendering with `Next.js`, Lighthouse scores of 100, `WCAG 2.2 AA` accessibility and complex state with `TanStack Query`, `Zustand` and `Redux Toolkit`.
-- ⚙️ **Backend and APIs:** `API-first` design (`OpenAPI / Swagger`), modular `NestJS` and `Express`, relational `PostgreSQL` and `MongoDB` with `Prisma ORM`, state machines and a double-entry ledger.
-- 🛡️ **Security and DevOps:** `RBAC` (`Auth.js`), `NIS2`-regulated environments, `Jest` and `Vitest` tests, containerized `Docker` deployments with `GitHub Actions` CI/CD (`Azure` and `Linux VPS`).
-- 🤖 **AI and machine learning:** daily agentic workflows with `Claude Code CLI` and `Gemini`, plus `Python` models for **KYC document verification** and **real-time NLP autocomplete**.
+- 📐 **Architecture and contract-first:** every system starts with domain modeling, database schemas and strict `OpenAPI` contracts, before implementation code.
+- 🔄 **End-to-end ownership:** the complete product lifecycle, from business requirements and UI/UX to automated deployments and monitoring (`Grafana`).
+- 🛡️ **Quality and compliance by default:** strict type safety, security-first design, work in **NIS2**-regulated environments and `WCAG` accessibility as baseline standards, not afterthoughts.
+- ⚡ **Business-driven pragmatism:** technical complexity matched to real operational needs: no over-engineering on fast-moving projects, rock-solid foundations where uptime is critical.
 
 <br clear="right">
+
+⚡ *Explore my production domains, technical ecosystem and commercial case studies below, or at [damreboot.pl](https://damreboot.pl).*
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/experience-dark.svg"><img src="img/badges/experience-light.svg" alt="Commercial experience since 2023, 4+ years coding" height="34"></picture>
