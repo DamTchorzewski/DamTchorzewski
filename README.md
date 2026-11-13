@@ -12,14 +12,16 @@
 
 <img src="img/hero/robot.svg" alt="DamReboot robot mascot" width="200" align="right">
 
-I architect and deliver **production-grade web, desktop and mobile systems end-to-end**, bridging complex backend engineering and measurable business outcomes. Over the past **4+ years** (commercial since 2023) I have built industrial telemetry platforms, multi-tenant B2B marketplaces and high-conversion commercial websites.
+**Product-minded Full-Stack Engineer** (`TypeScript` • `React / Next.js` • `Node.js / NestJS`) with **4+ years of coding experience** (commercial since 2023). I build complete digital products, from architecture and database design to polished web, mobile and desktop interfaces.
 
-I don't just assemble frameworks. I focus on **how systems behave under the hood**:
+🎯 **What I deliver:** multi-tenant B2B SaaS and marketplaces • high-performance web apps • cross-platform mobile (`React Native`) and desktop (`Electron`) • real-time industrial dashboards • applied AI/ML (`Python`).
 
-- 📐 **Contract-first design:** strict `OpenAPI / Swagger` contracts, end-to-end type safety (`TypeScript`, `Prisma`, `Zod`) and clear module boundaries before any UI code.
-- ⚡ **Data & real-time performance:** relational `SQL` schemas, `Grafana` and `ECharts` dashboards, and telemetry UIs that stay fast under large data volumes (code splitting, lazy loading, memoization).
-- 🛡️ **Security & reliability:** RBAC authentication (`Auth.js`), **NIS2**-regulated environments, `Jest` tests, WCAG accessibility checks and automated `CI/CD`.
-- 📈 **Business-driven engineering:** each choice — a `Turborepo` monorepo for B2B SaaS, static rendering for commercial sites — is judged by scalability, Lighthouse scores, SEO and client results.
+⚡ **How I engineer software under the hood:**
+
+- 🖥️ **Frontend:** hybrid `SSR / SSG` rendering with `Next.js`, Lighthouse scores of 100, `WCAG 2.2 AA` accessibility and complex state with `TanStack Query`, `Zustand` and `Redux Toolkit`.
+- ⚙️ **Backend and APIs:** `API-first` design (`OpenAPI / Swagger`), modular `NestJS` and `Express`, relational `PostgreSQL` and `MongoDB` with `Prisma ORM`, state machines and a double-entry ledger.
+- 🛡️ **Security and DevOps:** `RBAC` (`Auth.js`), `NIS2`-regulated environments, `Jest` and `Vitest` tests, containerized `Docker` deployments with `GitHub Actions` CI/CD (`Azure` and `Linux VPS`).
+- 🤖 **AI and machine learning:** daily agentic workflows with `Claude Code CLI` and `Gemini`, plus `Python` models for **KYC document verification** and **real-time NLP autocomplete**.
 
 <br clear="right">
 
