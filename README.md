@@ -82,6 +82,14 @@ I design, architect and ship production-grade web, mobile and desktop systems. M
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-terminal-dark.svg"><img src="img/cards/stack-terminal-light.svg" alt="Core tech stack as stack.ts in an editor window, with the DamReboot robot coding: Frontend, desktop &amp; cross-platform mobile: TypeScript, React 18/19, Next.js (SSR/SSG), React Native, Electron.js, Tailwind CSS, TanStack Query, Redux Toolkit &amp; Zustand, Apache ECharts, Mapbox GL. Backend architecture, APIs &amp; databases: Node.js, NestJS, Express.js, PostgreSQL, MongoDB, Prisma ORM, OpenAPI / Swagger, SQL, Auth.js / JWT, S3-compatible storage. DevOps &amp; monorepo tooling: Docker &amp; Compose, GitHub Actions (CI/CD), Turborepo, Nginx Reverse Proxy, Microsoft Azure, Grafana, Linux VPS. Google, Firebase &amp; AI tooling: Firebase, Gemini, Lighthouse, Claude Code CLI" width="100%"></picture>
 
+<details>
+<summary><b>$ npm ls --all</b>: show all languages &amp; tools (46)</summary>
+<br/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/tools-terminal-dark.svg"><img src="img/cards/tools-terminal-light.svg" alt="npm ls --all: 46 languages and tools: Git, GitHub, GitHub Actions, VS Code, Claude Code, Claude, Gemini, Bash, Figma, HTML5, CSS3, shadcn/ui, Sass, BEM, Zod, npm, pnpm, Turborepo, Terminal, Parcel, Webpack, CodePen, Slack, Trello, Browserslist, Windows, BIOS, Office, Vite, MongoDB, Prisma, Docker, Firebase, Web3Forms, Jest, Vitest, Playwright, Storybook, ESLint, Redux, Babel, Express, Insomnia, PHP, WordPress, MySQL" width="100%"></picture>
+
+</details>
+
 </details>
 
 <br>
