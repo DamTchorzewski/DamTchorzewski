@@ -42,12 +42,6 @@ I am a Warsaw-based Full-Stack Software Developer delivering commercial software
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/domain-ai-dark.svg"><img src="img/cards/domain-ai-light.svg" alt="Applied AI &amp; ML (AI / ML): Python ML (Pandas, NumPy) exposed through REST APIs: automated KYC identity-document verification and a real-time text-autocompletion NLP model with 95% prediction accuracy. Daily agentic engineering with Claude Code CLI and Gemini." width="49.6%"></picture>
 </p>
 
-## ⚡ Core Tech Stack & Ecosystem
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-frontend-dark.svg"><img src="img/cards/stack-frontend-light.svg" alt="Frontend, desktop &amp; cross-platform mobile: TypeScript, React 18/19, Next.js (SSR/SSG), React Native, Electron.js, Tailwind CSS, TanStack Query, Redux Toolkit & Zustand, Apache ECharts, Mapbox GL" width="100%"></picture><br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-backend-dark.svg"><img src="img/cards/stack-backend-light.svg" alt="Backend architecture, APIs &amp; databases: Node.js, NestJS, Express.js, PostgreSQL, MongoDB, Prisma ORM, OpenAPI / Swagger, SQL, Auth.js / JWT, S3-compatible storage" width="100%"></picture><br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-devops-dark.svg"><img src="img/cards/stack-devops-light.svg" alt="DevOps &amp; monorepo tooling: Docker & Compose, GitHub Actions (CI/CD), Turborepo, Nginx Reverse Proxy, Microsoft Azure, Grafana, Linux VPS (OVH)" width="100%"></picture><br>
-
 ## 📊 GitHub Telemetry & Language Distribution
 
 <p>
@@ -62,6 +56,12 @@ I am a Warsaw-based Full-Stack Software Developer delivering commercial software
     <img src="img/stats/languages-dark.svg" alt="Most used languages by code size" width="49.7%">
   </picture>
 </p>
+
+## ⚡ Core Tech Stack & Ecosystem
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-frontend-dark.svg"><img src="img/cards/stack-frontend-light.svg" alt="Frontend, desktop &amp; cross-platform mobile: TypeScript, React 18/19, Next.js (SSR/SSG), React Native, Electron.js, Tailwind CSS, TanStack Query, Redux Toolkit & Zustand, Apache ECharts, Mapbox GL" width="100%"></picture><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-backend-dark.svg"><img src="img/cards/stack-backend-light.svg" alt="Backend architecture, APIs &amp; databases: Node.js, NestJS, Express.js, PostgreSQL, MongoDB, Prisma ORM, OpenAPI / Swagger, SQL, Auth.js / JWT, S3-compatible storage" width="100%"></picture><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-devops-dark.svg"><img src="img/cards/stack-devops-light.svg" alt="DevOps &amp; monorepo tooling: Docker & Compose, GitHub Actions (CI/CD), Turborepo, Nginx Reverse Proxy, Microsoft Azure, Grafana, Linux VPS (OVH)" width="100%"></picture><br>
 
 <details>
 <summary><b>Show all languages &amp; tools</b> (47)</summary>
