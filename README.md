@@ -48,17 +48,6 @@ I am a Warsaw-based Full-Stack Software Developer delivering commercial software
 <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-backend-dark.svg"><img src="img/cards/stack-backend-light.svg" alt="Backend architecture, APIs &amp; databases: Node.js, NestJS, Express.js, PostgreSQL, MongoDB, Prisma ORM, OpenAPI / Swagger, SQL, Auth.js / JWT, S3-compatible storage" width="100%"></picture><br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-devops-dark.svg"><img src="img/cards/stack-devops-light.svg" alt="DevOps &amp; monorepo tooling: Docker & Compose, GitHub Actions (CI/CD), Turborepo, Nginx Reverse Proxy, Microsoft Azure, Grafana, Linux VPS (OVH)" width="100%"></picture><br>
 
-## 🚀 Featured Systems & Architecture Highlights
-
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-rikigo-dark.svg"><img src="img/cards/featured-rikigo-light.svg" alt="Rikigo (Cargo marketplace): Business value: marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform handles payments and disputes. Under the hood: Turborepo monorepo with Next.js apps and a pure-TypeScript core: order state machine and double-entry ledger. Stack: Next.js, TypeScript, Turborepo, PostgreSQL." width="49.6%"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-wallet-dark.svg"><img src="img/cards/featured-wallet-light.svg" alt="Wallet Manager (Personal finance): Business value: personal finance app for budget control: income and expenses by category, balance and spending charts on any device. Under the hood: React + Redux Toolkit frontend, Node.js / Express API on MongoDB with JWT auth and Swagger docs. Team project. Stack: React, Redux Toolkit, Node.js, MongoDB." width="49.6%"></picture>
-</p>
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-glazurnicze-dark.svg"><img src="img/cards/featured-glazurnicze-light.svg" alt="Pogotowie Glazurnicze (Lead-gen web): Business value: website for a renovation firm in Katowice: four service lines, a free-quote form and tap-to-call on every screen. Under the hood: lightweight Next.js site with WCAG 2.2 AA tests and Lighthouse 100/100/100 for performance, SEO and accessibility. Stack: Next.js, TypeScript, Tailwind CSS, Zod." width="49.6%"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-czarymary-dark.svg"><img src="img/cards/featured-czarymary-light.svg" alt="Czarymary Okulary (Retail web): Business value: redesigned site of a Warsaw optical salon for children and adults: offer, news and directions in a few clicks. Under the hood: Next.js with a subpage per offer, gallery and light/dark mode. Lighthouse 100 performance, 100 SEO, 97 accessibility. Stack: Next.js, React, TypeScript, Tailwind CSS." width="49.6%"></picture>
-</p>
-
 ## 📊 GitHub Telemetry & Language Distribution
 
 <p>
@@ -131,6 +120,17 @@ I am a Warsaw-based Full-Stack Software Developer delivering commercial software
 </p>
 
 </details>
+
+## 🚀 Featured Systems & Architecture Highlights
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-rikigo-dark.svg"><img src="img/cards/featured-rikigo-light.svg" alt="Rikigo (Cargo marketplace): Business value: marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform handles payments and disputes. Under the hood: Turborepo monorepo with Next.js apps and a pure-TypeScript core: order state machine and double-entry ledger. Stack: Next.js, TypeScript, Turborepo, PostgreSQL." width="49.6%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-wallet-dark.svg"><img src="img/cards/featured-wallet-light.svg" alt="Wallet Manager (Personal finance): Business value: personal finance app for budget control: income and expenses by category, balance and spending charts on any device. Under the hood: React + Redux Toolkit frontend, Node.js / Express API on MongoDB with JWT auth and Swagger docs. Team project. Stack: React, Redux Toolkit, Node.js, MongoDB." width="49.6%"></picture>
+</p>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-glazurnicze-dark.svg"><img src="img/cards/featured-glazurnicze-light.svg" alt="Pogotowie Glazurnicze (Lead-gen web): Business value: website for a renovation firm in Katowice: four service lines, a free-quote form and tap-to-call on every screen. Under the hood: lightweight Next.js site with WCAG 2.2 AA tests and Lighthouse 100/100/100 for performance, SEO and accessibility. Stack: Next.js, TypeScript, Tailwind CSS, Zod." width="49.6%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-czarymary-dark.svg"><img src="img/cards/featured-czarymary-light.svg" alt="Czarymary Okulary (Retail web): Business value: redesigned site of a Warsaw optical salon for children and adults: offer, news and directions in a few clicks. Under the hood: Next.js with a subpage per offer, gallery and light/dark mode. Lighthouse 100 performance, 100 SEO, 97 accessibility. Stack: Next.js, React, TypeScript, Tailwind CSS." width="49.6%"></picture>
+</p>
 
 ---
 
