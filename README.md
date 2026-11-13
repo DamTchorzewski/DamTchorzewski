@@ -14,8 +14,6 @@
 
 I am a Warsaw-based Full-Stack Software Developer delivering commercial software systems since 2023. My background combines working inside engineering teams on high-reliability industrial software with leading independent end-to-end B2B deliveries through my software house, **DamReboot IT**.
 
-Alongside my commercial work, I am in my final (3rd) year of a **Computer Science degree (AI & Machine Learning specialization)**, bridging disciplined software architecture with modern, AI-augmented development workflows to ship resilient products faster.
-
 **🎯 My development philosophy and standards:**
 
 - 📐 **Architecture and contract-first:** every system starts with domain modeling, database schemas and strict `OpenAPI` contracts, before implementation code.
@@ -24,8 +22,6 @@ Alongside my commercial work, I am in my final (3rd) year of a **Computer Scienc
 - ⚡ **Business-driven pragmatism:** technical complexity matched to real operational needs: no over-engineering on fast-moving projects, rock-solid foundations where uptime is critical.
 
 <br clear="right">
-
-⚡ *Explore my production domains, technical ecosystem and commercial case studies below, or at [damreboot.pl](https://damreboot.pl).*
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/experience-dark.svg"><img src="img/badges/experience-light.svg" alt="Commercial experience since 2023, 4+ years coding" height="34"></picture>
