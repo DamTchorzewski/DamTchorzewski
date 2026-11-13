@@ -42,32 +42,6 @@ I am a Warsaw-based Full-Stack Software Developer delivering commercial software
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/domain-ai-dark.svg"><img src="img/cards/domain-ai-light.svg" alt="Applied AI &amp; ML (AI / ML): Python ML (Pandas, NumPy) exposed through REST APIs: automated KYC identity-document verification and a real-time text-autocompletion NLP model with 95% prediction accuracy. Daily agentic engineering with Claude Code CLI and Gemini." width="49.6%"></picture>
 </p>
 
-## 📊 GitHub Telemetry & Language Distribution
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="img/stats/overview-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="img/stats/overview-light.svg">
-    <img src="img/stats/overview-dark.svg" alt="GitHub activity: contributions, repositories, stars, streaks and the last 12 months" width="49.7%">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="img/stats/languages-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="img/stats/languages-light.svg">
-    <img src="img/stats/languages-dark.svg" alt="Most used languages by code size" width="49.7%">
-  </picture>
-</p>
-
-## 🚀 Featured Systems & Architecture Highlights
-
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-rikigo-dark.svg"><img src="img/cards/featured-rikigo-light.svg" alt="Rikigo (Cargo marketplace): Business value: marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform handles payments and disputes. Under the hood: Turborepo monorepo with Next.js apps and a pure-TypeScript core: order state machine and double-entry ledger. Stack: Next.js, TypeScript, Turborepo, PostgreSQL." width="49.6%"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-wallet-dark.svg"><img src="img/cards/featured-wallet-light.svg" alt="Wallet Manager (Personal finance): Business value: personal finance app for budget control: income and expenses by category, balance and spending charts on any device. Under the hood: React + Redux Toolkit frontend, Node.js / Express API on MongoDB with JWT auth and Swagger docs. Team project. Stack: React, Redux Toolkit, Node.js, MongoDB." width="49.6%"></picture>
-</p>
-<p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-glazurnicze-dark.svg"><img src="img/cards/featured-glazurnicze-light.svg" alt="Pogotowie Glazurnicze (Lead-gen web): Business value: website for a renovation firm in Katowice: four service lines, a free-quote form and tap-to-call on every screen. Under the hood: lightweight Next.js site with WCAG 2.2 AA tests and Lighthouse 100/100/100 for performance, SEO and accessibility. Stack: Next.js, TypeScript, Tailwind CSS, Zod." width="49.6%"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-czarymary-dark.svg"><img src="img/cards/featured-czarymary-light.svg" alt="Czarymary Okulary (Retail web): Business value: redesigned site of a Warsaw optical salon for children and adults: offer, news and directions in a few clicks. Under the hood: Next.js with a subpage per offer, gallery and light/dark mode. Lighthouse 100 performance, 100 SEO, 97 accessibility. Stack: Next.js, React, TypeScript, Tailwind CSS." width="49.6%"></picture>
-</p>
-
 ## ⚡ Core Tech Stack & Ecosystem
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/stack-frontend-dark.svg"><img src="img/cards/stack-frontend-light.svg" alt="Frontend, desktop &amp; cross-platform mobile: TypeScript, React 18/19, Next.js (SSR/SSG), React Native, Electron.js, Tailwind CSS, TanStack Query, Redux Toolkit & Zustand, Apache ECharts, Mapbox GL" width="100%"></picture><br>
@@ -131,6 +105,32 @@ I am a Warsaw-based Full-Stack Software Developer delivering commercial software
 </p>
 
 </details>
+
+## 🚀 Featured Systems & Architecture Highlights
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-rikigo-dark.svg"><img src="img/cards/featured-rikigo-light.svg" alt="Rikigo (Cargo marketplace): Business value: marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform handles payments and disputes. Under the hood: Turborepo monorepo with Next.js apps and a pure-TypeScript core: order state machine and double-entry ledger. Stack: Next.js, TypeScript, Turborepo, PostgreSQL." width="49.6%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-wallet-dark.svg"><img src="img/cards/featured-wallet-light.svg" alt="Wallet Manager (Personal finance): Business value: personal finance app for budget control: income and expenses by category, balance and spending charts on any device. Under the hood: React + Redux Toolkit frontend, Node.js / Express API on MongoDB with JWT auth and Swagger docs. Team project. Stack: React, Redux Toolkit, Node.js, MongoDB." width="49.6%"></picture>
+</p>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-glazurnicze-dark.svg"><img src="img/cards/featured-glazurnicze-light.svg" alt="Pogotowie Glazurnicze (Lead-gen web): Business value: website for a renovation firm in Katowice: four service lines, a free-quote form and tap-to-call on every screen. Under the hood: lightweight Next.js site with WCAG 2.2 AA tests and Lighthouse 100/100/100 for performance, SEO and accessibility. Stack: Next.js, TypeScript, Tailwind CSS, Zod." width="49.6%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-czarymary-dark.svg"><img src="img/cards/featured-czarymary-light.svg" alt="Czarymary Okulary (Retail web): Business value: redesigned site of a Warsaw optical salon for children and adults: offer, news and directions in a few clicks. Under the hood: Next.js with a subpage per offer, gallery and light/dark mode. Lighthouse 100 performance, 100 SEO, 97 accessibility. Stack: Next.js, React, TypeScript, Tailwind CSS." width="49.6%"></picture>
+</p>
+
+## 📊 GitHub Telemetry & Language Distribution
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/stats/overview-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="img/stats/overview-light.svg">
+    <img src="img/stats/overview-dark.svg" alt="GitHub activity: contributions, repositories, stars, streaks and the last 12 months" width="49.7%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/stats/languages-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="img/stats/languages-light.svg">
+    <img src="img/stats/languages-dark.svg" alt="Most used languages by code size" width="49.7%">
+  </picture>
+</p>
 
 ---
 
