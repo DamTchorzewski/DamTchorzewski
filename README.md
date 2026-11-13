@@ -6,7 +6,7 @@
 
 <p align="center"><a href="https://damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/company-dark.svg"><img src="img/badges/company-light.svg" alt="damreboot.pl: company website" height="36"></picture></a><a href="https://cv.damreboot.pl"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/cv-dark.svg"><img src="img/badges/cv-light.svg" alt="CV portal: portfolio and CV" height="36"></picture></a><a href="https://www.linkedin.com/in/damian-tchorzewski-3b2388275/"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/linkedin-dark.svg"><img src="img/badges/linkedin-light.svg" alt="LinkedIn: let's connect" height="36"></picture></a><a href="mailto:damianchabracki@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/email-dark.svg"><img src="img/badges/email-light.svg" alt="E-mail: write to me" height="36"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="img/badges/status-dark.svg"><img src="img/badges/status-light.svg" alt="Status: open for B2B / projects" height="36"></picture></p>
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="img/icons/hi-dark.svg"><img src="img/icons/hi-light.svg" alt="" height="42" align="middle"></picture> Hi, I'm Damian Chabracki!
+## 👋 Hi, I'm Damian Chabracki!
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/role-dark.svg"><img src="img/hero/role-light.svg" alt="Full-Stack Software Engineer &amp; Systems Architect • Founder @ DamReboot IT" height="30"></picture>
 
