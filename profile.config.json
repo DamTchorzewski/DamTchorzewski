@@ -62,7 +62,19 @@
         ["🌐", "Nginx Reverse Proxy", "#3f8f4c"],
         ["☁️", "Microsoft Azure", "#0078d4"],
         ["📈", "Grafana", "#e8601c"],
-        ["🐧", "Linux VPS (OVH)", "#f2c94c", "#0d1117"]
+        ["🐧", "Linux VPS", "#f2c94c", "#0d1117"]
+      ]
+    },
+    {
+      "id": "google",
+      "emoji": "🔥",
+      "title": "Google, Firebase & AI tooling",
+      "color": ["#fbbf24", "#9a6700"],
+      "items": [
+        ["🔥", "Firebase", "#f5a623", "#0d1117"],
+        ["✨", "Gemini", "#4285f4"],
+        ["🔦", "Lighthouse", "#e8601c"],
+        ["🤖", "Claude Code CLI", "#d97757"]
       ]
     }
   ],
@@ -123,10 +135,7 @@
       "title": "Rikigo",
       "tag": "Cargo marketplace",
       "color": ["#5eb0ff", "#0969da"],
-      "text": [
-        "**Business value:** marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform handles payments and disputes.",
-        "**Under the hood:** `Turborepo` monorepo with `Next.js` apps and a pure-`TypeScript` core: order state machine and **double-entry ledger**."
-      ],
+      "text": "Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a **state machine** and **double-entry ledger**.",
       "tech": ["Next.js", "TypeScript", "Turborepo", "PostgreSQL"]
     },
     {
@@ -135,10 +144,7 @@
       "title": "Wallet Manager",
       "tag": "Personal finance",
       "color": ["#4ade80", "#1a7f37"],
-      "text": [
-        "**Business value:** personal finance app for budget control: income and expenses by category, balance and spending charts on any device.",
-        "**Under the hood:** `React` + `Redux Toolkit` frontend, `Node.js` / `Express` API on `MongoDB` with `JWT` auth and `Swagger` docs. Team project."
-      ],
+      "text": "Personal finance app: income and expenses by category, balance and spending charts on any device. REST API with `JWT` auth, `Swagger` docs, team project.",
       "tech": ["React", "Redux Toolkit", "Node.js", "MongoDB"]
     },
     {
@@ -147,10 +153,7 @@
       "title": "Pogotowie Glazurnicze",
       "tag": "Lead-gen web",
       "color": ["#fbbf24", "#9a6700"],
-      "text": [
-        "**Business value:** website for a renovation firm in Katowice: four service lines, a free-quote form and tap-to-call on every screen.",
-        "**Under the hood:** lightweight `Next.js` site with WCAG 2.2 AA tests and Lighthouse 100/100/100 for performance, SEO and accessibility."
-      ],
+      "text": "Site for a renovation firm in Katowice: four service lines, free-quote form and tap-to-call on every screen. **Lighthouse 100/100/100**, WCAG 2.2 AA tests.",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Zod"]
     },
     {
@@ -159,10 +162,7 @@
       "title": "Czarymary Okulary",
       "tag": "Retail web",
       "color": ["#f472b6", "#bf3989"],
-      "text": [
-        "**Business value:** redesigned site of a Warsaw optical salon for children and adults: offer, news and directions in a few clicks.",
-        "**Under the hood:** `Next.js` with a subpage per offer, gallery and light/dark mode. Lighthouse 100 performance, 100 SEO, 97 accessibility."
-      ],
+      "text": "Redesigned site of a Warsaw optical salon: offer, news and directions in a few clicks, light/dark mode. Lighthouse **100** perf, **100** SEO, **97** a11y.",
       "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
     }
   ]

@@ -1,8 +1,8 @@
 /**
  * Generates the "Core stack" cards in the same style as the stat cards (light + dark variants):
  *  - img/stats/stack-*.svg: one row of rounded tiles, languages and frameworks & platforms,
- * and the plain icon strip of every other language and tool in README.md (between the
- * tools markers, inside the collapsible section right under the stack card).
+ * and the README "Core Tech Stack" terminal cards in img/cards/: stack-terminal-*.svg (stack.ts with
+ * the groups from profile.config.json and the coding robot) and tools-terminal-*.svg (npm ls --all).
  *
  * Icons: devicon (MIT) and the logos in img/ - local files where they exist, the rest from the
  * devicon package on jsDelivr (pinned version). They are embedded as data URIs, so each card is a
@@ -80,7 +80,6 @@ const TOOLS = [
   ["Prisma", "prisma.svg", "mono"],
   ["Docker", "docker.svg"],
   ["Firebase", "firebase-original.svg"],
-  ["OVHcloud", "ovhcloud.svg", "mono"],
   ["Web3Forms", "web3forms.svg"],
   ["Jest", "jest.svg"],
   ["Vitest", "vitest-original.svg"],
@@ -196,43 +195,149 @@ function stackCard(c, icons) {
   return `${svgOpen(W, H, "Core stack", `Core stack: ${names}`)}\n${style(c)}\n${frame(c, W, H)}\n${parts.join("\n")}\n</svg>\n`;
 }
 
-// ---------- tools strip (README, collapsible section under the stack card) ----------
-// Plain icons like a classic README strip; names show on hover. Single-color logos get a dark and a
-// light file in img/tools/ and a <picture>, so they stay visible in both GitHub themes.
-const ICON_H = 30;
-const slug = (name) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+// ---------- terminal cards (README "Core Tech Stack"): stack.ts + npm ls --all ----------
+// Both cards are editor / terminal windows in the frame and colors of the content cards
+// (generate-cards.mjs). Text is monospace, every token pinned to its column with textLength, so the
+// layout does not depend on the viewer's fonts. The coding robot sits in the corner of stack.ts.
+const CONFIG = JSON.parse(readFileSync(join(ROOT, "profile.config.json"), "utf8"));
+const CARDS = join(ROOT, "img/cards");
+const ROBOT = join(ROOT, "img/mascot/robot-coding.webp");
+const MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace";
+const TW = 880;
+const BAR = 38;
 
-async function toolsStrip() {
-  mkdirSync(join(ROOT, "img/tools"), { recursive: true });
-  const items = [];
-  for (const t of TOOLS) {
-    const attrs = `title="${esc(t.name)}" alt="${esc(t.name)}" height="${ICON_H}"`;
-    if (!t.mono) {
-      items.push(`<img src="${t.icon}" ${attrs}/>`);
-      continue;
-    }
-    const files = {};
-    for (const [theme, c] of Object.entries(THEMES)) {
-      files[theme] = `img/tools/${slug(t.name)}-${theme}.svg`;
-      writeFileSync(join(ROOT, files[theme]), await iconSvg(t.icon, c.text));
-    }
-    items.push(
-      `<picture><source media="(prefers-color-scheme: dark)" srcset="${files.dark}"><img src="${files.light}" ${attrs}/></picture>`,
-    );
-  }
-  return items.join("&nbsp;\n");
+const TERM = {
+  dark: {
+    bg: "#0e131a", border: "#232c3a", bar: "#121a24", barText: "#79c0ff", gutter: "#3d4a5c",
+    text: "#c9d1d9", kw: "#ff7b72", name: "#d2a8ff", prop: "#79c0ff", str: "#a5d6ff", comment: "#38bdf8",
+    ok: "#3fb950", tree: "#3d4a5c", lightTile: "#e6edf3",
+  },
+  light: {
+    bg: "#ffffff", border: "#d0d7de", bar: "#f6f8fa", barText: "#0550ae", gutter: "#a7b1bc",
+    text: "#24292f", kw: "#cf222e", name: "#8250df", prop: "#0550ae", str: "#0a3069", comment: "#0969da",
+    ok: "#1a7f37", tree: "#a7b1bc", lightTile: "#f6f8fa",
+  },
+};
+
+/** Monospace token at a column: width pinned to its length x the char width. */
+function tok(t, x, y, size, fill, weight = "") {
+  const w = (t.length * size * 0.6).toFixed(1);
+  return `<text x="${x.toFixed(1)}" y="${y}" textLength="${w}" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="font:${weight}${size}px ${MONO};fill:${fill}">${esc(t)}</text>`;
 }
 
-/** Replaces the block between the tools markers in README.md. */
-function writeReadme(strip) {
-  const path = join(ROOT, "README.md");
-  const readme = readFileSync(path, "utf8");
-  const start = "<!-- tools:start -->";
-  const end = "<!-- tools:end -->";
-  const a = readme.indexOf(start);
-  const b = readme.indexOf(end);
-  if (a < 0 || b < a) throw new Error("README.md: tools markers not found");
-  writeFileSync(path, `${readme.slice(0, a + start.length)}\n${strip}\n${readme.slice(b)}`);
+function windowChrome(c, H, title) {
+  const dots = ["#ff5f57", "#febc2e", "#28c840"].map((col, i) => `<circle cx="${24 + i * 18}" cy="${BAR / 2}" r="6" fill="${col}"/>`).join("");
+  return `<rect x=".5" y=".5" width="${TW - 1}" height="${H - 1}" rx="10" fill="${c.bg}" stroke="${c.border}"/>
+<path d="M1 ${BAR}V11A10 10 0 0 1 11 1H${TW - 11}A10 10 0 0 1 ${TW - 1} 11V${BAR}Z" fill="${c.bar}"/>
+<line x1="1" y1="${BAR}" x2="${TW - 1}" y2="${BAR}" stroke="${c.border}"/>
+${dots}
+${tok(title, 92, BAR / 2 + 4.5, 12.5, c.barText, "600 ")}`;
+}
+
+/** Lines of stack.ts as token lists [text, role]; arrays wrap under the opening bracket. */
+function stackLines(maxCols) {
+  const L = [];
+  L.push([["// DamReboot IT · core tech stack", "comment"]]);
+  L.push([["export", "kw"], [" ", "text"], ["const", "kw"], [" ", "text"], ["stack", "name"], [" = {", "text"]]);
+  for (const g of CONFIG.stack) {
+    L.push([[`  // ${g.title}`, "comment"]]);
+    const head = `  ${g.id}: [`;
+    const items = g.items.map((it) => `"${it[1]}"`);
+    let line = [["  ", "text"], [g.id, "prop"], [": [", "text"]];
+    let col = head.length;
+    items.forEach((item, i) => {
+      const tail = i < items.length - 1 ? ", " : "],";
+      if (col + item.length + tail.trimEnd().length > maxCols && col > head.length) {
+        L.push(line);
+        line = [[" ".repeat(head.length), "text"]];
+        col = head.length;
+      }
+      line.push([item, "str"], [tail, "text"]);
+      col += item.length + tail.length;
+    });
+    L.push(line);
+  }
+  L.push([["} ", "text"], ["as", "kw"], [" ", "text"], ["const", "kw"], [";", "text"]]);
+  return L;
+}
+
+function stackTerminal(c, robot) {
+  const SIZE = 13.5;
+  const CW = SIZE * 0.6;
+  const LH = 22;
+  const CODE_X = 60;
+  const ROBOT_W = 228;
+  const maxCols = Math.floor((TW - ROBOT_W - CODE_X - 34) / CW);
+  const lines = stackLines(maxCols);
+  const top = BAR + 30;
+  const promptY = top + (lines.length + 1) * LH;
+  const H = promptY + LH + 26;
+  const parts = [];
+  lines.forEach((tokens, i) => {
+    const y = top + i * LH;
+    parts.push(tok(String(i + 1).padStart(2, " "), CODE_X - 38, y, 12, c.gutter));
+    let col = 0;
+    for (const [t, role] of tokens) {
+      if (t.trim()) parts.push(tok(t, CODE_X + col * CW, y, SIZE, c[role], role === "comment" ? "italic " : ""));
+      col += t.length;
+    }
+  });
+  // prompt line with a blinking cursor
+  const cmd = "pnpm turbo build";
+  const ok = "✓ ready to ship";
+  const x = CODE_X - 38;
+  parts.push(tok("$", x, promptY, SIZE, c.ok, "700 "));
+  parts.push(tok(cmd, x + 2 * CW, promptY, SIZE, c.text));
+  const okX = x + (cmd.length + 5) * CW;
+  parts.push(tok(ok, okX, promptY, SIZE, c.ok, "600 "));
+  parts.push(`<rect class="cursor" x="${(okX + (ok.length + 1) * CW).toFixed(1)}" y="${promptY - 13}" width="${CW.toFixed(1)}" height="17" fill="${c.comment}"/>`);
+  const rh = Math.round((ROBOT_W * 411) / 400);
+  const robotImg = `<image href="${robot}" x="${TW - ROBOT_W - 14}" y="${H - rh - 6}" width="${ROBOT_W}" height="${rh}"/>`;
+  const label = `Core tech stack: ${CONFIG.stack.map((g) => `${g.title}: ${g.items.map((i) => i[1]).join(", ")}`).join("; ")}`;
+  return `${svgOpen(TW, H, "Core tech stack", label)}
+<style>.cursor{animation:blink 1.1s steps(1) infinite}@keyframes blink{50%{opacity:0}}@media (prefers-reduced-motion:reduce){.cursor{animation:none}}</style>
+${windowChrome(c, H, "~/damreboot — stack.ts")}
+${parts.join("\n")}
+${robotImg}
+</svg>
+`;
+}
+
+async function toolsTerminal(c) {
+  const SIZE = 13;
+  const CW = SIZE * 0.6;
+  const COLS = 4;
+  const ROWS = Math.ceil(TOOLS.length / COLS);
+  const RH = 27;
+  const X0 = 28;
+  const COLW = (TW - 2 * X0) / COLS;
+  const top = BAR + 30;
+  const treeTop = top + 34;
+  const H = treeTop + ROWS * RH + 14;
+  const parts = [];
+  parts.push(tok("$", X0, top, SIZE, c.ok, "700 "));
+  parts.push(tok("npm ls --all", X0 + 2 * CW, top, SIZE, c.text));
+  parts.push(tok(`# ${TOOLS.length} languages & tools`, X0 + 16 * CW, top, SIZE, c.comment, "italic "));
+  parts.push(tok("damreboot@stack", X0, top + 24, SIZE, c.name, "600 "));
+  for (let i = 0; i < TOOLS.length; i++) {
+    const t = TOOLS[i];
+    const col = Math.floor(i / ROWS);
+    const row = i % ROWS;
+    const last = row === ROWS - 1 || i === TOOLS.length - 1;
+    const x = X0 + col * COLW;
+    const y = treeTop + row * RH + 18;
+    parts.push(tok(last ? "└──" : "├──", x, y, SIZE, c.tree));
+    const icon = await loadIcon(t.icon, t.mono ? c.text : undefined);
+    const ix = x + 4 * CW;
+    if (t.dark && c === TERM.dark) parts.push(`<rect x="${(ix - 2).toFixed(1)}" y="${y - 16}" width="22" height="22" rx="5" fill="${c.lightTile}"/>`);
+    parts.push(`<image href="${icon}" x="${ix.toFixed(1)}" y="${y - 14}" width="18" height="18"/>`);
+    parts.push(tok(t.name, ix + 28, y, SIZE, c.text));
+  }
+  return `${svgOpen(TW, H, "All languages and tools", `All languages and tools: ${TOOLS.map((t) => t.name).join(", ")}`)}
+${windowChrome(c, H, "~/damreboot — zsh")}
+${parts.join("\n")}
+</svg>
+`;
 }
 
 mkdirSync(OUT, { recursive: true });
@@ -240,5 +345,9 @@ for (const [name, c] of Object.entries(THEMES)) {
   const stackIcons = await Promise.all(GROUPS.flatMap((g) => g.items.map((it) => loadIcon(it.icon))));
   writeFileSync(join(OUT, `stack-${name}.svg`), stackCard(c, stackIcons));
 }
-writeReadme(await toolsStrip());
-console.log(`stack card ${W}px wide, ${count} items; tools strip ${TOOLS.length} icons`);
+const robot = `data:image/webp;base64,${readFileSync(ROBOT).toString("base64")}`;
+for (const [name, c] of Object.entries(TERM)) {
+  writeFileSync(join(CARDS, `stack-terminal-${name}.svg`), stackTerminal(c, robot));
+  writeFileSync(join(CARDS, `tools-terminal-${name}.svg`), await toolsTerminal(c));
+}
+console.log(`stack card ${W}px wide, ${count} items; terminal cards: stack.ts + npm ls (${TOOLS.length} tools) x 2 themes`);

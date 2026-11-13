@@ -14,7 +14,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CONFIG = JSON.parse(readFileSync(join(ROOT, "profile.config.json"), "utf8"));
-const ROBOT_SOURCE = process.env.ROBOT_SOURCE || join(ROOT, "img/hero/source/robot-celebrating.svg");
+const ROBOT_SOURCE = process.env.ROBOT_SOURCE || join(ROOT, "img/hero/source/robot-waving.png");
 
 const ICONS = {
   mail: "M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z",
