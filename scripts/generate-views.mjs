@@ -40,6 +40,8 @@ function badge(c, count) {
   const lw = Math.round(34 + labelText.length * CELL + 14); // icon + label + padding
   const vw = Math.max(56, Math.round(value.length * CELL + 28));
   const W = lw + vw;
+  const valueW = Math.round(value.length * CELL);
+  const valueX = (lw + (vw - (valueW - 0.6)) / 2).toFixed(1); // centered in the value cell (the last letter space is not ink)
   const a11y = `Profile views: ${value}`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="34" viewBox="0 0 ${W} 34" role="img" aria-label="${a11y}">
 <title>${a11y}</title>
@@ -54,7 +56,7 @@ text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberatio
 <rect x=".5" y=".5" width="${W - 1}" height="33" rx="5.5" fill="none" stroke="${c.border}"/>
 <svg x="12" y="10" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="${c.label}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>
 <text x="34" y="21" textLength="${Math.round(labelText.length * CELL)}" lengthAdjust="spacing" style="fill:${c.label}">${labelText}</text>
-<text x="${lw + 14}" y="21" textLength="${Math.round(value.length * CELL)}" lengthAdjust="spacing" style="fill:${c.value}">${value}</text>
+<text x="${valueX}" y="21" textLength="${valueW}" lengthAdjust="spacing" style="fill:${c.value}">${value}</text>
 </svg>
 `;
 }
