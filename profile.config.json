@@ -164,6 +164,33 @@
       "color": ["#f472b6", "#bf3989"],
       "text": "Redesigned site of a Warsaw optical salon: offer, news and directions in a few clicks, light/dark mode. Lighthouse **100** perf, **100** SEO, **97** a11y.",
       "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+    },
+    {
+      "id": "damreboot",
+      "emoji": "🚀",
+      "title": "DamReboot",
+      "tag": "Company platform",
+      "color": ["#2dd4bf", "#0f766e"],
+      "text": "My company's software ecosystem: offer site, client portal with **CRM** and wallet, and this CV portfolio, as one `Turborepo` monorepo on a shared database layer. **Self-hosted** with Docker and Caddy.",
+      "tech": ["Next.js", "TypeScript", "Turborepo", "MongoDB"]
+    },
+    {
+      "id": "souler",
+      "emoji": "👗",
+      "title": "Souler",
+      "tag": "Portfolio web",
+      "color": ["#c084fc", "#8250df"],
+      "text": "Portfolio of a young fashion designer: collections as lookbooks, a rental box that sends one inquiry, Polish and English. **No cookies, no tracking**, **WCAG 2.2 AA** tests.",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Playwright"]
+    },
+    {
+      "id": "karcar",
+      "emoji": "🚗",
+      "title": "KarCar Service",
+      "tag": "Auto-service web",
+      "color": ["#fb923c", "#c2410c"],
+      "text": "Site of a premium-car workshop in Warsaw: services, makes, social news pulled at build time, quote forms. **Static export** with a scroll-driven gold ECG line and **WCAG 2.2 AA** tests.",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Firebase"]
     }
   ]
 }

@@ -36,7 +36,7 @@ I am a Full-Stack Developer with 4 years of experience building scalable web app
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/intro-featured-dark.svg"><img src="img/cards/intro-featured-light.svg" alt="Terminal: git log --graph lists Rikigo (cargo marketplace), Wallet Manager (personal finance), Pogotowie Glazurnicze (lead-gen web) and Czarymary Okulary (retail web) as colored nodes of a commit graph. The DamReboot robot is soldering a chip next to it." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/intro-featured-dark.svg"><img src="img/cards/intro-featured-light.svg" alt="Terminal: git log --graph lists Rikigo (cargo marketplace), Wallet Manager (personal finance), Pogotowie Glazurnicze (lead-gen web), Czarymary Okulary (retail web), DamReboot (company platform), Souler (portfolio web) and KarCar Service (auto-service web) as colored nodes of a commit graph. The DamReboot robot is soldering a chip next to it." width="100%"></picture>
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-rikigo-dark.svg"><img src="img/cards/featured-rikigo-light.svg" alt="Rikigo (Cargo marketplace): Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a state machine and double-entry ledger. Stack: Next.js, TypeScript, Turborepo, PostgreSQL." width="49.6%"></picture>
@@ -45,6 +45,13 @@ I am a Full-Stack Developer with 4 years of experience building scalable web app
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-glazurnicze-dark.svg"><img src="img/cards/featured-glazurnicze-light.svg" alt="Pogotowie Glazurnicze (Lead-gen web): Site for a renovation firm in Katowice: four service lines, free-quote form and tap-to-call on every screen. Lighthouse 100/100/100, WCAG 2.2 AA tests. Stack: Next.js, TypeScript, Tailwind CSS, Zod." width="49.6%"></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-czarymary-dark.svg"><img src="img/cards/featured-czarymary-light.svg" alt="Czarymary Okulary (Retail web): Redesigned site of a Warsaw optical salon: offer, news and directions in a few clicks, light/dark mode. Lighthouse 100 perf, 100 SEO, 97 a11y. Stack: Next.js, React, TypeScript, Tailwind CSS." width="49.6%"></picture>
+</p>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-damreboot-dark.svg"><img src="img/cards/featured-damreboot-light.svg" alt="DamReboot (Company platform): My company's software ecosystem: offer site, client portal with CRM and wallet, and this CV portfolio, as one Turborepo monorepo on a shared database layer. Self-hosted with Docker and Caddy. Stack: Next.js, TypeScript, Turborepo, MongoDB." width="49.6%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-souler-dark.svg"><img src="img/cards/featured-souler-light.svg" alt="Souler (Portfolio web): Portfolio of a young fashion designer: collections as lookbooks, a rental box that sends one inquiry, Polish and English. No cookies, no tracking, WCAG 2.2 AA tests. Stack: Next.js, TypeScript, Tailwind CSS, Playwright." width="49.6%"></picture>
+</p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-karcar-dark.svg"><img src="img/cards/featured-karcar-light.svg" alt="KarCar Service (Auto-service web): Site of a premium-car workshop in Warsaw: services, makes, social news pulled at build time, quote forms. Static export with a scroll-driven gold ECG line and WCAG 2.2 AA tests. Stack: Next.js, TypeScript, Tailwind CSS, Firebase." width="49.6%"></picture>
 </p>
 
 </details>
