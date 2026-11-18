@@ -214,10 +214,19 @@
       "id": "id-verification",
       "emoji": "🪪",
       "title": "ID Verification",
-      "tag": "Vision + deep learning",
+      "tag": "OpenCV + OCR",
       "color": ["#f472b6", "#bf3989"],
-      "text": "Computer-vision and deep-learning workspace: an **OCR check of ID documents**, an SVM sign classifier and PyTorch models up to a **bidirectional LSTM** that predicts the next word.",
-      "tech": ["Python", "OpenCV", "PyTorch", "scikit-learn"]
+      "text": "Python scripts for a basic ID-document check: image **pre-processing and Tesseract OCR** with a declared-country match, Haar face detection and an SVM sign classifier. A learning project.",
+      "tech": ["Python", "OpenCV", "Tesseract", "scikit-learn"]
+    },
+    {
+      "id": "neural-network",
+      "emoji": "🧠",
+      "title": "Neural Network",
+      "tag": "PyTorch",
+      "color": ["#60a5fa", "#1f6feb"],
+      "text": "PyTorch learning workspace: tensors, an MNIST network and a **bidirectional LSTM** that predicts the next word from NLTK-preprocessed text corpora.",
+      "tech": ["Python", "PyTorch", "NLTK", "LSTM"]
     },
     {
       "id": "icecream",
