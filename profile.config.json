@@ -223,9 +223,9 @@
       "id": "neural-network",
       "emoji": "🧠",
       "title": "Neural Network",
-      "tag": "PyTorch",
+      "tag": "Next-word model",
       "color": ["#60a5fa", "#1f6feb"],
-      "text": "PyTorch learning workspace: tensors, an MNIST network and a **bidirectional LSTM** that predicts the next word from NLTK-preprocessed text corpora.",
+      "text": "A **bidirectional LSTM** that predicts the next word of a sentence, trained on NLTK-preprocessed text corpora, with the warm-ups before it: tensors and an MNIST network.",
       "tech": ["Python", "PyTorch", "NLTK", "LSTM"]
     },
     {
