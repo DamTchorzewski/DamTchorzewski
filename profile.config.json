@@ -191,6 +191,60 @@
       "color": ["#fb923c", "#c2410c"],
       "text": "Site of a premium-car workshop in Warsaw: services, makes, social news pulled at build time, quote forms. **Static export** with a scroll-driven gold ECG line and **WCAG 2.2 AA** tests.",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Firebase"]
+    },
+    {
+      "id": "float64converter",
+      "emoji": "🧮",
+      "title": "Float64Converter",
+      "tag": "IEEE 754 simulator",
+      "color": ["#38bdf8", "#0b7bb8"],
+      "text": "Console simulator of the decimal to 64-bit IEEE 754 conversion, built from logic gates, a full adder, an ALU and a CPU model, with a hand-written parser. **28 xUnit tests**, university team project.",
+      "tech": ["C#", ".NET 8", "xUnit", "GitHub Actions"]
+    },
+    {
+      "id": "cafecontrol",
+      "emoji": "☕",
+      "title": "CafeControl",
+      "tag": "Café system",
+      "color": ["#fb923c", "#c2410c"],
+      "text": "Console café system: a 16-product menu, orders with statuses, four payment methods, sorted history and sales statistics. An OOP showcase with **inheritance, interfaces, enums and generics**, team project.",
+      "tech": ["Java", "OOP", "Collections", "IntelliJ IDEA"]
+    },
+    {
+      "id": "flow-prediction",
+      "emoji": "📈",
+      "title": "Ml-Flow-Prediction",
+      "tag": "Flow regression",
+      "color": ["#4ade80", "#1a7f37"],
+      "text": "Predicts the flow rate in a pipe from pressure, diameter, temperature and density: median imputation, **IQR outlier removal**, random-forest regression, RMSE and feature-importance plots.",
+      "tech": ["Python", "scikit-learn", "pandas", "seaborn"]
+    },
+    {
+      "id": "id-verification",
+      "emoji": "🪪",
+      "title": "ID Verification",
+      "tag": "Vision + deep learning",
+      "color": ["#f472b6", "#bf3989"],
+      "text": "Computer-vision and deep-learning workspace: an **OCR check of ID documents**, an SVM sign classifier and PyTorch models up to a **bidirectional LSTM** that predicts the next word.",
+      "tech": ["Python", "OpenCV", "PyTorch", "scikit-learn"]
+    },
+    {
+      "id": "icecream",
+      "emoji": "🍦",
+      "title": "IceCream Delights",
+      "tag": "Landing page",
+      "color": ["#c084fc", "#8250df"],
+      "text": "Mobile-first landing page of an ice-cream brand: product modals, a gallery and a **Swiper** reviews slider. BEM and SASS, built with Parcel and **deployed by GitHub Actions**.",
+      "tech": ["HTML5", "SASS", "Parcel", "GitHub Pages"]
+    },
+    {
+      "id": "webstudio",
+      "emoji": "🌐",
+      "title": "WebStudio",
+      "tag": "Agency site",
+      "color": ["#2dd4bf", "#0f766e"],
+      "text": "Two-page site of a web agency: offer, team, skills and a nine-project portfolio. BEM and SASS, responsive `@1x` to `@3x` images, a mobile menu and a modal, hosted on GitHub Pages.",
+      "tech": ["HTML5", "SASS", "JavaScript", "GitHub Pages"]
     }
   ]
 }

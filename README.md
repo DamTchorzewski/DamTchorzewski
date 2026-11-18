@@ -36,7 +36,7 @@ I am a Full-Stack Developer with 4 years of experience building scalable web app
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/intro-featured-dark.svg"><img src="img/cards/intro-featured-light.svg" alt="Terminal: git log --graph lists Rikigo (cargo marketplace), Wallet Manager (personal finance), Pogotowie Glazurnicze (lead-gen web), Czarymary Okulary (retail web), DamReboot (company platform), Souler (portfolio web) and KarCar Service (auto-service web) as colored nodes of a commit graph. The DamReboot robot is soldering a chip next to it." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/intro-featured-dark.svg"><img src="img/cards/intro-featured-light.svg" alt="Terminal: git log --graph lists Rikigo (cargo marketplace), Wallet Manager (personal finance), Pogotowie Glazurnicze (lead-gen web), Czarymary Okulary (retail web), DamReboot (company platform), Souler (portfolio web), KarCar Service (auto-service web), Float64Converter (IEEE 754 simulator), CafeControl (café system), Ml-Flow-Prediction (flow regression), ID Verification (vision and deep learning), IceCream Delights (landing page) and WebStudio (agency site) as colored nodes of a commit graph. The DamReboot robot is soldering a chip next to it." width="100%"></picture>
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-rikigo-dark.svg"><img src="img/cards/featured-rikigo-light.svg" alt="Rikigo (Cargo marketplace): Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a state machine and double-entry ledger. Stack: Next.js, TypeScript, Turborepo, PostgreSQL." width="49.6%"></picture>
@@ -50,8 +50,20 @@ I am a Full-Stack Developer with 4 years of experience building scalable web app
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-damreboot-dark.svg"><img src="img/cards/featured-damreboot-light.svg" alt="DamReboot (Company platform): My company's software ecosystem: offer site, client portal with CRM and wallet, and this CV portfolio, as one Turborepo monorepo on a shared database layer. Self-hosted with Docker and Caddy. Stack: Next.js, TypeScript, Turborepo, MongoDB." width="49.6%"></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-souler-dark.svg"><img src="img/cards/featured-souler-light.svg" alt="Souler (Portfolio web): Portfolio of a young fashion designer: collections as lookbooks, a rental box that sends one inquiry, Polish and English. No cookies, no tracking, WCAG 2.2 AA tests. Stack: Next.js, TypeScript, Tailwind CSS, Playwright." width="49.6%"></picture>
 </p>
-<p align="center">
+<p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-karcar-dark.svg"><img src="img/cards/featured-karcar-light.svg" alt="KarCar Service (Auto-service web): Site of a premium-car workshop in Warsaw: services, makes, social news pulled at build time, quote forms. Static export with a scroll-driven gold ECG line and WCAG 2.2 AA tests. Stack: Next.js, TypeScript, Tailwind CSS, Firebase." width="49.6%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-float64converter-dark.svg"><img src="img/cards/featured-float64converter-light.svg" alt="Float64Converter (IEEE 754 simulator): Console simulator of the decimal to 64-bit IEEE 754 conversion, built from logic gates, a full adder, an ALU and a CPU model, with a hand-written parser. 28 xUnit tests, university team project. Stack: C#, .NET 8, xUnit, GitHub Actions." width="49.6%"></picture>
+</p>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-cafecontrol-dark.svg"><img src="img/cards/featured-cafecontrol-light.svg" alt="CafeControl (Café system): Console café system: a 16-product menu, orders with statuses, four payment methods, sorted history and sales statistics. An OOP showcase with inheritance, interfaces, enums and generics, team project. Stack: Java, OOP, Collections, IntelliJ IDEA." width="49.6%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-flow-prediction-dark.svg"><img src="img/cards/featured-flow-prediction-light.svg" alt="Ml-Flow-Prediction (Flow regression): Predicts the flow rate in a pipe from pressure, diameter, temperature and density: median imputation, IQR outlier removal, random-forest regression, RMSE and feature-importance plots. Stack: Python, scikit-learn, pandas, seaborn." width="49.6%"></picture>
+</p>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-id-verification-dark.svg"><img src="img/cards/featured-id-verification-light.svg" alt="ID Verification (Vision + deep learning): Computer-vision and deep-learning workspace: an OCR check of ID documents, an SVM sign classifier and PyTorch models up to a bidirectional LSTM that predicts the next word. Stack: Python, OpenCV, PyTorch, scikit-learn." width="49.6%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-icecream-dark.svg"><img src="img/cards/featured-icecream-light.svg" alt="IceCream Delights (Landing page): Mobile-first landing page of an ice-cream brand: product modals, a gallery and a Swiper reviews slider. BEM and SASS, built with Parcel and deployed by GitHub Actions. Stack: HTML5, SASS, Parcel, GitHub Pages." width="49.6%"></picture>
+</p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="img/cards/featured-webstudio-dark.svg"><img src="img/cards/featured-webstudio-light.svg" alt="WebStudio (Agency site): Two-page site of a web agency: offer, team, skills and a nine-project portfolio. BEM and SASS, responsive @1x to @3x images, a mobile menu and a modal, hosted on GitHub Pages. Stack: HTML5, SASS, JavaScript, GitHub Pages." width="49.6%"></picture>
 </p>
 
 </details>
