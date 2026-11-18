@@ -211,15 +211,6 @@
       "tech": ["Java", "OOP", "Collections", "IntelliJ IDEA"]
     },
     {
-      "id": "flow-prediction",
-      "emoji": "📈",
-      "title": "Ml-Flow-Prediction",
-      "tag": "Flow regression",
-      "color": ["#4ade80", "#1a7f37"],
-      "text": "Predicts the flow rate in a pipe from pressure, diameter, temperature and density: median imputation, **IQR outlier removal**, random-forest regression, RMSE and feature-importance plots.",
-      "tech": ["Python", "scikit-learn", "pandas", "seaborn"]
-    },
-    {
       "id": "id-verification",
       "emoji": "🪪",
       "title": "ID Verification",
