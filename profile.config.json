@@ -220,10 +220,10 @@
       "tech": ["Python", "OpenCV", "Tesseract", "scikit-learn"]
     },
     {
-      "id": "neural-network",
+      "id": "next-word-prediction",
       "emoji": "🧠",
-      "title": "Neural Network",
-      "tag": "Next-word model",
+      "title": "Next-Word Prediction",
+      "tag": "Language model",
       "color": ["#60a5fa", "#1f6feb"],
       "text": "A **bidirectional LSTM** that predicts the next word of a sentence, trained on NLTK-preprocessed text corpora, with the warm-ups before it: tensors and an MNIST network.",
       "tech": ["Python", "PyTorch", "NLTK", "LSTM"]
