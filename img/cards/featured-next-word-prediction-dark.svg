@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="436" height="204" viewBox="0 0 436 204" role="img" aria-label="next-word-prediction (Language model): Next-word prediction: a bidirectional LSTM in PyTorch, trained on NLTK-preprocessed text corpora, suggests the word that follows 5 or 10 words. Includes tensor and MNIST warm-ups. Stack: Python, PyTorch, NLTK, LSTM. Opens the repository.">
 <title>next-word-prediction (Language model): Next-word prediction: a bidirectional LSTM in PyTorch, trained on NLTK-preprocessed text corpora, suggests the word that follows 5 or 10 words. Includes tensor and MNIST warm-ups. Stack: Python, PyTorch, NLTK, LSTM. Opens the repository.</title>
 <rect x=".5" y=".5" width="435" height="203" rx="10" fill="#0e131a" stroke="#232c3a"/>
-<text x="22" y="39" style="font:18px 'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🧠</text>
+<g transform="translate(22 24) scale(.75)" fill="none" stroke="#60a5fa" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12.5h5"/></g>
 <text x="52.0" y="38" textLength="160.6" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#60a5fa">next-word-prediction</text>
 <rect x="300" y="17" width="114" height="25" rx="7" fill="#60a5fa" fill-opacity=".13" stroke="#60a5fa" stroke-opacity=".55"/>
 <text x="311" y="34" textLength="92.4" lengthAdjust="spacingAndGlyphs" style="font:600 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#60a5fa">Language model</text>
