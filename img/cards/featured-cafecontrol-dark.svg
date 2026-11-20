@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="436" height="204" viewBox="0 0 436 204" role="img" aria-label="cafe-management-system (Café system): Console cafe system: a 16-product menu, orders with statuses, four payment methods, sorted history and sales statistics. An OOP showcase with inheritance, interfaces, enums and generics. Stack: Java, OOP, Collections, IntelliJ IDEA. Opens the repository.">
 <title>cafe-management-system (Café system): Console cafe system: a 16-product menu, orders with statuses, four payment methods, sorted history and sales statistics. An OOP showcase with inheritance, interfaces, enums and generics. Stack: Java, OOP, Collections, IntelliJ IDEA. Opens the repository.</title>
 <rect x=".5" y=".5" width="435" height="203" rx="10" fill="#0e131a" stroke="#232c3a"/>
-<text x="22" y="39" style="font:18px 'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">☕</text>
+<g transform="translate(22 24) scale(.75)" fill="none" stroke="#fb923c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M16 11h2a2 2 0 0 1 0 4h-2M7 3v3M11 3v3"/></g>
 <text x="52.0" y="38" textLength="203.0" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#fb923c">cafe-management-system</text>
 <rect x="319" y="17" width="95" height="25" rx="7" fill="#fb923c" fill-opacity=".13" stroke="#fb923c" stroke-opacity=".55"/>
 <text x="330" y="34" textLength="72.6" lengthAdjust="spacingAndGlyphs" style="font:600 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#fb923c">Café system</text>

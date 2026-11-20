@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="436" height="204" viewBox="0 0 436 204" role="img" aria-label="rikigo (Cargo marketplace): Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a state machine and a double-entry ledger on PostgreSQL, in a Turborepo monorepo. Stack: Next.js, TypeScript, Turborepo, PostgreSQL. Private repository.">
 <title>rikigo (Cargo marketplace): Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a state machine and a double-entry ledger on PostgreSQL, in a Turborepo monorepo. Stack: Next.js, TypeScript, Turborepo, PostgreSQL. Private repository.</title>
 <rect x=".5" y=".5" width="435" height="203" rx="10" fill="#0e131a" stroke="#232c3a"/>
-<text x="22" y="39" style="font:18px 'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🚛</text>
+<g transform="translate(22 24) scale(.75)" fill="none" stroke="#5eb0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6h11v10H2zM13 9h4l3 3v4h-7"/><circle cx="6.5" cy="17.5" r="1.8"/><circle cx="16.5" cy="17.5" r="1.8"/></g>
 <text x="52.0" y="38" textLength="43.5" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#5eb0ff">rikigo</text>
 <rect x="280" y="17" width="134" height="25" rx="7" fill="#5eb0ff" fill-opacity=".13" stroke="#5eb0ff" stroke-opacity=".55"/>
 <text x="291" y="34" textLength="112.2" lengthAdjust="spacingAndGlyphs" style="font:600 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#5eb0ff">Cargo marketplace</text>

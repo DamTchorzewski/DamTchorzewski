@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="288" height="202" viewBox="0 0 288 202" role="img" aria-label="Critical Infrastructure (Security): Secure telemetry and field apps for water infrastructure to NIS2: contract-first APIs and strict validation.">
 <title>Critical Infrastructure (Security): Secure telemetry and field apps for water infrastructure to NIS2: contract-first APIs and strict validation.</title>
 <rect x=".5" y=".5" width="287" height="201" rx="10" fill="#0e131a" stroke="#232c3a"/>
-<text x="22" y="39" style="font:18px 'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🏭</text>
+<g transform="translate(22 24) scale(.75)" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></g>
 <rect x="191" y="17" width="75" height="25" rx="7" fill="#38bdf8" fill-opacity=".13" stroke="#38bdf8" stroke-opacity=".55"/>
 <text x="202" y="34" textLength="52.8" lengthAdjust="spacingAndGlyphs" style="font:600 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#38bdf8">Security</text>
 <text x="22.0" y="74" textLength="56.5" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#38bdf8">Critical</text><text x="83.3" y="74" textLength="107.9" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#38bdf8">Infrastructure</text>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="436" height="204" viewBox="0 0 436 204" role="img" aria-label="personal-finance-manager-api (REST API): REST API of the finance app: Express on Cloud Run verifies Firebase ID tokens and keeps each user's transactions in Firestore. Joi validation, Swagger docs, deployed by Actions with no keys. Stack: Node.js, Express, Firestore, Cloud Run. Opens the repository.">
 <title>personal-finance-manager-api (REST API): REST API of the finance app: Express on Cloud Run verifies Firebase ID tokens and keeps each user's transactions in Firestore. Joi validation, Swagger docs, deployed by Actions with no keys. Stack: Node.js, Express, Firestore, Cloud Run. Opens the repository.</title>
 <rect x=".5" y=".5" width="435" height="203" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-<text x="22" y="39" style="font:18px 'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🔌</text>
+<g transform="translate(22 24) scale(.75)" fill="none" stroke="#1a7f37" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01"/></g>
 <text x="52.0" y="38" textLength="230.4" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#1a7f37">personal-finance-manager-api</text>
 <rect x="339" y="17" width="75" height="25" rx="7" fill="#1a7f37" fill-opacity=".13" stroke="#1a7f37" stroke-opacity=".55"/>
 <text x="350" y="34" textLength="52.8" lengthAdjust="spacingAndGlyphs" style="font:600 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#1a7f37">REST API</text>

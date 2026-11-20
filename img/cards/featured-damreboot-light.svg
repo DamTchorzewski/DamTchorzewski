@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="436" height="204" viewBox="0 0 436 204" role="img" aria-label="damreboot (Company platform): Company platform: offer site, client portal with CRM and wallet, and this CV portfolio, as one Turborepo monorepo on a shared MongoDB layer. Self-hosted with Docker and Caddy. Stack: Next.js, TypeScript, Turborepo, MongoDB. Opens the live site.">
 <title>damreboot (Company platform): Company platform: offer site, client portal with CRM and wallet, and this CV portfolio, as one Turborepo monorepo on a shared MongoDB layer. Self-hosted with Docker and Caddy. Stack: Next.js, TypeScript, Turborepo, MongoDB. Opens the live site.</title>
 <rect x=".5" y=".5" width="435" height="203" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-<text x="22" y="39" style="font:18px 'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🚀</text>
+<g transform="translate(22 24) scale(.75)" fill="none" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 12.5l9 5 9-5M3 17l9 5 9-5"/></g>
 <text x="52.0" y="38" textLength="82.5" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#0f766e">damreboot</text>
 <rect x="286" y="17" width="128" height="25" rx="7" fill="#0f766e" fill-opacity=".13" stroke="#0f766e" stroke-opacity=".55"/>
 <text x="297" y="34" textLength="105.6" lengthAdjust="spacingAndGlyphs" style="font:600 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#0f766e">Company platform</text>
