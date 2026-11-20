@@ -144,8 +144,8 @@
       "title": "Wallet Manager",
       "tag": "Personal finance",
       "color": ["#4ade80", "#1a7f37"],
-      "text": "Personal finance app: income and expenses by category, balance and spending charts on any device. REST API with `JWT` auth, `Swagger` docs, team project.",
-      "tech": ["React", "Redux Toolkit", "Node.js", "MongoDB"]
+      "text": "Personal finance app: income and expenses by category, balance and spending charts, plus a one-click demo. **Firebase** sign-in (e-mail, Google), REST API on `Cloud Run` with `Firestore` and `Swagger` docs.",
+      "tech": ["React", "Redux Toolkit", "Firebase", "Cloud Run"]
     },
     {
       "id": "glazurnicze",
