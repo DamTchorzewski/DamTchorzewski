@@ -159,7 +159,7 @@
       "repo": "tmdb-movie-browser",
       "visibility": "public",
       "color": ["#f87171", "#b91c1c"],
-      "text": "Movie browser on the `TMDb` API: search, trailers and watchlists in vanilla **JavaScript**. Pagination, local storage and a responsive layout, built with `Parcel` and `SASS`, **deployed by GitHub Actions**.",
+      "text": "Movie browser on the `TMDb` API: search by title, trailers, watchlists and pagination, with data kept in local storage. Responsive layout built with `Parcel` and `SASS`, **deployed by GitHub Actions**.",
       "tech": ["JavaScript", "Parcel", "SASS", "TMDb API"]
     },
     {
@@ -170,7 +170,7 @@
       "repo": "ieee754-conversion-simulator",
       "visibility": "public",
       "color": ["#38bdf8", "#0b7bb8"],
-      "text": "Console simulator of the decimal to 64-bit **IEEE 754** conversion in `C#` and `.NET 8`, built from logic gates, a full adder, an `ALU` and a CPU model, with a hand-written parser and **28** `xUnit` tests.",
+      "text": "Console simulator of the decimal to 64-bit **IEEE 754** conversion, built from logic gates, a full adder, an `ALU` and a CPU model, with a hand-written parser, step-by-step output and **28** `xUnit` tests.",
       "tech": ["C#", ".NET 8", "xUnit", "GitHub Actions"]
     },
     {
@@ -181,7 +181,7 @@
       "repo": "cafe-management-system",
       "visibility": "public",
       "color": ["#fb923c", "#c2410c"],
-      "text": "Console cafe system in `Java`: a 16-product menu, orders with statuses, four payment methods, sorted history and sales statistics. An **OOP** showcase with `inheritance`, `interfaces`, `enums` and `generics`.",
+      "text": "Console cafe system: a 16-product menu, orders with statuses, four payment methods, sorted history and sales statistics. An **OOP** showcase with `inheritance`, `interfaces`, `enums` and `generics`.",
       "tech": ["Java", "OOP", "Collections", "IntelliJ IDEA"]
     },
     {
@@ -192,7 +192,7 @@
       "repo": "id-verification",
       "visibility": "public",
       "color": ["#f472b6", "#bf3989"],
-      "text": "Python scripts for a basic ID-document check: image pre-processing and **OCR** with `Tesseract` plus a declared-country match, `OpenCV` Haar face detection and a `scikit-learn` SVM sign classifier. A learning project.",
+      "text": "Automated ID-document check: image pre-processing and **OCR** with `Tesseract`, a declared-country match, `OpenCV` Haar face detection and a `scikit-learn` SVM sign classifier. A base for KYC onboarding.",
       "tech": ["Python", "OpenCV", "Tesseract", "scikit-learn"]
     },
     {
@@ -203,7 +203,7 @@
       "repo": "next-word-prediction",
       "visibility": "public",
       "color": ["#60a5fa", "#1f6feb"],
-      "text": "Next-word prediction in `PyTorch`: a bidirectional **LSTM** trained on `NLTK`-preprocessed text corpora, with the warm-ups before it: tensors and an `MNIST` network. Suggests the word that follows 5 or 10 words.",
+      "text": "Next-word prediction: a bidirectional **LSTM** in `PyTorch`, trained on `NLTK`-preprocessed text corpora, suggests the word that follows 5 or 10 words. Includes tensor and `MNIST` warm-ups.",
       "tech": ["Python", "PyTorch", "NLTK", "LSTM"]
     },
     {
@@ -225,7 +225,7 @@
       "repo": "digital-agency-website",
       "visibility": "public",
       "color": ["#2dd4bf", "#0f766e"],
-      "text": "Two-page site of a web agency: offer, team, skills and a nine-project portfolio. **BEM** and `SASS`, responsive `@1x` to `@3x` images, a mobile menu and a modal in `JavaScript`, hosted on `GitHub Pages`.",
+      "text": "Two-page agency site: offer, team, skills and a nine-project portfolio with a modal. **BEM** and `SASS`, responsive `@1x` to `@3x` images and a mobile menu, hosted on `GitHub Pages`.",
       "tech": ["HTML5", "SASS", "JavaScript", "GitHub Pages"]
     },
     {
@@ -236,7 +236,7 @@
       "repo": "rikigo",
       "visibility": "private",
       "color": ["#5eb0ff", "#0969da"],
-      "text": "Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a **state machine** and a **double-entry ledger**, in `Next.js`, `TypeScript` and `PostgreSQL`.",
+      "text": "Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a **state machine** and a **double-entry ledger** on `PostgreSQL`, in a `Turborepo` monorepo.",
       "tech": ["Next.js", "TypeScript", "Turborepo", "PostgreSQL"]
     },
     {
@@ -248,7 +248,7 @@
       "visibility": "private",
       "site": "https://pogotowieglazurnicze.pl/",
       "color": ["#fbbf24", "#9a6700"],
-      "text": "Site for a renovation firm in Katowice: four service lines, a free-quote form and tap-to-call on every screen. **Lighthouse 100/100/100**, `WCAG 2.2 AA` tests, built with `Next.js`, `Tailwind` and `Zod`.",
+      "text": "Site for a renovation firm: four service lines, a free-quote form and tap-to-call on every screen. **Lighthouse 100/100/100**, `WCAG 2.2 AA` tests, forms validated with `Zod`, built with `Next.js` and `Tailwind`.",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Zod"]
     },
     {
@@ -260,7 +260,7 @@
       "visibility": "private",
       "site": "https://czarymaryokulary.pl",
       "color": ["#f472b6", "#bf3989"],
-      "text": "Redesigned site of a Warsaw optical salon: offer, news and directions in a few clicks, light/dark mode. **Lighthouse 100** performance and SEO, **97** accessibility, built with `Next.js` and `Tailwind`.",
+      "text": "Redesigned site of an optical salon: offer, news and directions in a few clicks, light/dark mode. **Lighthouse 100** performance and SEO, **97** accessibility, built with `Next.js` and `Tailwind`.",
       "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
     },
     {
@@ -283,7 +283,7 @@
       "repo": "souler",
       "visibility": "private",
       "color": ["#c084fc", "#8250df"],
-      "text": "Portfolio of a young fashion designer: collections as lookbooks, a rental box that sends one inquiry, Polish and English. **No cookies, no tracking**, `WCAG 2.2 AA` tests with `Next.js` and `Playwright`.",
+      "text": "Portfolio of a fashion designer: collections as lookbooks and a rental box that sends one inquiry, with **i18n** routing. **No cookies, no tracking**, `WCAG 2.2 AA` tests, built with `Next.js` and `Playwright`.",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Playwright"]
     },
     {
@@ -294,7 +294,7 @@
       "repo": "karcar",
       "visibility": "private",
       "color": ["#fb923c", "#c2410c"],
-      "text": "Site of a premium-car workshop in Warsaw: services, makes, social news pulled at build time, quote forms. A **static export** with a scroll-driven ECG line, `WCAG 2.2 AA` tests, `Next.js` and `Firebase`.",
+      "text": "Site of a premium-car workshop: services, makes, social news pulled at build time and quote forms. A **static export** with a scroll-driven ECG line, `WCAG 2.2 AA` tests, built with `Next.js` and `Firebase`.",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Firebase"]
     }
   ]
