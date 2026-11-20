@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="346" height="34" viewBox="0 0 346 34" role="img" aria-label="Private &amp; Commissioned Systems">
 <title>Private &amp; Commissioned Systems</title>
-<g transform="translate(0 1) scale(1.3333)"><rect x=".5" y="0.5" width="23" height="23" rx="7.0" fill="#0969da" fill-opacity="0.1" stroke="#0969da" stroke-opacity=".45"/>
-<g transform="translate(2 2) scale(0.833)" fill="none" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></g></g>
+<g transform="translate(0 1) scale(1.3333)"><rect x=".5" y="0.5" width="23" height="23" rx="7.0" fill="#9a6700" fill-opacity="0.1" stroke="#9a6700" stroke-opacity=".45"/>
+<g transform="translate(2 2) scale(0.833)" fill="none" stroke="#9a6700" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></g></g>
 <text x="44" y="23.5" textLength="300" lengthAdjust="spacing" style="font:600 20px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#1f2328">Private &amp; Commissioned Systems</text>
 </svg>

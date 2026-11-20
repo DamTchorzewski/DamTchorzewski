@@ -85,7 +85,8 @@
       "title": "Critical Infrastructure",
       "tag": "Security",
       "color": ["#38bdf8", "#0b7bb8"],
-      "text": "At Proffico: **security by design** for **SCADA/HMI**-class telemetry and field apps for water infrastructure, built to **NIS2** standards: contract-first APIs with strict runtime validation, code reviews, unit tests, **WCAG** accessibility and performance tuning for large real-time data volumes."
+      "text": "At Proffico: **security by design** for **SCADA/HMI**-class telemetry and field apps for water infrastructure, built to **NIS2** standards: contract-first APIs with strict runtime validation, code reviews, unit tests, **WCAG** accessibility and performance tuning for large real-time data volumes.",
+      "blurb": "Secure telemetry and field apps for water infrastructure to **NIS2**: contract-first APIs and strict validation."
     },
     {
       "id": "b2b",
@@ -93,7 +94,8 @@
       "title": "B2B & SaaS Products",
       "tag": "Multi-Tenant",
       "color": ["#60a5fa", "#1f6feb"],
-      "text": "**Multi-tenancy by design:** a B2B platform and logistics marketplace in one `Turborepo` monorepo, built as a **modular monolith** with clean boundaries, client portal, admin panel, invoicing and Kanban automation, plus SEO-ready websites for SME clients."
+      "text": "**Multi-tenancy by design:** a B2B platform and logistics marketplace in one `Turborepo` monorepo, built as a **modular monolith** with clean boundaries, client portal, admin panel, invoicing and Kanban automation, plus SEO-ready websites for SME clients.",
+      "blurb": "Multi-tenant B2B platform and logistics marketplace in one `Turborepo` monorepo: portal, admin panel, invoicing."
     },
     {
       "id": "frontend",
@@ -101,7 +103,8 @@
       "title": "Frontend, Desktop & Mobile",
       "tag": "UI / UX",
       "color": ["#22d3ee", "#0e7490"],
-      "text": "`React`, `Next.js` (hybrid **SSR / SSG**) and strict `TypeScript` with `Tailwind CSS`, **accessibility-first** (`WCAG 2.2 AA`). State with `TanStack Query`; desktop in `Electron`, field apps in `React Native`, real-time charts in `ECharts`, maps in `Mapbox GL`."
+      "text": "`React`, `Next.js` (hybrid **SSR / SSG**) and strict `TypeScript` with `Tailwind CSS`, **accessibility-first** (`WCAG 2.2 AA`). State with `TanStack Query`; desktop in `Electron`, field apps in `React Native`, real-time charts in `ECharts`, maps in `Mapbox GL`.",
+      "blurb": "`React` and `Next.js` (SSR/SSG) in strict **TypeScript**, accessible (WCAG 2.2 AA); desktop in `Electron`, mobile in React Native."
     },
     {
       "id": "backend",
@@ -109,7 +112,8 @@
       "title": "Backend & Data Layer",
       "tag": "API-First",
       "color": ["#4ade80", "#1a7f37"],
-      "text": "**API-first** backends with `NestJS` and `Node.js`: **state-machine-driven** workflows, a **double-entry ledger**, relational `SQL` (`PostgreSQL`) and `MongoDB` modeling via `Prisma`, `OpenAPI` contracts, `RBAC` enforced in the API layer and rate-limited public APIs."
+      "text": "**API-first** backends with `NestJS` and `Node.js`: **state-machine-driven** workflows, a **double-entry ledger**, relational `SQL` (`PostgreSQL`) and `MongoDB` modeling via `Prisma`, `OpenAPI` contracts, `RBAC` enforced in the API layer and rate-limited public APIs.",
+      "blurb": "API-first **NestJS** backends: state machines, double-entry ledger, `PostgreSQL` and `MongoDB` via `Prisma`, `OpenAPI`."
     },
     {
       "id": "devops",
@@ -117,7 +121,8 @@
       "title": "Cloud & DevOps",
       "tag": "CI/CD",
       "color": ["#c084fc", "#8250df"],
-      "text": "**Shift-left delivery:** `GitHub Actions` run type checks, linting and tests (`Jest`, `Vitest`) before every deploy to `Microsoft Azure` or a `Linux VPS` (`Docker`, `Nginx`), with `Turborepo` monorepos and `Grafana` **observability**."
+      "text": "**Shift-left delivery:** `GitHub Actions` run type checks, linting and tests (`Jest`, `Vitest`) before every deploy to `Microsoft Azure` or a `Linux VPS` (`Docker`, `Nginx`), with `Turborepo` monorepos and `Grafana` **observability**.",
+      "blurb": "`GitHub Actions` run checks and tests before every deploy to **Azure** or a Linux VPS (`Docker`, `Nginx`)."
     },
     {
       "id": "ai",
@@ -125,7 +130,8 @@
       "title": "Applied AI & ML",
       "tag": "AI / ML",
       "color": ["#f472b6", "#bf3989"],
-      "text": "`Python` ML (`Pandas`, `NumPy`) exposed through REST APIs: automated KYC identity-document verification and a real-time text-autocompletion NLP model with 95% prediction accuracy. Daily agentic engineering with `Claude Code CLI` and `Gemini`."
+      "text": "`Python` ML (`Pandas`, `NumPy`) exposed through REST APIs: automated KYC identity-document verification and a real-time text-autocompletion NLP model with 95% prediction accuracy. Daily agentic engineering with `Claude Code CLI` and `Gemini`.",
+      "blurb": "`Python` ML behind REST APIs: automated **KYC** document verification and a text-autocompletion NLP model."
     }
   ],
   "featured": [
@@ -138,6 +144,7 @@
       "visibility": "public",
       "color": ["#4ade80", "#1a7f37"],
       "text": "Personal finance app: income and expenses by category, balance and spending charts, plus a one-click demo. **Firebase** sign-in (e-mail, Google), REST API on `Cloud Run` with `Firestore` and `Swagger` docs.",
+      "blurb": "Finance app with charts, a one-click demo and **Firebase** sign-in; API on `Cloud Run` with `Firestore`.",
       "tech": ["React", "Redux Toolkit", "Firebase", "Cloud Run"]
     },
     {
@@ -237,6 +244,7 @@
       "visibility": "private",
       "color": ["#5eb0ff", "#0969da"],
       "text": "Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a **state machine** and a **double-entry ledger** on `PostgreSQL`, in a `Turborepo` monorepo.",
+      "blurb": "Cargo marketplace: customers set a price, carriers accept or bid, the platform settles payments.",
       "tech": ["Next.js", "TypeScript", "Turborepo", "PostgreSQL"]
     },
     {
@@ -249,6 +257,7 @@
       "site": "https://pogotowieglazurnicze.pl/",
       "color": ["#fbbf24", "#9a6700"],
       "text": "Site for a renovation firm: four service lines, a free-quote form and tap-to-call on every screen. **Lighthouse 100/100/100**, `WCAG 2.2 AA` tests, forms validated with `Zod`, built with `Next.js` and `Tailwind`.",
+      "blurb": "Renovation-firm site with a free-quote form and tap-to-call; **Lighthouse 100**, `WCAG 2.2 AA` tests.",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Zod"]
     },
     {
@@ -261,6 +270,7 @@
       "site": "https://czarymaryokulary.pl",
       "color": ["#f472b6", "#bf3989"],
       "text": "Redesigned site of an optical salon: offer, news and directions in a few clicks, light/dark mode. **Lighthouse 100** performance and SEO, **97** accessibility, built with `Next.js` and `Tailwind`.",
+      "blurb": "Optical-salon site with light/dark mode; **Lighthouse 100** performance and SEO, built with `Next.js`.",
       "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
     },
     {
@@ -273,6 +283,7 @@
       "site": "https://damreboot.pl",
       "color": ["#2dd4bf", "#0f766e"],
       "text": "Company platform: offer site, client portal with **CRM** and wallet, and this CV portfolio, as one `Turborepo` monorepo on a shared `MongoDB` layer. **Self-hosted** with `Docker` and `Caddy`.",
+      "blurb": "Offer site, client portal with **CRM** and this CV in one `Turborepo` monorepo, self-hosted.",
       "tech": ["Next.js", "TypeScript", "Turborepo", "MongoDB"]
     },
     {
@@ -284,6 +295,7 @@
       "visibility": "private",
       "color": ["#c084fc", "#8250df"],
       "text": "Portfolio of a fashion designer: collections as lookbooks and a rental box that sends one inquiry, with **i18n** routing. **No cookies, no tracking**, `WCAG 2.2 AA` tests, built with `Next.js` and `Playwright`.",
+      "blurb": "Fashion-designer portfolio: lookbooks and a rental inquiry box; **no cookies, no tracking**.",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Playwright"]
     },
     {
@@ -295,6 +307,7 @@
       "visibility": "private",
       "color": ["#fb923c", "#c2410c"],
       "text": "Site of a premium-car workshop: services, makes, social news pulled at build time and quote forms. A **static export** with a scroll-driven ECG line, `WCAG 2.2 AA` tests, built with `Next.js` and `Firebase`.",
+      "blurb": "Premium-car workshop site: services, makes and social news pulled at build time, **static export**.",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Firebase"]
     }
   ]
