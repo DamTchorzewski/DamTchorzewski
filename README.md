@@ -32,7 +32,7 @@ I am a Full-Stack Developer with 4 years of experience building scalable web app
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-public-dark.svg"><img src="img/hero/heading-public-light.svg" alt="Public Projects &amp; Open Source" height="34" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-public-dark.svg"><img src="img/hero/heading-public-light.svg" alt="Public Projects &amp; Open Source" height="42" align="absmiddle"></picture></summary>
 
 <br>
 
@@ -63,7 +63,7 @@ I am a Full-Stack Developer with 4 years of experience building scalable web app
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-private-dark.svg"><img src="img/hero/heading-private-light.svg" alt="Private &amp; Commissioned Systems" height="34" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-private-dark.svg"><img src="img/hero/heading-private-light.svg" alt="Private &amp; Commissioned Systems" height="42" align="absmiddle"></picture></summary>
 
 <br>
 
@@ -83,7 +83,7 @@ I am a Full-Stack Developer with 4 years of experience building scalable web app
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-domains-dark.svg"><img src="img/hero/heading-domains-light.svg" alt="Engineering Domains &amp; Production Experience" height="34" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-domains-dark.svg"><img src="img/hero/heading-domains-light.svg" alt="Engineering Domains &amp; Production Experience" height="42" align="absmiddle"></picture></summary>
 
 <br>
 
@@ -105,7 +105,7 @@ I am a Full-Stack Developer with 4 years of experience building scalable web app
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-stack-dark.svg"><img src="img/hero/heading-stack-light.svg" alt="Core Tech Stack &amp; Ecosystem" height="34" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-stack-dark.svg"><img src="img/hero/heading-stack-light.svg" alt="Core Tech Stack &amp; Ecosystem" height="42" align="absmiddle"></picture></summary>
 
 <br>
 
@@ -124,7 +124,7 @@ I am a Full-Stack Developer with 4 years of experience building scalable web app
 <br>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-telemetry-dark.svg"><img src="img/hero/heading-telemetry-light.svg" alt="GitHub Telemetry &amp; Language Distribution" height="34" align="middle"></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/heading-telemetry-dark.svg"><img src="img/hero/heading-telemetry-light.svg" alt="GitHub Telemetry &amp; Language Distribution" height="42" align="absmiddle"></picture></summary>
 
 <br>
 
