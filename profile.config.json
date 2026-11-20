@@ -130,73 +130,45 @@
   ],
   "featured": [
     {
-      "id": "rikigo",
-      "emoji": "🚛",
-      "title": "Rikigo",
-      "tag": "Cargo marketplace",
-      "color": ["#5eb0ff", "#0969da"],
-      "text": "Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a **state machine** and **double-entry ledger**.",
-      "tech": ["Next.js", "TypeScript", "Turborepo", "PostgreSQL"]
-    },
-    {
       "id": "wallet",
       "emoji": "💳",
-      "title": "Wallet Manager",
+      "title": "personal-finance-manager",
       "tag": "Personal finance",
+      "repo": "personal-finance-manager",
+      "visibility": "public",
       "color": ["#4ade80", "#1a7f37"],
       "text": "Personal finance app: income and expenses by category, balance and spending charts, plus a one-click demo. **Firebase** sign-in (e-mail, Google), REST API on `Cloud Run` with `Firestore` and `Swagger` docs.",
       "tech": ["React", "Redux Toolkit", "Firebase", "Cloud Run"]
     },
     {
-      "id": "glazurnicze",
-      "emoji": "🧱",
-      "title": "Pogotowie Glazurnicze",
-      "tag": "Lead-gen web",
-      "color": ["#fbbf24", "#9a6700"],
-      "text": "Site for a renovation firm in Katowice: four service lines, free-quote form and tap-to-call on every screen. **Lighthouse 100/100/100**, WCAG 2.2 AA tests.",
-      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Zod"]
+      "id": "pfm-api",
+      "emoji": "🔌",
+      "title": "personal-finance-manager-api",
+      "tag": "REST API",
+      "repo": "personal-finance-manager-api",
+      "visibility": "public",
+      "color": ["#4ade80", "#1a7f37"],
+      "text": "REST API of the finance app: `Express` on `Cloud Run` verifies **Firebase** ID tokens and keeps each user's transactions in `Firestore`. `Joi` validation, `Swagger` docs, deployed by Actions with **no keys** (Workload Identity).",
+      "tech": ["Node.js", "Express", "Firestore", "Cloud Run"]
     },
     {
-      "id": "czarymary",
-      "emoji": "👓",
-      "title": "Czarymary Okulary",
-      "tag": "Retail web",
-      "color": ["#f472b6", "#bf3989"],
-      "text": "Redesigned site of a Warsaw optical salon: offer, news and directions in a few clicks, light/dark mode. Lighthouse **100** perf, **100** SEO, **97** a11y.",
-      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
-    },
-    {
-      "id": "damreboot",
-      "emoji": "🚀",
-      "title": "DamReboot",
-      "tag": "Company platform",
-      "color": ["#2dd4bf", "#0f766e"],
-      "text": "My company's software ecosystem: offer site, client portal with **CRM** and wallet, and this CV portfolio, as one `Turborepo` monorepo on a shared database layer. **Self-hosted** with Docker and Caddy.",
-      "tech": ["Next.js", "TypeScript", "Turborepo", "MongoDB"]
-    },
-    {
-      "id": "souler",
-      "emoji": "👗",
-      "title": "Souler",
-      "tag": "Portfolio web",
-      "color": ["#c084fc", "#8250df"],
-      "text": "Portfolio of a young fashion designer: collections as lookbooks, a rental box that sends one inquiry, Polish and English. **No cookies, no tracking**, **WCAG 2.2 AA** tests.",
-      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Playwright"]
-    },
-    {
-      "id": "karcar",
-      "emoji": "🚗",
-      "title": "KarCar Service",
-      "tag": "Auto-service web",
-      "color": ["#fb923c", "#c2410c"],
-      "text": "Site of a premium-car workshop in Warsaw: services, makes, social news pulled at build time, quote forms. **Static export** with a scroll-driven gold ECG line and **WCAG 2.2 AA** tests.",
-      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Firebase"]
+      "id": "tmdb",
+      "emoji": "🎬",
+      "title": "tmdb-movie-browser",
+      "tag": "Movie browser",
+      "repo": "tmdb-movie-browser",
+      "visibility": "public",
+      "color": ["#f87171", "#b91c1c"],
+      "text": "Movie browser on the TMDb API: search, trailers and watchlists in vanilla JavaScript with Parcel. Pagination, local storage and a responsive layout, **deployed by GitHub Actions**.",
+      "tech": ["JavaScript", "Parcel", "SASS", "TMDb API"]
     },
     {
       "id": "float64converter",
       "emoji": "🧮",
-      "title": "Float64Converter",
-      "tag": "IEEE 754 simulator",
+      "title": "ieee754-conversion-simulator",
+      "tag": "IEEE 754",
+      "repo": "ieee754-conversion-simulator",
+      "visibility": "public",
       "color": ["#38bdf8", "#0b7bb8"],
       "text": "Console simulator of the decimal to 64-bit IEEE 754 conversion, built from logic gates, a full adder, an ALU and a CPU model, with a hand-written parser. **28 xUnit tests**, university team project.",
       "tech": ["C#", ".NET 8", "xUnit", "GitHub Actions"]
@@ -204,26 +176,21 @@
     {
       "id": "cafecontrol",
       "emoji": "☕",
-      "title": "CafeControl",
+      "title": "cafe-management-system",
       "tag": "Café system",
+      "repo": "cafe-management-system",
+      "visibility": "public",
       "color": ["#fb923c", "#c2410c"],
       "text": "Console café system: a 16-product menu, orders with statuses, four payment methods, sorted history and sales statistics. An OOP showcase with **inheritance, interfaces, enums and generics**, team project.",
       "tech": ["Java", "OOP", "Collections", "IntelliJ IDEA"]
     },
     {
-      "id": "id-verification",
-      "emoji": "🪪",
-      "title": "ID Verification",
-      "tag": "OpenCV + OCR",
-      "color": ["#f472b6", "#bf3989"],
-      "text": "Python scripts for a basic ID-document check: image **pre-processing and Tesseract OCR** with a declared-country match, Haar face detection and an SVM sign classifier. A learning project.",
-      "tech": ["Python", "OpenCV", "Tesseract", "scikit-learn"]
-    },
-    {
       "id": "next-word-prediction",
       "emoji": "🧠",
-      "title": "Next-Word Prediction",
+      "title": "next-word-prediction",
       "tag": "Language model",
+      "repo": "next-word-prediction",
+      "visibility": "public",
       "color": ["#60a5fa", "#1f6feb"],
       "text": "A **bidirectional LSTM** that predicts the next word of a sentence, trained on NLTK-preprocessed text corpora, with the warm-ups before it: tensors and an MNIST network.",
       "tech": ["Python", "PyTorch", "NLTK", "LSTM"]
@@ -231,8 +198,10 @@
     {
       "id": "icecream",
       "emoji": "🍦",
-      "title": "IceCream Delights",
+      "title": "food-brand-landing-page",
       "tag": "Landing page",
+      "repo": "food-brand-landing-page",
+      "visibility": "public",
       "color": ["#c084fc", "#8250df"],
       "text": "Mobile-first landing page of an ice-cream brand: product modals, a gallery and a **Swiper** reviews slider. BEM and SASS, built with Parcel and **deployed by GitHub Actions**.",
       "tech": ["HTML5", "SASS", "Parcel", "GitHub Pages"]
@@ -240,11 +209,93 @@
     {
       "id": "webstudio",
       "emoji": "🌐",
-      "title": "WebStudio",
+      "title": "digital-agency-website",
       "tag": "Agency site",
+      "repo": "digital-agency-website",
+      "visibility": "public",
       "color": ["#2dd4bf", "#0f766e"],
       "text": "Two-page site of a web agency: offer, team, skills and a nine-project portfolio. BEM and SASS, responsive `@1x` to `@3x` images, a mobile menu and a modal, hosted on GitHub Pages.",
       "tech": ["HTML5", "SASS", "JavaScript", "GitHub Pages"]
+    },
+    {
+      "id": "rikigo",
+      "emoji": "🚛",
+      "title": "rikigo",
+      "tag": "Cargo marketplace",
+      "repo": "rikigo",
+      "visibility": "private",
+      "color": ["#5eb0ff", "#0969da"],
+      "text": "Marketplace for oversized cargo: customers set a price, carriers accept or bid, the platform settles payments. Core with a **state machine** and **double-entry ledger**.",
+      "tech": ["Next.js", "TypeScript", "Turborepo", "PostgreSQL"]
+    },
+    {
+      "id": "glazurnicze",
+      "emoji": "🧱",
+      "title": "pogotowieglazurnicze",
+      "tag": "Lead-gen web",
+      "repo": "pogotowieglazurnicze",
+      "visibility": "private",
+      "site": "https://pogotowieglazurnicze.pl/",
+      "color": ["#fbbf24", "#9a6700"],
+      "text": "Site for a renovation firm in Katowice: four service lines, free-quote form and tap-to-call on every screen. **Lighthouse 100/100/100**, WCAG 2.2 AA tests.",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Zod"]
+    },
+    {
+      "id": "czarymary",
+      "emoji": "👓",
+      "title": "czarymaryokulary",
+      "tag": "Retail web",
+      "repo": "czarymaryokulary",
+      "visibility": "private",
+      "site": "https://czarymaryokulary.pl",
+      "color": ["#f472b6", "#bf3989"],
+      "text": "Redesigned site of a Warsaw optical salon: offer, news and directions in a few clicks, light/dark mode. Lighthouse **100** perf, **100** SEO, **97** a11y.",
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+    },
+    {
+      "id": "damreboot",
+      "emoji": "🚀",
+      "title": "damreboot",
+      "tag": "Company platform",
+      "repo": "damreboot",
+      "visibility": "private",
+      "site": "https://damreboot.pl",
+      "color": ["#2dd4bf", "#0f766e"],
+      "text": "My company's software ecosystem: offer site, client portal with **CRM** and wallet, and this CV portfolio, as one `Turborepo` monorepo on a shared database layer. **Self-hosted** with Docker and Caddy.",
+      "tech": ["Next.js", "TypeScript", "Turborepo", "MongoDB"]
+    },
+    {
+      "id": "souler",
+      "emoji": "👗",
+      "title": "souler",
+      "tag": "Portfolio web",
+      "repo": "souler",
+      "visibility": "private",
+      "color": ["#c084fc", "#8250df"],
+      "text": "Portfolio of a young fashion designer: collections as lookbooks, a rental box that sends one inquiry, Polish and English. **No cookies, no tracking**, **WCAG 2.2 AA** tests.",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Playwright"]
+    },
+    {
+      "id": "karcar",
+      "emoji": "🚗",
+      "title": "karcar",
+      "tag": "Auto-service web",
+      "repo": "karcar",
+      "visibility": "private",
+      "color": ["#fb923c", "#c2410c"],
+      "text": "Site of a premium-car workshop in Warsaw: services, makes, social news pulled at build time, quote forms. **Static export** with a scroll-driven gold ECG line and **WCAG 2.2 AA** tests.",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Firebase"]
+    },
+    {
+      "id": "id-verification",
+      "emoji": "🪪",
+      "title": "id-verification",
+      "tag": "OpenCV + OCR",
+      "repo": "id-verification",
+      "visibility": "private",
+      "color": ["#f472b6", "#bf3989"],
+      "text": "Python scripts for a basic ID-document check: image **pre-processing and Tesseract OCR** with a declared-country match, Haar face detection and an SVM sign classifier. A learning project.",
+      "tech": ["Python", "OpenCV", "Tesseract", "scikit-learn"]
     }
   ]
 }
