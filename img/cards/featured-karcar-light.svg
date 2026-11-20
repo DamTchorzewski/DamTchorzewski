@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="436" height="204" viewBox="0 0 436 204" role="img" aria-label="karcar (Auto-service web): Site of a premium-car workshop: services, makes, social news pulled at build time and quote forms. A static export with a scroll-driven ECG line, WCAG 2.2 AA tests, built with Next.js and Firebase. Stack: Next.js, TypeScript, Tailwind CSS, Firebase. Private repository.">
 <title>karcar (Auto-service web): Site of a premium-car workshop: services, makes, social news pulled at build time and quote forms. A static export with a scroll-driven ECG line, WCAG 2.2 AA tests, built with Next.js and Firebase. Stack: Next.js, TypeScript, Tailwind CSS, Firebase. Private repository.</title>
 <rect x=".5" y=".5" width="435" height="203" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-<text x="22" y="39" style="font:18px 'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🚗</text>
+<g transform="translate(22 24) scale(.75)" fill="none" stroke="#c2410c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11l2-5h10l2 5M3 11h18v6H3z"/><circle cx="7.5" cy="14" r="1"/><circle cx="16.5" cy="14" r="1"/></g>
 <text x="52.0" y="38" textLength="49.3" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#c2410c">karcar</text>
 <rect x="286" y="17" width="128" height="25" rx="7" fill="#c2410c" fill-opacity=".13" stroke="#c2410c" stroke-opacity=".55"/>
 <text x="297" y="34" textLength="105.6" lengthAdjust="spacingAndGlyphs" style="font:600 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#c2410c">Auto-service web</text>
