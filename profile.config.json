@@ -136,6 +136,7 @@
       "tag": "Personal finance",
       "repo": "personal-finance-manager",
       "visibility": "public",
+      "site": "https://damtchorzewski.github.io/personal-finance-manager/",
       "color": ["#4ade80", "#1a7f37"],
       "text": "Personal finance app: income and expenses by category, balance and spending charts, plus a one-click demo. **Firebase** sign-in (e-mail, Google), REST API on `Cloud Run` with `Firestore` and `Swagger` docs.",
       "tech": ["React", "Redux Toolkit", "Firebase", "Cloud Run"]
@@ -158,6 +159,7 @@
       "tag": "Movie browser",
       "repo": "tmdb-movie-browser",
       "visibility": "public",
+      "site": "https://damtchorzewski.github.io/tmdb-movie-browser/",
       "color": ["#f87171", "#b91c1c"],
       "text": "Movie browser on the TMDb API: search, trailers and watchlists in vanilla JavaScript with Parcel. Pagination, local storage and a responsive layout, **deployed by GitHub Actions**.",
       "tech": ["JavaScript", "Parcel", "SASS", "TMDb API"]
@@ -185,6 +187,17 @@
       "tech": ["Java", "OOP", "Collections", "IntelliJ IDEA"]
     },
     {
+      "id": "id-verification",
+      "emoji": "🪪",
+      "title": "id-verification",
+      "tag": "OpenCV + OCR",
+      "repo": "id-verification",
+      "visibility": "public",
+      "color": ["#f472b6", "#bf3989"],
+      "text": "Python scripts for a basic ID-document check: image **pre-processing and Tesseract OCR** with a declared-country match, Haar face detection and an SVM sign classifier. A learning project.",
+      "tech": ["Python", "OpenCV", "Tesseract", "scikit-learn"]
+    },
+    {
       "id": "next-word-prediction",
       "emoji": "🧠",
       "title": "next-word-prediction",
@@ -202,6 +215,7 @@
       "tag": "Landing page",
       "repo": "food-brand-landing-page",
       "visibility": "public",
+      "site": "https://damtchorzewski.github.io/food-brand-landing-page/",
       "color": ["#c084fc", "#8250df"],
       "text": "Mobile-first landing page of an ice-cream brand: product modals, a gallery and a **Swiper** reviews slider. BEM and SASS, built with Parcel and **deployed by GitHub Actions**.",
       "tech": ["HTML5", "SASS", "Parcel", "GitHub Pages"]
@@ -213,6 +227,7 @@
       "tag": "Agency site",
       "repo": "digital-agency-website",
       "visibility": "public",
+      "site": "https://damtchorzewski.github.io/digital-agency-website/",
       "color": ["#2dd4bf", "#0f766e"],
       "text": "Two-page site of a web agency: offer, team, skills and a nine-project portfolio. BEM and SASS, responsive `@1x` to `@3x` images, a mobile menu and a modal, hosted on GitHub Pages.",
       "tech": ["HTML5", "SASS", "JavaScript", "GitHub Pages"]
@@ -285,17 +300,6 @@
       "color": ["#fb923c", "#c2410c"],
       "text": "Site of a premium-car workshop in Warsaw: services, makes, social news pulled at build time, quote forms. **Static export** with a scroll-driven gold ECG line and **WCAG 2.2 AA** tests.",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Firebase"]
-    },
-    {
-      "id": "id-verification",
-      "emoji": "🪪",
-      "title": "id-verification",
-      "tag": "OpenCV + OCR",
-      "repo": "id-verification",
-      "visibility": "private",
-      "color": ["#f472b6", "#bf3989"],
-      "text": "Python scripts for a basic ID-document check: image **pre-processing and Tesseract OCR** with a declared-country match, Haar face detection and an SVM sign classifier. A learning project.",
-      "tech": ["Python", "OpenCV", "Tesseract", "scikit-learn"]
     }
   ]
 }
