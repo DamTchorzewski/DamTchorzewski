@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="436" height="204" viewBox="0 0 436 204" role="img" aria-label="movie-discovery (Movie discovery): Cinematic movie discovery on the TMDB API in Polish and English: trends, filters, where to watch in Poland, a watchlist with ratings and a pick for tonight. TypeScript, Tailwind CSS, e2e tests with axe. Stack: React, TypeScript, Tailwind CSS, TMDB API. Opens the repository.">
 <title>movie-discovery (Movie discovery): Cinematic movie discovery on the TMDB API in Polish and English: trends, filters, where to watch in Poland, a watchlist with ratings and a pick for tonight. TypeScript, Tailwind CSS, e2e tests with axe. Stack: React, TypeScript, Tailwind CSS, TMDB API. Opens the repository.</title>
 <rect x=".5" y=".5" width="435" height="203" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-<text x="22" y="39" style="font:18px 'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🎞️</text>
+<g transform="translate(22 24) scale(.75)" fill="none" stroke="#be123c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l5 3.5-5 3.5z"/></g>
 <text x="52.0" y="38" textLength="128.4" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#be123c">movie-discovery</text>
 <rect x="293" y="17" width="121" height="25" rx="7" fill="#be123c" fill-opacity=".13" stroke="#be123c" stroke-opacity=".55"/>
 <text x="304" y="34" textLength="99.0" lengthAdjust="spacingAndGlyphs" style="font:600 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#be123c">Movie discovery</text>
