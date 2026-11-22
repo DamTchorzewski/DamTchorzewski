@@ -136,6 +136,83 @@
   ],
   "featured": [
     {
+      "id": "finance-tracker",
+      "emoji": "🐷",
+      "title": "finance-tracker",
+      "tag": "Finance tracker",
+      "repo": "finance-tracker",
+      "visibility": "public",
+      "color": ["#34d399", "#047857"],
+      "text": "Personal finance PWA in `React 19` and **TypeScript**: multi-currency accounts at `NBP` rates, budgets, savings goals, a command palette and a one-click demo. **Firebase** sign-in, API on `Cloud Run`.",
+      "tech": ["React", "TypeScript", "Tailwind CSS", "Firebase"]
+    },
+    {
+      "id": "finance-tracker-api",
+      "emoji": "🧾",
+      "title": "finance-tracker-api",
+      "tag": "REST API",
+      "repo": "finance-tracker-api",
+      "visibility": "public",
+      "color": ["#34d399", "#047857"],
+      "text": "REST API of the finance tracker: `Hono` with `Zod` schemas and **OpenAPI 3.1**, Firebase ID tokens, data in `Firestore` and `NBP` exchange rates with a cache. Tested on the Firestore emulator, runs on `Cloud Run`.",
+      "tech": ["TypeScript", "Hono", "Zod", "Firestore"]
+    },
+    {
+      "id": "movie-discovery",
+      "emoji": "🎞️",
+      "title": "movie-discovery",
+      "tag": "Movie discovery",
+      "repo": "movie-discovery",
+      "visibility": "public",
+      "color": ["#fb7185", "#be123c"],
+      "text": "Cinematic movie discovery on the `TMDB` API in Polish and English: trends, filters, where to watch in Poland, a watchlist with ratings and a pick for tonight. **TypeScript**, `Tailwind CSS`, e2e tests with **axe**.",
+      "tech": ["React", "TypeScript", "Tailwind CSS", "TMDB API"]
+    },
+    {
+      "id": "character-wiki-explorer",
+      "emoji": "🌀",
+      "title": "character-wiki-explorer",
+      "tag": "Fan wiki",
+      "repo": "character-wiki-explorer",
+      "visibility": "public",
+      "color": ["#a3e635", "#4d7c0f"],
+      "text": "Rick and Morty fan wiki built with `Astro` and `React` islands: about 1,000 static pages of characters, episodes and locations, instant search and a `WebGL` portal hero. **Deployed by GitHub Actions**.",
+      "tech": ["Astro", "React", "TypeScript", "WebGL"]
+    },
+    {
+      "id": "creative-agency-website",
+      "emoji": "🎨",
+      "title": "creative-agency-website",
+      "tag": "Agency site",
+      "repo": "creative-agency-website",
+      "visibility": "public",
+      "color": ["#94a3b8", "#475569"],
+      "text": "Scroll-driven site of a fictional creative agency, **Nord Studio**: case studies, light and dark theme and smooth scrolling. `Astro`, `Tailwind CSS` and `GSAP`, **deployed by GitHub Actions**.",
+      "tech": ["Astro", "Tailwind CSS", "GSAP", "Lenis"]
+    },
+    {
+      "id": "gelato-brand-website",
+      "emoji": "🍨",
+      "title": "gelato-brand-website",
+      "tag": "Brand site",
+      "repo": "gelato-brand-website",
+      "visibility": "public",
+      "color": ["#f9a8d4", "#be185d"],
+      "text": "Scroll-driven site of a gelato brand, **Velluto**: a cone built scoop by scoop, stacking menu cards and **WCAG 2.2 AA**. `Astro`, `Tailwind CSS` and `GSAP`, product renders made in `Blender`.",
+      "tech": ["Astro", "Tailwind CSS", "GSAP", "Blender"]
+    },
+    {
+      "id": "portfolio-website-template",
+      "emoji": "🗂️",
+      "title": "portfolio-website-template",
+      "tag": "Template",
+      "repo": "portfolio-website-template",
+      "visibility": "public",
+      "color": ["#818cf8", "#4338ca"],
+      "text": "Portfolio website template for developers: **one typed content file**, an accent colour from one number, light and dark theme, case-study pages and **WCAG 2.2 AA**. Built with `Astro` for `GitHub Pages`.",
+      "tech": ["Astro", "TypeScript", "CSS", "GitHub Pages"]
+    },
+    {
       "id": "wallet",
       "emoji": "💳",
       "title": "personal-finance-manager",
@@ -309,6 +386,17 @@
       "text": "Site of a premium-car workshop: services, makes, social news pulled at build time and quote forms. A **static export** with a scroll-driven ECG line, `WCAG 2.2 AA` tests, built with `Next.js` and `Firebase`.",
       "blurb": "Premium-car workshop site: services, makes and social news pulled at build time, **static export**.",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Firebase"]
+    },
+    {
+      "id": "ui-components",
+      "emoji": "🧩",
+      "title": "ui-components",
+      "tag": "Component library",
+      "repo": "ui-components",
+      "visibility": "private",
+      "color": ["#a78bfa", "#6d28d9"],
+      "text": "Library of unique and reusable `React` components with a live gallery: phone, tablet and desktop previews in light and dark, with the source and license of each.",
+      "tech": ["React", "TypeScript", "Tailwind CSS", "GSAP"]
     }
   ]
 }
