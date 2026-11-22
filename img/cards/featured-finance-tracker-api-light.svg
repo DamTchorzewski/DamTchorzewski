@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="436" height="204" viewBox="0 0 436 204" role="img" aria-label="finance-tracker-api (REST API): REST API of the finance tracker: Hono with Zod schemas and OpenAPI 3.1, Firebase ID tokens, data in Firestore and NBP exchange rates with a cache. Tested on the Firestore emulator, runs on Cloud Run. Stack: TypeScript, Hono, Zod, Firestore. Opens the repository.">
 <title>finance-tracker-api (REST API): REST API of the finance tracker: Hono with Zod schemas and OpenAPI 3.1, Firebase ID tokens, data in Firestore and NBP exchange rates with a cache. Tested on the Firestore emulator, runs on Cloud Run. Stack: TypeScript, Hono, Zod, Firestore. Opens the repository.</title>
 <rect x=".5" y=".5" width="435" height="203" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-<text x="22" y="39" style="font:18px 'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🧾</text>
+<g transform="translate(22 24) scale(.75)" fill="none" stroke="#047857" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4c-2 0-2 2-2 4s-2 4-2 4 2 2 2 4 0 4 2 4M16 4c2 0 2 2 2 4s2 4 2 4-2 2-2 4 0 4-2 4"/><path d="M10 12h4"/></g>
 <text x="52.0" y="38" textLength="146.9" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#047857">finance-tracker-api</text>
 <rect x="339" y="17" width="75" height="25" rx="7" fill="#047857" fill-opacity=".13" stroke="#047857" stroke-opacity=".55"/>
 <text x="350" y="34" textLength="52.8" lengthAdjust="spacingAndGlyphs" style="font:600 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#047857">REST API</text>

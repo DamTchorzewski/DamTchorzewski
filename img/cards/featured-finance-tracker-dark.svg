@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="436" height="204" viewBox="0 0 436 204" role="img" aria-label="finance-tracker (Finance tracker): Personal finance PWA in React 19 and TypeScript: multi-currency accounts at NBP rates, budgets, savings goals, a command palette and a one-click demo. Firebase sign-in, API on Cloud Run. Stack: React, TypeScript, Tailwind CSS, Firebase. Opens the repository.">
 <title>finance-tracker (Finance tracker): Personal finance PWA in React 19 and TypeScript: multi-currency accounts at NBP rates, budgets, savings goals, a command palette and a one-click demo. Firebase sign-in, API on Cloud Run. Stack: React, TypeScript, Tailwind CSS, Firebase. Opens the repository.</title>
 <rect x=".5" y=".5" width="435" height="203" rx="10" fill="#0e131a" stroke="#232c3a"/>
-<text x="22" y="39" style="font:18px 'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif">🐷</text>
+<g transform="translate(22 24) scale(.75)" fill="none" stroke="#34d399" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11a7 6 0 0 1 13-2h2v4l-2 1v3h-3v-2h-5v2H7v-3a6 6 0 0 1-2-3z"/><path d="M10 6.5h3M15.5 11h.01"/></g>
 <text x="52.0" y="38" textLength="118.1" lengthAdjust="spacingAndGlyphs" style="font:700 16px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#34d399">finance-tracker</text>
 <rect x="293" y="17" width="121" height="25" rx="7" fill="#34d399" fill-opacity=".13" stroke="#34d399" stroke-opacity=".55"/>
 <text x="304" y="34" textLength="99.0" lengthAdjust="spacingAndGlyphs" style="font:600 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#34d399">Finance tracker</text>
