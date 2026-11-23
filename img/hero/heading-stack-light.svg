@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="318" height="42" viewBox="0 0 318 42" role="img" aria-label="Core Tech Stack &amp; Ecosystem">
+<svg xmlns="http://www.w3.org/2000/svg" width="308" height="42" viewBox="0 0 308 42" role="img" aria-label="Core Tech Stack &amp; Ecosystem">
 <title>Core Tech Stack &amp; Ecosystem</title>
 <defs><linearGradient id="t" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e7490" stop-opacity="0.18"/><stop offset="1" stop-color="#0e7490" stop-opacity="0.04"/></linearGradient></defs>
-<rect x=".75" y="1.75" width="38.5" height="38.5" rx="11" fill="url(#t)" stroke="#0e7490" stroke-opacity="0.45" stroke-width="1.5"/>
-<g transform="translate(9 10) scale(0.9167)" fill="none" stroke="#0e7490" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"><path d="M13.2 2.5L5.5 13.4h5.8L10.4 21.5l8.1-11.4h-5.9z"/></g>
-<text x="54" y="27.5" textLength="262" lengthAdjust="spacing" style="font:600 20px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#1f2328">Core Tech Stack &amp; Ecosystem</text>
+<rect x=".75" y="6.75" width="28.5" height="28.5" rx="8.5" fill="url(#t)" stroke="#0e7490" stroke-opacity="0.45" stroke-width="1.5"/>
+<g transform="translate(6.75 12.75) scale(0.6875)" fill="none" stroke="#0e7490" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"><path d="M13.2 2.5L5.5 13.4h5.8L10.4 21.5l8.1-11.4h-5.9z"/></g>
+<text x="44" y="27.5" textLength="262" lengthAdjust="spacing" style="font:600 20px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#1f2328">Core Tech Stack &amp; Ecosystem</text>
 </svg>
