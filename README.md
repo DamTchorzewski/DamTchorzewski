@@ -12,15 +12,14 @@
 
 <img src="img/hero/robot.svg" alt="DamReboot robot mascot waving hello" width="200" align="right">
 
-I am a Full-Stack Developer with 4 years of experience building scalable web applications, critical infrastructure dashboards, and multi-tenant B2B platforms. My core expertise lies in the **TypeScript** ecosystem (React, Node.js, NestJS), but my strong academic and practical foundations in **Python**, **C# (OOP)**, and **SQL** allow me to comfortably navigate polyglot environments.
+Founder of [DamReboot IT](https://damreboot.pl). I design, build and run production web, desktop and mobile software, mainly in **TypeScript** (React, Next.js, Node.js, NestJS), with production work in **Python**, **C#** and **SQL/NoSQL**.
 
-**How I engineer systems:**
+- **DamReboot IT:** a multi-tenant B2B platform with a client portal, role-based access, S3 file storage, Kanban automation and invoicing, plus client websites for Czarymary Okulary, Pogotowie Glazurnicze and KarCar Service.
+- **Critical infrastructure (Proffico):** SCADA/HMI telemetry, GIS maps and field apps for water treatment stations, built to NIS2 and WCAG, with contract-first APIs and UIs that stay fast on high-volume real-time data.
+- **Delivery:** from requirements and data modeling to type-safe APIs, CI/CD and production on Docker and Nginx.
+- **Applied AI:** Python services behind REST APIs for KYC document verification and real-time text autocompletion.
 
-- **End-to-End Development:** From gathering requirements and designing database schemas (SQL/NoSQL) to deploying REST/GraphQL APIs and responsive frontends.
-- **Architecture & Cloud:** Implementing multi-tenant architectures, micro-services concepts, and deploying containerized applications (Docker, CI/CD).
-- **Critical Systems:** Experience in building high-performance, secure SCADA/HMI interfaces for critical infrastructure (NIS2 standards).
-
-📫 **Open to:** Lead Full-Stack and Frontend roles, Tech Lead and Frontend Architect positions, systems architecture consulting and B2B contracts.
+📫 **Open to:** Full-Stack and Frontend Software Engineer roles (B2B / contract) in product teams, and custom web platforms or B2B portals for business clients: [get in touch](mailto:damianchabracki@gmail.com).
 
 <br clear="right">
 
