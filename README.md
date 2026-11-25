@@ -10,7 +10,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="img/hero/role-dark.svg"><img src="img/hero/role-light.svg" alt="Full-Stack Software Engineer | TypeScript, Node.js, Python, C#"></picture>
 
-<img src="img/hero/robot.svg" alt="DamReboot robot mascot waving hello" width="200" align="right">
+<picture><img src="img/hero/robot.svg" alt="DamReboot robot mascot waving hello" width="200" align="right"></picture>
 
 Founder of [DamReboot IT](https://damreboot.pl). I design, build and run production web, desktop and mobile software, mainly in **TypeScript** (React, Next.js, Node.js, NestJS), with production work in **Python**, **C#** and **SQL/NoSQL**.
 
