@@ -21,7 +21,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helveti
 <g class="fade" style="animation-delay:80ms">
 <circle cx="54" cy="77" r="16" fill="rgba(61,108,201,.1)"/>
 <svg x="45" y="68" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3d6cc9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M3 12h6M15 12h6"/></svg>
-<text class="v" x="80" y="77">4,749</text>
+<text class="v" x="80" y="77">4,931</text>
 <text class="s muted" x="80" y="93">Contributions</text>
 </g>
 <g class="fade" style="animation-delay:150ms">
@@ -55,7 +55,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helveti
 <text class="s muted" x="349.3333333333333" y="143">Best day</text>
 </g>
 <text class="s muted" x="38" y="176">Last 12 months</text>
-<text class="s muted" x="442" y="176" text-anchor="end">2,295 contributions</text>
+<text class="s muted" x="442" y="176" text-anchor="end">2,477 contributions</text>
 <rect class="grow" style="animation-delay:450ms" x="38.0" y="216.0" width="26.3" height="4.0" rx="3" fill="#b3c8f0"><title>Dec: 15</title></rect>
 <text class="muted" x="51.2" y="236" text-anchor="middle" style="font-size:10px">Dec</text>
 <rect class="grow" style="animation-delay:490ms" x="72.3" y="216.0" width="26.3" height="4.0" rx="3" fill="#b3c8f0"><title>Jan: 36</title></rect>
@@ -76,8 +76,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helveti
 <text class="muted" x="325.8" y="236" text-anchor="middle" style="font-size:10px">Aug</text>
 <rect class="grow" style="animation-delay:810ms" x="347.0" y="216.0" width="26.3" height="4.0" rx="3" fill="#b3c8f0"><title>Sep: 134</title></rect>
 <text class="muted" x="360.2" y="236" text-anchor="middle" style="font-size:10px">Sep</text>
-<rect class="grow" style="animation-delay:850ms" x="381.3" y="211.9" width="26.3" height="8.1" rx="3" fill="#b3c8f0"><title>Oct: 360</title></rect>
+<rect class="grow" style="animation-delay:850ms" x="381.3" y="212.8" width="26.3" height="7.2" rx="3" fill="#b3c8f0"><title>Oct: 360</title></rect>
 <text class="muted" x="394.5" y="236" text-anchor="middle" style="font-size:10px">Oct</text>
-<rect class="grow" style="animation-delay:890ms" x="415.7" y="186.0" width="26.3" height="34.0" rx="3" fill="#d97706"><title>Nov: 1,509</title></rect>
+<rect class="grow" style="animation-delay:890ms" x="415.7" y="186.0" width="26.3" height="34.0" rx="3" fill="#d97706"><title>Nov: 1,691</title></rect>
 <text class="muted" x="428.8" y="236" text-anchor="middle" style="font-size:10px">Nov</text>
 </svg>
